@@ -1,0 +1,1 @@
+sudo docker build --no-cache -t aybsbulutdev/superset:2.0.1.6-tr .

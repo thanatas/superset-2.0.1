@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Superset VERSIONReport-Msgid-Bugs-To:EMAIL@ADDRESSPOT-Creation-Date:2023-04-07 19:09+0200PO-Revision-Date:2023-04-14 11:08+0300Last-Translator:FULL NAME <EMAIL@ADDRESS>Language:trLanguage-Team:tr <LL@li.org>Plural-Forms:nplurals=1; plural=0MIME-Version:1.0Content-Type:text/plain; charset=utf-8Content-Transfer-Encoding:8bitGenerated-By:Babel 2.9.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2023-04-30 14:57+0300\n"
-"PO-Revision-Date: 2023-05-04 18:04+0300\n"
+"PO-Revision-Date: 2023-05-05 14:34+0300\n"
 "Last-Translator: \n"
 "Language-Team: tr <LL@li.org>\n"
 "Language: tr\n"
@@ -48,11 +48,11 @@ msgstr "Sağlanan ana bilgisayar adı çözülemiyor."
 
 #: superset/errors.py:109
 msgid "The port is closed."
-msgstr "Liman kapalı."
+msgstr "Port kapalı."
 
 #: superset/errors.py:110
 msgid "The host might be down, and can't be reached on the provided port."
-msgstr "Ana bilgisayar kapalı olabilir ve sağlanan bağlantı noktasından ulaşılamaz."
+msgstr "Sunucu kapalı olabilir ve port noktasından ulaşılamaz."
 
 #: superset/errors.py:111
 msgid "Superset encountered an error while running a command."
@@ -169,7 +169,7 @@ msgstr "Özel SQL alanları alt sorgular içeremez."
 
 #: superset/databases/schemas.py:186 superset/exceptions.py:196
 msgid "Invalid certificate"
-msgstr "geçersiz sertifika"
+msgstr "Geçersiz sertifika"
 
 #: superset/jinja_context.py:353
 #, python-format
@@ -293,7 +293,7 @@ msgstr "Toplam"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:60
 #: superset/viz.py:1037
 msgid "Treemap"
-msgstr "ağaç görünüm"
+msgstr "Ağaç görünüm"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:32
 #: superset/viz.py:1082
@@ -311,7 +311,7 @@ msgstr "Lütfen 3 farklı metrik etiket kullanın"
 
 #: superset/viz.py:1197
 msgid "Pick a metric for x, y and size"
-msgstr "x, y ve boyut için bir metrik seçin"
+msgstr "X, Y ve boyutları için bir metrik seçin"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bullet/index.js:32
 #: superset/viz.py:1224
@@ -346,7 +346,7 @@ msgstr "Zaman serileriniz için bir zaman ayrıntı düzeyi seçin"
 
 #: superset/common/query_context_processor.py:326 superset/viz.py:1449
 msgid "An enclosed time range (both start and end) must be specified when using a Time Comparison."
-msgstr "Zaman Karşılaştırması kullanılırken kapalı bir zaman aralığı (hem başlangıç ​​hem de bitiş) belirtilmelidir."
+msgstr "Zaman karşılaştırması kullanılırken hem başlangıç ​​hem de bitiş belirtilmelidir."
 
 #: superset/viz.py:1520
 msgid "Time Series - Multiple Line Charts"
@@ -407,7 +407,7 @@ msgstr "[Seri] için en az bir alan seçin"
 
 #: superset/viz.py:1890
 msgid "Sunburst"
-msgstr "güneş patlaması"
+msgstr "Güneş patlaması"
 
 #: superset/viz.py:1937
 msgid "Sankey"
@@ -463,7 +463,7 @@ msgstr "Ufuk Grafikleri"
 
 #: superset/viz.py:2325
 msgid "Mapbox"
-msgstr "harita kutusu"
+msgstr "Harita kutusu"
 
 #: superset/viz.py:2339
 msgid "[Longitude] and [Latitude] must be set"
@@ -655,11 +655,11 @@ msgstr[1] ""
 #: superset/charts/filters.py:78 superset/dashboards/filters.py:217
 #: superset/datasets/filters.py:39
 msgid "Is certified"
-msgstr "sertifikalı"
+msgstr "Sertifikalı"
 
 #: superset/charts/filters.py:107 superset/dashboards/filters.py:243
 msgid "Has created by"
-msgstr "tarafından oluşturuldu"
+msgstr "Oluşturan"
 
 #: superset/charts/filters.py:119 superset/dashboards/filters.py:55
 msgid "Created by me"
@@ -679,7 +679,7 @@ msgstr "Toplam (%(aggfunc)s)"
 #: superset/charts/post_processing.py:161
 #: superset/charts/post_processing.py:178
 msgid "Subtotal"
-msgstr "ara toplam"
+msgstr "Ara toplam"
 
 #: superset/charts/schemas.py:652
 msgid "`confidence_interval` must be between 0 and 1 (exclusive)"
@@ -741,11 +741,11 @@ msgstr "Veritabanı mevcut değil"
 
 #: superset/charts/commands/exceptions.py:91
 msgid "Dashboards do not exist"
-msgstr "Panolar mevcut değil"
+msgstr "Paneller mevcut değil"
 
 #: superset/charts/commands/exceptions.py:101
 msgid "Datasource type is required when datasource_id is given"
-msgstr "datasource_id verildiğinde veri kaynağı türü gereklidir"
+msgstr "Datasource_id verildiğinde veri kaynağı türü gereklidir"
 
 #: superset/charts/commands/exceptions.py:111
 msgid "Chart parameters are invalid."
@@ -843,11 +843,11 @@ msgstr "Veri kümesinde eksik sütunlar: %(invalid_columns)s"
 
 #: superset/common/query_context_processor.py:417
 msgid "A time column must be specified when using a Time Comparison."
-msgstr "Zaman Karşılaştırması kullanılırken bir zaman sütunu belirtilmelidir."
+msgstr "Zaman Karşılaştırması kullanılırken bir zaman alanı belirtilmelidir."
 
 #: superset/common/query_context_processor.py:584
 msgid "The chart does not exist"
-msgstr "grafik mevcut değil"
+msgstr "Grafik yok"
 
 #: superset/common/query_context_processor.py:586
 msgid "The chart datasource does not exist"
@@ -861,7 +861,7 @@ msgstr "Yinelenen sütun/metrik etiketleri: %(labels)s. Lütfen tüm sütunları
 #: superset/common/query_object.py:313
 #, python-format
 msgid "The following entries in `series_columns` are missing in `columns`: %(columns)s. "
-msgstr "\"series_columns\" içindeki şu girişler \"columns\" içinde eksik: %(columns)s."
+msgstr "\"series_columns\" içindeki aşağıdaki girişler \"columns\" içinde eksik: %(columns)s. "
 
 #: superset/common/query_object.py:436
 msgid "`operation` property of post processing object undefined"
@@ -1016,7 +1016,7 @@ msgstr "Tanım"
 
 #: superset/connectors/sqla/views.py:157
 msgid "Groupable"
-msgstr "gruplanabilir"
+msgstr "Gruplanabilir"
 
 #: superset/connectors/sqla/views.py:158
 msgid "Filterable"
@@ -1042,11 +1042,11 @@ msgstr "İfade"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:370
 #: superset/connectors/sqla/views.py:161
 msgid "Is temporal"
-msgstr "zamansal"
+msgstr "Zamansal"
 
 #: superset/connectors/sqla/views.py:162
 msgid "Datetime Format"
-msgstr "tarih saat formatı"
+msgstr "Tarih saat formatı"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:65
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:218
@@ -1338,7 +1338,7 @@ msgstr "Başlık veya Slug"
 
 #: superset/dashboards/filters.py:200
 msgid "Role"
-msgstr "rol"
+msgstr "Rol"
 
 #: superset/dashboards/commands/exceptions.py:39
 msgid "Must be unique"
@@ -1346,27 +1346,27 @@ msgstr "Eşsiz olmalı"
 
 #: superset/dashboards/commands/exceptions.py:43
 msgid "Dashboard parameters are invalid."
-msgstr "Pano parametreleri geçersiz."
+msgstr "Panel parametreleri geçersiz."
 
 #: superset/dashboards/commands/exceptions.py:54
 msgid "Dashboard could not be created."
-msgstr "Pano oluşturulamadı."
+msgstr "Panel oluşturulamadı."
 
 #: superset/dashboards/commands/exceptions.py:58
 msgid "Dashboards could not be deleted."
-msgstr "Panolar silinemedi."
+msgstr "Paneller silinemedi."
 
 #: superset/dashboards/commands/exceptions.py:66
 msgid "Dashboard could not be updated."
-msgstr "Pano güncellenemedi."
+msgstr "Panel güncellenemedi."
 
 #: superset/dashboards/commands/exceptions.py:70
 msgid "Dashboard could not be deleted."
-msgstr "Pano silinemedi."
+msgstr "Panel silinemedi."
 
 #: superset/dashboards/commands/exceptions.py:78
 msgid "Changing this Dashboard is forbidden"
-msgstr "Bu Panoyu değiştirmek yasaktır"
+msgstr "Bu panel değiştirilemez"
 
 #: superset/dashboards/commands/exceptions.py:82
 msgid "Import dashboard failed for an unknown reason"
@@ -1378,7 +1378,7 @@ msgstr "Bu kontrol paneline erişiminiz yok."
 
 #: superset/dashboards/commands/importers/v0.py:304
 msgid "No data in file"
-msgstr "dosyada veri yok"
+msgstr "Dosyada veri yok"
 
 #: superset/dashboards/permalink/exceptions.py:23
 #: superset/explore/permalink/exceptions.py:23
@@ -1501,7 +1501,7 @@ msgstr "Doğrulayıcı bulunamadı (motor için yapılandırılmış)"
 #: superset/databases/commands/exceptions.py:157
 #: superset/databases/commands/exceptions.py:167
 msgid "Was unable to check your query"
-msgstr "sorgunuz kontrol edilemedi"
+msgstr "Sorgunuz onaylanmadı"
 
 #: superset/databases/commands/exceptions.py:162
 msgid "An unexpected error occurred"
@@ -1920,9 +1920,9 @@ msgid "The user/password combination is not valid (Incorrect password for user).
 msgstr ""
 
 #: superset/db_engine_specs/ocient.py:203
-#, fuzzy, python-format
+#, python-format
 msgid "Could not connect to database: \"%(database)s\""
-msgstr "\"%(veritabanı)s\" veritabanına bağlanılamıyor."
+msgstr "“%(database)s” veritabanına bağlanılamıyor."
 
 #: superset/db_engine_specs/ocient.py:208
 #, python-format
@@ -1934,9 +1934,8 @@ msgid "Port out of range 0-65535"
 msgstr ""
 
 #: superset/db_engine_specs/ocient.py:218
-#, fuzzy
 msgid "Invalid Connection String: Expecting String of the form 'ocient://user:pass@host:port/database'."
-msgstr "Geçersiz bağlantı dizesi, ardından genellikle geçerli bir dize gelir: backend+driver://user:password@database-host/database-name"
+msgstr "Geçersiz Bağlantı Dizesi: ‘ocient://user:pass@host:port/database’ biçiminde bir dize bekleniyor."
 
 #: superset/db_engine_specs/ocient.py:226
 #, python-format
@@ -1944,9 +1943,9 @@ msgid "Syntax Error: %(qualifier)s input \"%(input)s\" expecting \"%(expected)s"
 msgstr ""
 
 #: superset/db_engine_specs/ocient.py:231
-#, fuzzy, python-format
+#, python-format
 msgid "Table or View \"%(table)s\" does not exist."
-msgstr "\"%(username)s\" kullanıcı adı mevcut değil."
+msgstr "“%(table)s” isimli tablo ya da View yok."
 
 #: superset/db_engine_specs/ocient.py:236
 #, python-format
@@ -2045,7 +2044,7 @@ msgstr "Veri"
 #: superset/initialization/__init__.py:251 superset/views/chart/mixin.py:78
 #: superset/views/dashboard/mixin.py:24
 msgid "Dashboards"
-msgstr "Panolar"
+msgstr "Paneller"
 
 #: superset-frontend/src/dashboard/components/BuilderComponentPane/index.tsx:74
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterCard/ScopeRow.tsx:64
@@ -2063,7 +2062,7 @@ msgstr "Grafikler"
 #: superset-frontend/src/profile/components/Security.tsx:61
 #: superset/initialization/__init__.py:267
 msgid "Datasets"
-msgstr "veri kümeleri"
+msgstr "Veri kümeleri"
 
 #: superset/initialization/__init__.py:277
 msgid "Plugins"
@@ -2083,7 +2082,7 @@ msgstr "CSS Şablonları"
 
 #: superset/initialization/__init__.py:331
 msgid "Import Dashboards"
-msgstr "Panoları İçe Aktar"
+msgstr "Panelleri içe aktar"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:73
 #: superset/initialization/__init__.py:343
@@ -2203,7 +2202,7 @@ msgstr "Sıralamada kullanılan bilinmeyen sütun: %(col)s"
 #: superset/models/helpers.py:1667
 #, python-format
 msgid "Time column \"%(col)s\" does not exist in dataset"
-msgstr "Veri kümesinde \"%(col)s\" zaman sütunu yok"
+msgstr "Veri kümesinde \"%(col)s\" zaman alanı yok"
 
 #: superset/models/helpers.py:1810
 msgid "error_message"
@@ -2289,7 +2288,7 @@ msgstr "Geçersiz sekme kimlikleri: %s(tab_ids)"
 
 #: superset/reports/commands/exceptions.py:48
 msgid "Dashboard does not exist"
-msgstr "Pano mevcut değil"
+msgstr "Panel mevcut değil"
 
 #: superset/reports/commands/exceptions.py:57
 msgid "Chart does not exist"
@@ -2455,7 +2454,7 @@ msgstr "Bu raporu değiştirmek yasaktır"
 
 #: superset/reports/commands/exceptions.py:286
 msgid "An error occurred while pruning logs "
-msgstr "Günlükler sadeleştirilirken bir hata oluştu"
+msgstr "Günlükler sadeleştirilirken bir hata oluştu "
 
 #: superset/reports/notifications/email.py:89
 #, python-format
@@ -2463,7 +2462,8 @@ msgid "\n"
 "            Error: %(text)s\n"
 "            "
 msgstr "\n"
-" Hata: %(text)s"
+"            Hata: %(text)s\n"
+"            "
 
 #: superset/reports/notifications/email.py:133
 msgid "EMAIL_REPORTS_CTA"
@@ -2510,21 +2510,19 @@ msgstr "*%(name)s*\n"
 "Hata: %(text)s\n"
 
 #: superset/row_level_security/api.py:345
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %(num)d rules"
 msgid_plural "Deleted %(num)d rules"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)d kural silindi"
+msgstr[1] "%(num)d kural silindi"
 
 #: superset/row_level_security/commands/exceptions.py:25
-#, fuzzy
 msgid "RLS Rule not found."
-msgstr "Rapor Takvimi bulunamadı."
+msgstr "RLS kuralı bulunamadı."
 
 #: superset/row_level_security/commands/exceptions.py:29
-#, fuzzy
 msgid "RLS Rule could not be deleted."
-msgstr "Grafikler silinemedi."
+msgstr "RLS kuralı silinemedi."
 
 #: superset/security/analytics_db_safety.py:44
 #, python-format
@@ -2562,7 +2560,7 @@ msgstr "Lütfen sorgunuzu kontrol edin ve tüm şablon parametrelerinin çift pa
 
 #: superset/sqllab/commands/estimate.py:58
 msgid "The database could not be found"
-msgstr "veritabanı bulunamadı"
+msgstr "Veritabanı bulunamadı"
 
 #: superset/sqllab/commands/estimate.py:86
 #, python-format
@@ -2621,7 +2619,7 @@ msgstr "Kayıt sayısı"
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:204
 #: superset/templates/appbuilder/general/widgets/base_list.html:64
 msgid "No records found"
-msgstr "kayıt bulunamadı"
+msgstr "Kayıt bulunamadı"
 
 #: superset/templates/appbuilder/general/widgets/search.html:24
 msgid "Filter List"
@@ -2650,7 +2648,7 @@ msgstr "Yenile"
 #: superset-frontend/src/pages/DashboardList/index.tsx:686
 #: superset/templates/superset/import_dashboards.html:21
 msgid "Import dashboards"
-msgstr "Panoları içe aktar"
+msgstr "Panelleri içe aktar"
 
 #: superset/templates/superset/import_dashboards.html:26
 msgid "Import Dashboard(s)"
@@ -2701,7 +2699,7 @@ msgstr "İzin İste"
 #: superset-frontend/src/features/datasets/AddDataset/Footer/index.tsx:117
 #: superset/templates/superset/request_access.html:34
 msgid "Cancel"
-msgstr "İptal etmek"
+msgstr "İptal"
 
 #: superset/templates/superset/fab_overrides/list_with_checkboxes.html:82
 msgid "Use the edit button to change this field"
@@ -2825,7 +2823,7 @@ msgstr "Yeniden örnekleme işlemi için DatetimeIndex gerekir"
 
 #: superset/utils/pandas_postprocessing/resample.py:46
 msgid "Resample method should in "
-msgstr "Yeniden örnekleme yöntemi"
+msgstr "Yeniden örnekleme yöntemi "
 
 #: superset/utils/pandas_postprocessing/rolling.py:67
 msgid "Undefined window for rolling operation"
@@ -2870,7 +2868,7 @@ msgstr "Geçersiz numpy fonksiyonu: %(operator)s"
 #: superset/views/access_requests.py:44 superset/views/log/__init__.py:30
 #: superset/views/sql_lab/views.py:82
 msgid "User"
-msgstr "kullanıcı"
+msgstr "Kullanıcı"
 
 #: superset/views/access_requests.py:45
 msgid "User Roles"
@@ -2945,11 +2943,11 @@ msgstr "Tümünü silmek Gerçekten mi?"
 
 #: superset/views/base_api.py:149
 msgid "Is favorite"
-msgstr "favori"
+msgstr "Favori"
 
 #: superset/views/base_api.py:177
 msgid "Is tagged"
-msgstr "etiketlendi"
+msgstr "Etiketli"
 
 #: superset/views/core.py:197
 msgid "The data source seems to have been deleted"
@@ -2983,7 +2981,7 @@ msgstr "Bu isteği onaylama izniniz yok"
 
 #: superset/views/core.py:647
 msgid "You don't have the rights to download as csv"
-msgstr "csv olarak indirme hakkınız yok"
+msgstr "CSV olarak indirme yetkiniz yok"
 
 #: superset/views/core.py:726
 #, python-format
@@ -3041,15 +3039,15 @@ msgstr "Grafik [{}] gösterge tablosuna [{}] eklendi"
 
 #: superset/views/core.py:1116
 msgid "You don't have the rights to create a dashboard"
-msgstr "Pano oluşturma hakkınız yok"
+msgstr "Panel oluşturma yetkiniz yok"
 
 #: superset/views/core.py:1125
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
-msgstr "Pano [{}] yeni oluşturuldu ve [{}] grafiği buna eklendi"
+msgstr "Panel [{}] yeni oluşturuldu ve [{}] grafiği buna eklendi"
 
 #: superset/views/core.py:1167
 msgid "Schema undefined"
-msgstr "tanımsız şema"
+msgstr "Tanımsız şema"
 
 #: superset/views/core.py:1182
 #, python-format
@@ -3120,7 +3118,7 @@ msgstr "CSS Şablonunu Düzenle"
 
 #: superset/views/css_templates.py:46
 msgid "Template Name"
-msgstr "şablon adı"
+msgstr "Şablon adı"
 
 #: superset/views/dynamic_plugins.py:47
 msgid "A human-friendly name"
@@ -3161,7 +3159,7 @@ msgstr "Veri kaynağı türü belirlenemedi"
 
 #: superset/views/utils.py:514
 msgid "Could not find viz object"
-msgstr "viz nesnesi bulunamadı"
+msgstr "Biz nesnesi bulunamadı"
 
 #: superset/views/chart/mixin.py:26
 msgid "Show Chart"
@@ -3195,7 +3193,7 @@ msgstr "Son düzenleme"
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:56
 #: superset/views/chart/mixin.py:83
 msgid "Parameters"
-msgstr "parametreler"
+msgstr "Parametreler"
 
 #: superset-frontend/src/components/Chart/DrillBy/useDisplayModeToggle.tsx:51
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:449
@@ -3235,11 +3233,11 @@ msgstr "Görselleştirme Türü"
 
 #: superset/views/dashboard/mixin.py:25
 msgid "Show Dashboard"
-msgstr "Panoyu Göster"
+msgstr "Paneli göster"
 
 #: superset/views/dashboard/mixin.py:26
 msgid "Add Dashboard"
-msgstr "Pano Ekle"
+msgstr "Panel ekle"
 
 #: superset/views/dashboard/mixin.py:27
 msgid "Edit Dashboard"
@@ -3247,11 +3245,11 @@ msgstr "Kontrol Panelini Düzenle"
 
 #: superset/views/dashboard/mixin.py:46
 msgid "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view"
-msgstr "Bu json nesnesi, pencere öğelerinin panodaki konumunu açıklar. Pano görünümünde sürükle ve bırak kullanılarak pencere öğelerinin boyutu ve konumları ayarlanırken dinamik olarak oluşturulur."
+msgstr "Bu json nesnesi, araçların (widget) panodaki (dashboard) konumunu açıklar. Panel görünümünde sürükle ve bırak kullanılarak araçların boyutu ve konumları ayarlanırken dinamik olarak oluşturulur"
 
 #: superset/views/dashboard/mixin.py:52
 msgid "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible"
-msgstr "Bağımsız panolar için CSS burada veya değişikliklerin hemen görülebildiği pano görünümünde değiştirilebilir."
+msgstr "Bağımsız panolar (dashboard) için CSS burada veya pano (dashboard) görünümünde değiştirilebilir"
 
 #: superset/views/dashboard/mixin.py:57
 msgid "To get a readable URL for your dashboard"
@@ -3293,7 +3291,7 @@ msgstr "Başlık"
 
 #: superset/views/dashboard/mixin.py:79
 msgid "Slug"
-msgstr "sülük"
+msgstr "Kısa tanım"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:375
 #: superset-frontend/src/dashboard/components/PropertiesModal/PropertiesModal.test.tsx:389
@@ -3372,9 +3370,8 @@ msgid "Select a database to upload the file to"
 msgstr "Dosyayı yüklemek için bir veritabanı seçin"
 
 #: superset/views/database/forms.py:144
-#, fuzzy
 msgid "Column Data Types"
-msgstr "Gelişmiş veri türü"
+msgstr "Sütun Veri Tİpleri"
 
 #: superset/views/database/forms.py:145
 msgid "A dictionary with column names and their data types if you need to change the defaults. Example: {\"user_id\":\"integer\"}"
@@ -3414,7 +3411,7 @@ msgstr "Tablo Zaten Varsa"
 
 #: superset/views/database/forms.py:175
 msgid "What should happen if the table already exists"
-msgstr "Tablo zaten varsa ne olmalı?"
+msgstr "Tablo zaten varsa ne olmalı"
 
 #: superset/views/database/forms.py:177 superset/views/database/forms.py:334
 #: superset/views/database/forms.py:465
@@ -3461,7 +3458,7 @@ msgstr "Datetime Formatını Otomatik Yorumla"
 
 #: superset/views/database/forms.py:201
 msgid "Interpret the datetime format automatically"
-msgstr "tarih saat biçimini otomatik olarak yorumla"
+msgstr "Tarih saat biçimini otomatik olarak yorumla"
 
 #: superset/views/database/forms.py:204 superset/views/database/forms.py:383
 msgid "Decimal Character"
@@ -3653,7 +3650,7 @@ msgstr "Okunması gereken sütun adlarının Json listesi. Yok değilse, dosyada
 #: superset-frontend/src/profile/components/Security.tsx:47
 #: superset/views/database/mixins.py:33
 msgid "Databases"
-msgstr "veritabanları"
+msgstr "Veritabanları"
 
 #: superset/views/database/mixins.py:34
 msgid "Show Database"
@@ -3690,7 +3687,7 @@ msgstr "Kullanıcıların SQL Lab'de SELECT olmayan deyimleri (UPDATE, DELETE, C
 
 #: superset/views/database/mixins.py:119
 msgid "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema"
-msgstr "SQL Lab'de CREATE TABLE AS seçeneğine izin verildiğinde, bu seçenek tablonun bu şemada oluşturulmasını zorlar."
+msgstr "SQL Lab'de CREATE TABLE AS seçeneğine izin verildiğinde, tablonun bu şemada oluşturulması zorlanmış olur"
 
 #: superset/views/database/mixins.py:165
 msgid "If Presto, all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them.<br/>If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property."
@@ -3745,7 +3742,7 @@ msgstr "Güvenli Ekstra"
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:361
 #: superset/views/database/mixins.py:195
 msgid "Root certificate"
-msgstr "kök sertifika"
+msgstr "Kök sertifika"
 
 #: superset/views/database/mixins.py:196
 msgid "Async Execution"
@@ -3762,7 +3759,7 @@ msgstr "Csv Yüklemeye İzin Ver"
 #: superset-frontend/src/pages/DatabaseList/index.tsx:300
 #: superset/views/database/mixins.py:200
 msgid "Backend"
-msgstr "arka uç"
+msgstr "Arkaplan"
 
 #: superset/views/database/mixins.py:240 superset/views/database/mixins.py:264
 #, python-format
@@ -3913,7 +3910,7 @@ msgstr "Pop Sekme Bağlantısı"
 
 #: superset/views/sql_lab/views.py:88
 msgid "Changed on"
-msgstr "tarihinde değiştirildi"
+msgstr "Değiştirilme zamanı"
 
 #: superset/views/sql_lab/views.py:148
 msgid "Untitled Query"
@@ -3964,11 +3961,11 @@ msgstr "Ayrıntı düzeyini hesaba katan [Zaman] konfigürasyonuna bir referans"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:57
 msgid "Aggregate"
-msgstr "agrega"
+msgstr "Toplam"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:58
 msgid "Raw records"
-msgstr "ham kayıtlar"
+msgstr "Ham kayıtlar"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/constants.ts:67
 msgid "Category name"
@@ -4000,7 +3997,7 @@ msgstr "%s tarafından onaylandı"
 #: superset-frontend/src/features/annotationLayers/AnnotationLayerModal.tsx:262
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:327
 msgid "description"
-msgstr "Tanım"
+msgstr "tanım"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/components/ControlHeader.tsx:74
 #: superset-frontend/src/explore/components/ControlHeader.tsx:122
@@ -4149,7 +4146,7 @@ msgstr "Minimum süreler"
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:216
 #: superset-frontend/src/explore/controlPanels/sections.tsx:164
 msgid "The minimum number of rolling periods required to show a value. For instance if you do a cumulative sum on 7 days you may want your \"Min Period\" to be 7, so that all data points shown are the total of 7 periods. This will hide the \"ramp up\" taking place over the first 7 periods"
-msgstr "Bir değeri göstermek için gereken minimum yuvarlanma periyodu sayısı. Örneğin, 7 günde kümülatif bir toplam yaparsanız, gösterilen tüm veri noktalarının toplamı 7 dönem olacak şekilde \"Min. Dönem\"inizin 7 olmasını isteyebilirsiniz. Bu, ilk 7 periyotta meydana gelen \"yükselme\"yi gizleyecektir."
+msgstr "Bir değeri göstermek için gereken minimum yuvarlanma periyodu sayısı. Örneğin, 7 günde kümülatif bir toplam yaparsanız, gösterilen tüm veri noktalarının toplamı 7 dönem olacak şekilde \"Min. Dönem\"inizin 7 olmasını isteyebilirsiniz. Bu, ilk 7 periyotta meydana gelen \"yükselme\"yi gizleyecektir"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:102
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:71
@@ -4213,7 +4210,7 @@ msgstr "Göreceli bir zaman aralığından bir veya daha fazla zaman serisini ka
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:481
 #: superset-frontend/src/explore/controlPanels/sections.tsx:207
 msgid "Calculation type"
-msgstr "hesaplama türü"
+msgstr "Hesaplama türü"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:140
 #: superset-frontend/src/explore/controlPanels/sections.tsx:210
@@ -4263,7 +4260,7 @@ msgstr "Zaman kaymaları nasıl görüntülenir: ayrı satırlar olarak; ana zam
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:226
 #: superset-frontend/src/explore/controlPanels/sections.tsx:223
 msgid "Resample"
-msgstr "yeniden örnekleme"
+msgstr "Yeniden örnekleme (resample)"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:160
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:352
@@ -4357,7 +4354,7 @@ msgstr "Geriye dönük değerler"
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:189
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:263
 msgid "Median values"
-msgstr "medyan değerler"
+msgstr "Medyan değerler"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/advancedAnalytics.tsx:190
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:264
@@ -4549,7 +4546,7 @@ msgstr "Tahmin dönemleri"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:59
 msgid "How many periods into the future do we want to predict"
-msgstr "Gelecekte kaç dönem tahmin etmek istiyoruz?"
+msgstr "Kaç dönem ilerisini tahmin etmek istiyoruz"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/sections/forecastInterval.tsx:70
 msgid "Confidence interval"
@@ -4715,7 +4712,6 @@ msgid "Whether to sort ascending or descending on the base Axis."
 msgstr "Temel Eksende artan veya azalan sıralama."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/customControls.tsx:160
-#, fuzzy
 msgid "Decides which measure to sort the base axis by."
 msgstr "Taban ekseninin hangi sütuna göre sıralanacağına karar verir."
 
@@ -4724,7 +4720,7 @@ msgstr "Taban ekseninin hangi sütuna göre sıralanacağına karar verir."
 #: superset-frontend/src/explore/controls.jsx:123
 #: superset-frontend/src/explore/controls.jsx:380
 msgid "Dimensions"
-msgstr "boyutlar"
+msgstr "Boyutlar"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:73
 msgid "One or many columns to group by. High cardinality groupings should include a sort by metric and series limit to limit the number of fetched and rendered series."
@@ -4742,12 +4738,12 @@ msgstr "Boyut"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:119
 #: superset-frontend/src/explore/controls.jsx:383
 msgid "Defines the grouping of entities. Each series is shown as a specific color on the chart and has a legend toggle"
-msgstr "Varlıkların gruplandırılmasını tanımlar. Her seri, grafikte belirli bir renk olarak gösterilir ve bir gösterge anahtarına sahiptir."
+msgstr "Varlıkların gruplandırılmasını tanımlar. Her seri, grafikte belirli bir renk olarak gösterilir ve bir gösterge anahtarına (legend token) sahiptir"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:128
 #: superset-frontend/src/explore/controls.jsx:392
 msgid "Entity"
-msgstr "varlık"
+msgstr "Varlık"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:132
 #: superset-frontend/src/explore/controls.jsx:396
@@ -4772,7 +4768,7 @@ msgstr "Sağ eksen için bir metrik seçin"
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:365
 #: superset-frontend/src/explore/controls.jsx:364
 msgid "Sort by"
-msgstr "Göre sırala"
+msgstr "Sıralama kriteri"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:192
 #: superset-frontend/src/explore/controls.jsx:367
@@ -4810,7 +4806,7 @@ msgstr "Renk için kullanılacak bir metrik"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:237
 #: superset-frontend/src/explore/controls.jsx:281
 msgid "The time column for the visualization. Note that you can define arbitrary expression that return a DATETIME column in the table. Also note that the filter below is applied against this column or expression"
-msgstr "Görselleştirme için zaman sütunu. Tabloda bir DATETIME sütunu döndüren rastgele bir ifade tanımlayabileceğinizi unutmayın. Ayrıca, aşağıdaki filtrenin bu sütuna veya ifadeye uygulandığına dikkat edin."
+msgstr "Görselleştirme için zaman alanı. Tabloda bir DATETIME sütunu döndüren rastgele bir ifade tanımlayabilirsiniz. Ayrıca, aşağıdaki filtrenin bu sütuna veya ifadeye uygulandığına akılda bulundurun"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/dndControls.tsx:247
 msgid "Drop temporal column here"
@@ -4858,7 +4854,7 @@ msgstr "Doğrusal Renk Şeması"
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailMenuItems.tsx:205
 #: superset-frontend/src/explore/controls.jsx:254
 msgid "all"
-msgstr "Tümü"
+msgstr "tümü"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:161
 #: superset-frontend/src/explore/controls.jsx:255
@@ -4915,7 +4911,7 @@ msgstr "hafta"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:171
 #: superset-frontend/src/explore/controls.jsx:265
 msgid "week starting Sunday"
-msgstr "Pazar başlayan hafta"
+msgstr "hafta Pazar’dan başlar"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:172
 #: superset-frontend/src/explore/controls.jsx:266
@@ -4944,12 +4940,12 @@ msgstr "yıl"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:177
 msgid "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`, `1 day` or `56 weeks`"
-msgstr "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabileceğinizi unutmayın."
+msgstr "Görselleştirme için zaman ayrıntı düzeyi. \"10 seconds, \"1 day” veya \"56 weeks” şeklinde basit bir metin yazıp kullanabilirsiniz. Metinlerin örneklerde verildiği şekilde İngilizce yazılması zorunlu"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:200
 #: superset-frontend/src/explore/controls.jsx:310
 msgid "The time granularity for the visualization. This applies a date transformation to alter your time column and defines a new time granularity. The options here are defined on a per database engine basis in the Superset source code."
-msgstr "Görselleştirme için zaman ayrıntı düzeyi. Bu, zaman sütununuzu değiştirmek için bir tarih dönüşümü uygular ve yeni bir zaman ayrıntı düzeyi tanımlar. Buradaki seçenekler, Superset kaynak kodunda veritabanı motoru bazında tanımlanır."
+msgstr "Görselleştirme için zaman ayrıntı düzeyi. Bu, zaman alanını değiştirmek için bir tarih dönüşümü uygular ve yeni bir zaman ayrıntı düzeyi tanımlar. Buradaki seçenekler, Superset kaynak kodunda veritabanı motoru bazında tanımlanır."
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:234
 #: superset-frontend/src/explore/controls.jsx:327
@@ -4984,7 +4980,7 @@ msgstr "Azalan veya artan sıralama"
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:285
 #: superset-frontend/src/explore/controls.jsx:350
 msgid "Series limit"
-msgstr "Seri sınırı"
+msgstr "Seri limiti"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:274
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/sharedControls.tsx:289
@@ -5035,7 +5031,7 @@ msgstr "D3 formatı"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/components/ColumnConfigControl/constants.tsx:69
 msgid "Fraction digits"
-msgstr "kesir basamakları"
+msgstr "Ondalık basamaklar"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/components/ColumnConfigControl/constants.tsx:70
 msgid "Number of decimal digits to round numbers to"
@@ -5059,7 +5055,7 @@ msgstr "Piksel cinsinden varsayılan minimum sütun genişliği, diğer sütunla
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:54
 #: superset-frontend/plugins/preset-chart-xy/src/BoxPlot/controlPanel.ts:60
 msgid "auto"
-msgstr "Oto"
+msgstr "otomatik"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/shared-controls/components/ColumnConfigControl/constants.tsx:94
 msgid "Text align"
@@ -5153,11 +5149,11 @@ msgstr "Orijinal değeri"
 #: superset-frontend/packages/superset-ui-chart-controls/src/utils/D3Formatting.ts:49
 #: superset-frontend/src/explore/controls.jsx:89
 msgid "Duration in ms (66000 => 1m 6s)"
-msgstr "ms cinsinden süre (66000 => 1m 6s)"
+msgstr "Ms cinsinden süre (66000 => 1m 6s)"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/utils/D3Formatting.ts:50
 msgid "Duration in ms (1.40008 => 1ms 400µs 80ns)"
-msgstr "ms cinsinden süre (1,40008 => 1ms 400µs 80ns)"
+msgstr "Ms cinsinden süre (1,40008 => 1ms 400µs 80ns)"
 
 #: superset-frontend/packages/superset-ui-chart-controls/src/utils/D3Formatting.ts:53
 msgid "D3 time format syntax: https://github.com/d3/d3-time-format"
@@ -5223,7 +5219,7 @@ msgstr "Blokların gruplanması için kullanılan zaman birimi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:56
 msgid "Subdomain"
-msgstr "alt alan adı"
+msgstr "Alt alan adı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:59
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:188
@@ -5304,7 +5300,7 @@ msgstr "Hücre Yarıçapı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:118
 msgid "The pixel radius"
-msgstr "piksel yarıçapı"
+msgstr "Piksel yarıçapı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/controlPanel.ts:129
 msgid "Color Steps"
@@ -5362,7 +5358,7 @@ msgstr "Sayı Biçimi"
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/index.js:25
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Bubble/index.js:26
 msgid "Correlation"
-msgstr "korelasyon"
+msgstr "Korelasyon"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:28
 msgid "Visualizes how a metric has changed over a time using a color scale and a calendar view. Gray values are used to indicate missing values and the linear color scheme is used to encode the magnitude of each day's value."
@@ -5411,7 +5407,7 @@ msgstr "Karşılaştırmak"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/index.js:39
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Screengrid/index.js:36
 msgid "Intensity"
-msgstr "yoğunluk"
+msgstr "Yoğunluk"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/index.js:37
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/index.js:38
@@ -5449,11 +5445,11 @@ msgstr "Akım"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:259
 msgid "less than {min} {name}"
-msgstr "{min} {isim}'den az"
+msgstr "{min} {name}’den az"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:260
 msgid "between {down} and {up} {name}"
-msgstr "{aşağı} ve {yukarı} arasında {name}"
+msgstr "{down} ve {up} arasında {name}"
 
 #: superset-frontend/plugins/legacy-plugin-chart-calendar/src/vendor/cal-heatmap.js:261
 msgid "more than {max} {name}"
@@ -5471,7 +5467,7 @@ msgstr "{max} değerinden fazla {name}"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/controlPanel.tsx:50
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/controlPanel.ts:42
 msgid "Sort by metric"
-msgstr "Metrik göre sırala"
+msgstr "Metrike göre sırala"
 
 #: superset-frontend/plugins/legacy-plugin-chart-chord/src/controlPanel.ts:44
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:96
@@ -5631,7 +5627,7 @@ msgstr "Orantılı"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/index.ts:46
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/index.ts:44
 msgid "Relational"
-msgstr "ilişkisel"
+msgstr "İlişkisel"
 
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/controlPanel.ts:41
 #: superset-frontend/plugins/legacy-plugin-chart-world-map/src/controlPanel.ts:120
@@ -5695,7 +5691,7 @@ msgstr "2D"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/index.js:37
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/index.js:38
 msgid "Geo"
-msgstr "coğrafi"
+msgstr "Coğrafi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-country-map/src/index.js:38
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/index.js:38
@@ -5749,7 +5745,7 @@ msgstr "Minimum yaprak düğüm olay sayısı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/controlPanel.tsx:80
 msgid "Leaf nodes that represent fewer than this number of events will be initially hidden in the visualization"
-msgstr "Bu olay sayısından daha azını temsil eden yaprak düğümler başlangıçta görselleştirmede gizlenecektir."
+msgstr "Bu olay sayısından daha azını temsil eden “leaf nodes” başlangıçta görselleştirmede gizlenecektir"
 
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/controlPanel.tsx:95
 msgid "Additional metadata"
@@ -5790,23 +5786,23 @@ msgstr "Olay Akışı"
 #: superset-frontend/plugins/legacy-plugin-chart-event-flow/src/index.ts:32
 #: superset-frontend/plugins/plugin-chart-echarts/src/Funnel/index.ts:62
 msgid "Progressive"
-msgstr "ilerici"
+msgstr "Artan"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:37
 msgid "Axis ascending"
-msgstr "artan eksen"
+msgstr "Artan eksen"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:38
 msgid "Axis descending"
-msgstr "azalan eksen"
+msgstr "Azalan eksen"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:39
 msgid "Metric ascending"
-msgstr "artan metrik"
+msgstr "Artan metrik"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:40
 msgid "Metric descending"
-msgstr "azalan metrik"
+msgstr "Azalan metrik"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:105
 msgid "Heatmap Options"
@@ -5830,7 +5826,7 @@ msgstr "Y ölçeğini görüntülerken işaretler arasında atılacak adım say�
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:147
 msgid "Rendering"
-msgstr "oluşturma"
+msgstr "Oluşturma"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:150
 msgid "pixelated (Sharp)"
@@ -5862,7 +5858,7 @@ msgstr "y"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:176
 msgid "Color will be shaded based the normalized (0% to 100%) value of a given cell against the other cells in the selected range: "
-msgstr "Renk, belirli bir hücrenin seçilen aralıktaki diğer hücrelere göre normalleştirilmiş (%0 ila %100) değerine göre gölgelendirilir:"
+msgstr "Renk, belirli bir hücrenin seçilen aralıktaki diğer hücrelere göre normalleştirilmiş (%0 ila %100) değerine göre gölgelendirilir: "
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:181
 msgid "x: values are normalized within each column"
@@ -5923,7 +5919,7 @@ msgstr "Yüzdenin araç ipucuna dahil edilip edilmeyeceği"
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:329
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/controlPanel.ts:127
 msgid "Normalized"
-msgstr "normalleştirilmiş"
+msgstr "Normalleştirilmiş"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/controlPanel.tsx:331
 msgid "Whether to apply a normal distribution based on rank on the color scale"
@@ -5963,7 +5959,7 @@ msgstr "Yoğunluk"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:74
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:73
 msgid "Predictive"
-msgstr "tahmini"
+msgstr "Tahmini"
 
 #: superset-frontend/plugins/legacy-plugin-chart-heatmap/src/index.js:45
 #: superset-frontend/plugins/plugin-chart-word-cloud/src/plugin/index.ts:46
@@ -5981,7 +5977,7 @@ msgstr "saymak"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:121
 msgid "cumulative"
-msgstr "Kümülatif"
+msgstr "kümülatif"
 
 #: superset-frontend/plugins/legacy-plugin-chart-histogram/src/Histogram.jsx:125
 msgid "percentile (exclusive)"
@@ -6111,7 +6107,7 @@ msgstr "Soluk Gri"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:47
 msgid "Crimson"
-msgstr "kızıl"
+msgstr "Kızıl"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:48
 msgid "Forest Green"
@@ -6166,7 +6162,7 @@ msgstr "Nokta Yarıçapı Birimi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:143
 msgid "Pixels"
-msgstr "pikseller"
+msgstr "Pikseller"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:144
 msgid "Miles"
@@ -6174,7 +6170,7 @@ msgstr "Mil"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:145
 msgid "Kilometers"
-msgstr "kilometre"
+msgstr "Kilometre"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:147
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:90
@@ -6183,7 +6179,7 @@ msgstr "Belirtilen nokta yarıçapı için ölçü birimi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:156
 msgid "Labelling"
-msgstr "etiketleme"
+msgstr "Etiketleme"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:164
 msgid "label"
@@ -6225,14 +6221,14 @@ msgstr "toplam"
 #: superset-frontend/src/explore/controlPanels/sections.tsx:135
 #: superset-frontend/src/explore/controlPanels/sections.tsx:255
 msgid "mean"
-msgstr "Anlam"
+msgstr "mean"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:189
 #: superset-frontend/plugins/legacy-plugin-chart-pivot-table/src/controlPanel.ts:58
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:76
 #: superset-frontend/src/filters/components/Range/buildQuery.ts:69
 msgid "max"
-msgstr "maks."
+msgstr "max"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:190
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:256
@@ -6273,7 +6269,7 @@ msgstr "Harita Stili"
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:228
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:374
 msgid "Streets"
-msgstr "sokaklar"
+msgstr "Sokaklar"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:229
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:375
@@ -6298,7 +6294,7 @@ msgstr "Uydu"
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:236
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:379
 msgid "Outdoors"
-msgstr "açık havada"
+msgstr "Outdor"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:239
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:382
@@ -6310,7 +6306,7 @@ msgstr "Temel katman harita stili"
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:198
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:701
 msgid "Opacity"
-msgstr "opaklık"
+msgstr "Opak değeri"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:251
 msgid "Opacity of all clusters, points, and labels. Between 0 and 1."
@@ -6328,11 +6324,11 @@ msgstr "RGB'deki noktaların ve kümelerin rengi"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:293
 #: superset-frontend/src/explore/components/controls/ViewportControl.jsx:111
 msgid "Viewport"
-msgstr "görünüm alanı"
+msgstr "Görünüm"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:281
 msgid "Default longitude"
-msgstr "varsayılan boylam"
+msgstr "Varsayılan boylam"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:285
 msgid "Longitude of default viewport"
@@ -6340,7 +6336,7 @@ msgstr "Varsayılan görünümün boylamı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:295
 msgid "Default latitude"
-msgstr "varsayılan enlem"
+msgstr "Varsayılan enlem"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:299
 msgid "Latitude of default viewport"
@@ -6348,7 +6344,7 @@ msgstr "Varsayılan görünümün enlemi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:311
 msgid "Zoom"
-msgstr "yakınlaştır"
+msgstr "Yakınlaştır"
 
 #: superset-frontend/plugins/legacy-plugin-chart-map-box/src/controlPanel.ts:315
 msgid "Zoom level of the map"
@@ -6390,7 +6386,7 @@ msgstr "Dağılım"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/index.ts:78
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/index.ts:75
 msgid "Transformable"
-msgstr "dönüştürülebilir"
+msgstr "Dönüştürülebilir"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:64
 msgid "Significance Level"
@@ -6406,7 +6402,7 @@ msgstr "p değeri hassasiyeti"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:79
 msgid "Number of decimal places with which to display p-values"
-msgstr "p değerlerinin görüntüleneceği ondalık basamak sayısı"
+msgstr "P değerlerinin görüntüleneceği ondalık basamak sayısı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/controlPanel.ts:90
 msgid "Lift percent precision"
@@ -6427,14 +6423,14 @@ msgstr "Eşleştirilmiş t-test Tablosu"
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/index.js:30
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/index.ts:59
 msgid "Statistical"
-msgstr "istatistiksel"
+msgstr "İstatistiksel"
 
 #: superset-frontend/plugins/legacy-plugin-chart-paired-t-test/src/index.js:30
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/index.ts:61
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:54
 #: superset-frontend/src/visualizations/TimeTable/index.ts:37
 msgid "Tabular"
-msgstr "tablo"
+msgstr "Tablo yapısında"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/controlPanel.ts:39
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:68
@@ -6482,7 +6478,7 @@ msgstr "Verilerdeki her satır için ayrı metrikleri dikey olarak çizer ve bun
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/index.js:34
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:64
 msgid "Coordinates"
-msgstr "koordinatlar"
+msgstr "Koordinatlar"
 
 #: superset-frontend/plugins/legacy-plugin-chart-parallel-coordinates/src/index.js:34
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:39
@@ -6500,7 +6496,7 @@ msgstr "Zaman Serisi Değil"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:76
 msgid "Ignore time"
-msgstr "zamanı yoksay"
+msgstr "Zamanı yoksay"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:79
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:47
@@ -6509,7 +6505,7 @@ msgstr "Zaman serisi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:81
 msgid "Standard time series"
-msgstr "standart zaman serisi"
+msgstr "Standart zaman serisi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:84
 msgid "Aggregate Mean"
@@ -6541,7 +6537,7 @@ msgstr "\"başlangıç\"tan \"kadar\"a kadar değerdeki metrik yüzde değişimi
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:108
 msgid "Factor"
-msgstr "faktör"
+msgstr "Faktör"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:110
 msgid "Metric factor change from `since` to `until`"
@@ -6610,7 +6606,7 @@ msgstr "Zengin İpucu"
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:95
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:304
 msgid "The rich tooltip shows a list of all series for that point in time"
-msgstr "Zengin araç ipucu, o an için tüm serilerin bir listesini gösterir."
+msgstr "Ayrıntılı ipucu, o an için tüm serilerin bir listesini gösterir"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:244
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:126
@@ -6798,7 +6794,7 @@ msgstr "dolgu"
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:529
 #: superset-frontend/src/explore/controlPanels/sections.tsx:253
 msgid "ffill"
-msgstr "doldurmak"
+msgstr "doldur"
 
 #: superset-frontend/plugins/legacy-plugin-chart-partition/src/controlPanel.tsx:376
 #: superset-frontend/plugins/legacy-plugin-chart-rose/src/controlPanel.tsx:258
@@ -6855,7 +6851,7 @@ msgstr "Toplam satırları ve sütunları döndürürken ve hesaplarken uygulana
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/metrics.tsx:105
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:365
 msgid "Show totals"
-msgstr "toplamları göster"
+msgstr "Toplamları göster"
 
 #: superset-frontend/plugins/legacy-plugin-chart-pivot-table/src/controlPanel.ts:78
 msgid "Display total row/column"
@@ -6966,7 +6962,7 @@ msgstr "Bir sistemin farklı aşamalarında farklı grupların değerlerinin ak�
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:33
 msgid "Demographics"
-msgstr "demografi"
+msgstr "Demografi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey/src/index.js:34
 msgid "Survey Responses"
@@ -6988,7 +6984,7 @@ msgstr "Sankey Şeması"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Treemap/index.ts:67
 #: superset-frontend/src/visualizations/TimeTable/index.ts:36
 msgid "Percentages"
-msgstr "yüzdeler"
+msgstr "Yüzdeler"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sankey-loop/src/index.js:27
 msgid "Sankey Diagram with Loops"
@@ -6996,7 +6992,7 @@ msgstr "Döngüler ile Sankey Diyagramı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/Sunburst.js:386
 msgid "of total"
-msgstr "Toplam"
+msgstr "toplamı"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/Sunburst.js:388
 msgid "of parent"
@@ -7035,7 +7031,7 @@ msgstr "İkincil bir ölçü sağlandığında, doğrusal bir renk ölçeği kul
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:96
 #: superset-frontend/plugins/plugin-chart-echarts/src/Sunburst/controlPanel.tsx:192
 msgid "Hierarchy"
-msgstr "hiyerarşi"
+msgstr "Hiyerarşi"
 
 #: superset-frontend/plugins/legacy-plugin-chart-sunburst/src/controlPanel.ts:97
 msgid "This defines the level of the hierarchy"
@@ -7216,11 +7212,11 @@ msgstr "Verinin zaman adımı yok"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/Arc.jsx:40
 msgid "Start (Longitude, Latitude): "
-msgstr "Başlangıç ​​(Boylam, Enlem):"
+msgstr "Başlangıç ​​(Boylam, Enlem): "
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/Arc.jsx:44
 msgid "End (Longitude, Latitude): "
-msgstr "Bitiş (Boylam, Enlem):"
+msgstr "Bitiş (Boylam, Enlem): "
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:52
 msgid "Start Longitude & Latitude"
@@ -7238,7 +7234,7 @@ msgstr "Boylam ve Enlem Sonu"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:85
 msgid "Arc"
-msgstr "ark"
+msgstr "Ark"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Arc/controlPanel.ts:92
 msgid "Target Color"
@@ -7296,7 +7292,7 @@ msgstr "3 boyutlu"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/index.js:31
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/index.ts:67
 msgid "Web"
-msgstr "ağ"
+msgstr "Web"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Geojson/controlPanel.ts:68
 msgid "GeoJson Settings"
@@ -7356,7 +7352,7 @@ msgstr "Deneysel"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/Hex.jsx:33
 msgid "Centroid (Longitude and Latitude): "
-msgstr "Centroid (Boylam ve Enlem):"
+msgstr "Centroid (Boylam ve Enlem): "
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Hex/controlPanel.ts:66
 msgid "Dynamic Aggregation Function"
@@ -7401,7 +7397,7 @@ msgstr "deck.gl 3D Altıgen"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/controlPanel.ts:55
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:350
 msgid "Polyline"
-msgstr "çoklu çizgi"
+msgstr "Çoklu çizgi"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Path/index.js:27
 msgid "Visualizes connected points, which form a path, on a map."
@@ -7450,7 +7446,7 @@ msgstr "Kova kırılma noktaları"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:151
 msgid "List of n+1 values for bucketing metric into n buckets."
-msgstr "n gruba bölme metriği için n+1 değerlerinin listesi."
+msgstr "N gruba bölme metriği için n+1 değerlerinin listesi."
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Polygon/controlPanel.ts:163
 msgid "Emit Filter Events"
@@ -7508,11 +7504,11 @@ msgstr "Metre cinsinden yarıçap"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:87
 msgid "Radius in kilometers"
-msgstr "kilometre cinsinden yarıçap"
+msgstr "Kilometre cinsinden yarıçap"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:88
 msgid "Radius in miles"
-msgstr "mil cinsinden yarıçap"
+msgstr "Mil cinsinden yarıçap"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/layers/Scatter/controlPanel.ts:101
 msgid "Minimum Radius"
@@ -7565,11 +7561,11 @@ msgstr "deck.gl Ekran Izgarası"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:45
 msgid "For more information about objects are in context in the scope of this function, refer to the"
-msgstr "Bu işlevin kapsamındaki nesneler hakkında daha fazla bilgi için bkz."
+msgstr "Bu işlev kapsamındaki nesneler hakkında daha fazla bilgi için bkz"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:48
 msgid " source code of Superset's sandboxed parser"
-msgstr "Superset'in korumalı alan ayrıştırıcısının kaynak kodu"
+msgstr " Superset'in “sandbox parser” kaynak kodu"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:75
 msgid "This functionality is disabled in your environment for security reasons."
@@ -7676,7 +7672,7 @@ msgstr "Hat genişliği"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:214
 msgid "The width of the lines"
-msgstr "çizgilerin genişliği"
+msgstr "Çizgilerin genişliği"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:221
 msgid "Fill Color"
@@ -7685,7 +7681,7 @@ msgstr "Dolgu Rengi"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:222
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:235
 msgid " Set the opacity to 0 if you do not want to override the color specified in the GeoJSON"
-msgstr "GeoJSON'da belirtilen rengi geçersiz kılmak istemiyorsanız opaklığı 0 olarak ayarlayın."
+msgstr " GeoJSON'da belirtilen rengi baskılamak istemiyorsanız opaklığı 0 olarak ayarlayın"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:234
 msgid "Stroke Color"
@@ -7701,7 +7697,7 @@ msgstr "Nesnelerin doldurulup doldurulmayacağı"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:259
 msgid "Stroked"
-msgstr "okşadı"
+msgstr "Stok"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:261
 msgid "Whether to display the stroke"
@@ -7709,7 +7705,7 @@ msgstr "Konturun görüntülenip görüntülenmeyeceği"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:270
 msgid "Extruded"
-msgstr "ekstrüde"
+msgstr "Çıkartılmış"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:273
 msgid "Whether to make the grid 3D"
@@ -7737,7 +7733,7 @@ msgstr "Sabit nokta yarıçapı"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:333
 msgid "Multiplier"
-msgstr "çarpan"
+msgstr "Çarpan"
 
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:337
 msgid "Factor to multiply the metric by"
@@ -7767,7 +7763,7 @@ msgstr "GeoJson Sütunu"
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/Shared_DeckGL.jsx:392
 #: superset-frontend/plugins/legacy-preset-chart-deckgl/src/utilities/sharedDndControls.jsx:37
 msgid "Select the geojson column"
-msgstr "geojson sütununu seçin"
+msgstr "Geojson sütununu seçin"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:52
 msgid "Right Axis Format"
@@ -7825,7 +7821,7 @@ msgstr "adım adım"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:131
 msgid "Line interpolation as defined by d3.js"
-msgstr "d3.js tarafından tanımlandığı şekliyle hat enterpolasyonu"
+msgstr "d3.js da tanımlandığı şekliyle hat enterpolasyonu"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/NVD3Controls.tsx:139
 msgid "Show Range Filter"
@@ -7989,7 +7985,7 @@ msgstr "Gerilmiş stil"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:37
 msgid "Stacked style"
-msgstr "yığılmış stil"
+msgstr "Yığın (stacked) biçimi"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/Area/index.js:38
 msgid "Video game consoles"
@@ -8437,7 +8433,7 @@ msgstr "Zaman Serisi Dönem Pivotu"
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:459
 #: superset-frontend/src/modules/AnnotationTypes.js:32
 msgid "Formula"
-msgstr "formül"
+msgstr "Formül"
 
 #: superset-frontend/plugins/legacy-preset-chart-nvd3/src/vendor/superset/AnnotationTypes.js:37
 #: superset-frontend/src/modules/AnnotationTypes.js:36
@@ -8471,7 +8467,7 @@ msgstr "Grafik için bir açıklamanın görüntülenip görüntülenmeyeceği"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:50
 msgid "Margin"
-msgstr "kenar boşluğu"
+msgstr "Marj"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:54
 msgid "Additional padding for legend."
@@ -8560,7 +8556,7 @@ msgstr "Araç ipucunun seçilen metriğe göre azalan düzende sıralanıp sıra
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:205
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:211
 msgid "Tooltip"
-msgstr "ipucu"
+msgstr "İpucu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/controls.tsx:224
 msgid "Sort Series By"
@@ -8647,7 +8643,7 @@ msgstr "Görüntü ayarları"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:47
 msgid "Subheader"
-msgstr "alt başlık"
+msgstr "Alt başlık"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberTotal/controlPanel.ts:49
 msgid "Description text that shows up below your Big Number"
@@ -8679,7 +8675,7 @@ msgstr "Alt başlık ile"
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/index.ts:39
 #: superset-frontend/plugins/plugin-chart-table/src/index.ts:49
 msgid "Formattable"
-msgstr "biçimlendirilebilir"
+msgstr "Biçimlendirilebilir"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:54
 msgid "Comparison Period Lag"
@@ -8691,7 +8687,7 @@ msgstr "Ayrıntı düzeyine bağlı olarak, karşılaştırılacak zaman aralı�
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:67
 msgid "Comparison suffix"
-msgstr "karşılaştırma eki"
+msgstr "Karşılaştırma soneki"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BigNumber/BigNumberWithTrendline/controlPanel.tsx:68
 msgid "Suffix to apply after the percentage display"
@@ -8773,7 +8769,7 @@ msgstr "X ekseninde gruplandırılacak kategoriler."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:168
 msgid "Distribute across"
-msgstr "genelinde dağıtmak"
+msgstr "Boyunca dağıt"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/BoxPlot/controlPanel.ts:170
 msgid "Columns to calculate distribution across."
@@ -8843,7 +8839,7 @@ msgstr "Genel"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:85
 #: superset-frontend/src/explore/components/controls/BoundsControl.tsx:88
 msgid "Min"
-msgstr "dak."
+msgstr "Min"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:86
 msgid "Minimum value on the gauge axis"
@@ -8853,7 +8849,7 @@ msgstr "Gösterge eksenindeki minimum değer"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:49
 #: superset-frontend/src/explore/components/controls/BoundsControl.tsx:96
 msgid "Max"
-msgstr "maks."
+msgstr "Max"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:97
 msgid "Maximum value on the gauge axis"
@@ -8861,7 +8857,7 @@ msgstr "Gösterge eksenindeki maksimum değer"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:106
 msgid "Start angle"
-msgstr "başlangıç ​​açısı"
+msgstr "Başlangıç ​​açısı"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:107
 msgid "Angle at which to start progress axis"
@@ -8910,7 +8906,7 @@ msgstr "İlerlemeyi ve değeri canlandırmak veya sadece görüntülemek"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:196
 msgid "Axis"
-msgstr "eksen"
+msgstr "Eksen"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Gauge/controlPanel.tsx:202
 msgid "Show axis line ticks"
@@ -9011,7 +9007,7 @@ msgstr "Renkleri atamak için kullanılan kaynak düğümlerin kategorisi. Bir d
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:87
 msgid "Target category"
-msgstr "hedef kategori"
+msgstr "Hedef kategori"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:88
 msgid "Category of target nodes"
@@ -9029,7 +9025,7 @@ msgstr "Düzen"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:109
 msgid "Graph layout"
-msgstr "grafik düzeni"
+msgstr "Grafik düzeninde"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:112
 msgid "Force"
@@ -9112,7 +9108,7 @@ msgstr "Bekar"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:188
 msgid "Multiple"
-msgstr "çoklu"
+msgstr "Çoklu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Graph/controlPanel.tsx:190
 msgid "Allow node selections"
@@ -9260,7 +9256,7 @@ msgstr "Veri noktalarında bir işaretçi çizin. Sadece hat türleri için geç
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:227
 msgid "Marker size"
-msgstr "işaretçi boyutu"
+msgstr "Markör boyutu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:232
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Area/controlPanel.tsx:161
@@ -9399,7 +9395,7 @@ msgstr "Birincil y ekseni formatı"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:204
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:207
 msgid "Logarithmic y-axis"
-msgstr "logaritmik y ekseni"
+msgstr "Logaritmik y ekseni"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/MixedTimeseries/controlPanel.tsx:399
 msgid "Logarithmic scale on primary y-axis"
@@ -9457,7 +9453,7 @@ msgstr "Toplam sayının görüntülenip görüntülenmeyeceği"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:198
 msgid "Pie shape"
-msgstr "pasta şekli"
+msgstr "Pasta dilimi biçiminde"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Pie/controlPanel.tsx:204
 msgid "Outer Radius"
@@ -9495,7 +9491,7 @@ msgstr "Metriklerin maksimum değeri. İsteğe bağlı bir yapılandırmadır"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:123
 msgid "Label position"
-msgstr "etiket konumu"
+msgstr "Etiket konumu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Radar/controlPanel.tsx:159
 msgid "Radar"
@@ -9631,7 +9627,7 @@ msgstr "Eksen Formatı"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:201
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:204
 msgid "Logarithmic axis"
-msgstr "logaritmik eksen"
+msgstr "Logaritmik eksen"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Regular/Bar/controlPanel.tsx:218
 msgid "Draw split lines for minor axis ticks"
@@ -9729,7 +9725,7 @@ msgstr "Zaman Serisi Düzgün Çizgi"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:71
 msgid "Step type"
-msgstr "adım tipi"
+msgstr "Adım tipi"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Timeseries/Step/controlPanel.tsx:75
 #: superset-frontend/src/pages/AnnotationList/index.tsx:169
@@ -9771,11 +9767,11 @@ msgstr "İD"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:52
 msgid "Name of the id column"
-msgstr "kimlik sütununun adı"
+msgstr "Kimlik sütununun adı"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:61
 msgid "Parent"
-msgstr "ebeveyn"
+msgstr "Ata"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:62
 msgid "Name of the column containing the id of the parent node"
@@ -9787,7 +9783,7 @@ msgstr "Veri sütununun isteğe bağlı adı."
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:85
 msgid "Root node id"
-msgstr "kök düğüm kimliği"
+msgstr "Kök node id"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:86
 msgid "Id of root node of the tree."
@@ -9799,7 +9795,7 @@ msgstr "Düğüm değerleri için metrik"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:118
 msgid "Tree layout"
-msgstr "ağaç düzeni"
+msgstr "Ağaç düzeninde"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:121
 msgid "Orthogonal"
@@ -9836,7 +9832,7 @@ msgstr "Aşağıdan Yukarıya"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:143
 msgid "Orientation of tree"
-msgstr "ağacın yönü"
+msgstr "Ağacın yönü"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:156
 msgid "Node label position"
@@ -9855,7 +9851,7 @@ msgstr "tepe"
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:161
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:179
 msgid "right"
-msgstr "Sağ"
+msgstr "sağ"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:162
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:180
@@ -9876,11 +9872,11 @@ msgstr "Alt düğüm etiketinin ağaç üzerindeki konumu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:192
 msgid "Emphasis"
-msgstr "vurgu"
+msgstr "Vurgu"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:195
 msgid "ancestor"
-msgstr "Ata"
+msgstr "ata"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:196
 msgid "descendant"
@@ -9896,7 +9892,7 @@ msgstr "Sembol"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:215
 msgid "Empty circle"
-msgstr "boş daire"
+msgstr "Boş daire"
 
 #: superset-frontend/plugins/plugin-chart-echarts/src/Tree/controlPanel.tsx:219
 msgid "Circle"
@@ -10018,7 +10014,7 @@ msgstr "Seçilen metriklerin toplam toplamalarını göster. Satır sınırını
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/orderBy.tsx:28
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:277
 msgid "Ordering"
-msgstr "sipariş"
+msgstr "Sıralama"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/orderBy.tsx:29
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:278
@@ -10034,7 +10030,7 @@ msgstr "Azalan şekilde sırala"
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/pagination.tsx:35
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:298
 msgid "Server pagination"
-msgstr "sunucu sayfalandırma"
+msgstr "Sunucu sayfalandırması"
 
 #: superset-frontend/plugins/plugin-chart-handlebars/src/plugin/controls/pagination.tsx:36
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:299
@@ -10128,7 +10124,7 @@ msgstr "Benzersiz Değerleri Listeleme"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:182
 msgid "Sum"
-msgstr "toplam"
+msgstr "Toplam"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:183
 msgid "Average"
@@ -10207,7 +10203,7 @@ msgstr "Sütun düzeyi toplamını görüntüle"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:238
 msgid "Transpose pivot"
-msgstr "devrik pivot"
+msgstr "Transpoze pivot"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:240
 msgid "Swap rows and columns"
@@ -10224,7 +10220,7 @@ msgstr "Tarih saat sütunları için D3 saat biçimi"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:294
 msgid "Sort rows by"
-msgstr "Satırları şuna göre sırala:"
+msgstr "Satır sıralama belirleyeni"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:298
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:326
@@ -10266,7 +10262,7 @@ msgstr "Değere göre: sıralama anahtarı olarak metrik değerleri kullanın"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:322
 msgid "Sort columns by"
-msgstr "Sütunları şuna göre sırala:"
+msgstr "Sütun sıralama belirleyeni"
 
 #: superset-frontend/plugins/plugin-chart-pivot-table/src/plugin/controlPanel.tsx:334
 msgid "Change order of columns."
@@ -10334,7 +10330,7 @@ msgstr "Hiçbir eşleşen kayıt bulunamadı"
 
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:579
 msgid "Shift + Click to sort by multiple columns"
-msgstr "Birden çok sütuna göre sıralamak için Shift + Tıklama"
+msgstr "Birden çok sütuna göre sıralamak için Shift le birlikte tıklayın"
 
 #: superset-frontend/plugins/plugin-chart-table/src/TableChart.tsx:619
 msgid "Totals"
@@ -10346,7 +10342,7 @@ msgstr "Zaman damgası biçimi"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:403
 msgid "Page length"
-msgstr "sayfa uzunluğu"
+msgstr "Sayfa uzunluğu"
 
 #: superset-frontend/plugins/plugin-chart-table/src/controlPanel.tsx:418
 msgid "Search box"
@@ -10587,7 +10583,7 @@ msgstr "Sorgunuz düzgün bir şekilde kaydedilmedi"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1054
 msgid "Your query was saved"
-msgstr "sorgunuz kaydedildi"
+msgstr "Sorgunuz kaydedildi"
 
 #: superset-frontend/src/SqlLab/actions/sqlLab.js:1067
 msgid "Your query was updated"
@@ -10666,7 +10662,7 @@ msgstr "Yabancı anahtar"
 
 #: superset-frontend/src/SqlLab/components/ColumnElement/index.tsx:65
 msgid "Index"
-msgstr "dizin"
+msgstr "İndeks"
 
 #: superset-frontend/src/SqlLab/components/EstimateQueryCostButton/index.tsx:99
 msgid "Estimate selected query cost"
@@ -10728,7 +10724,7 @@ msgstr "Durum"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:81
 msgid "Started"
-msgstr "başladı"
+msgstr "Başlatıldı"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:82
 #: superset-frontend/src/pages/ExecutionLogList/index.tsx:138
@@ -10777,18 +10773,18 @@ msgstr "Koşma"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:151
 msgid "Fetching"
-msgstr "getiriliyor"
+msgstr "Eşleniyor"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:157
 #: superset-frontend/src/pages/QueryHistoryList/index.tsx:178
 msgid "Offline"
-msgstr "çevrimdışı"
+msgstr "Çevrimdışı"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:163
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:169
 #: superset-frontend/src/pages/QueryHistoryList/index.tsx:186
 msgid "Scheduled"
-msgstr "planlanmış"
+msgstr "Planlanmış"
 
 #: superset-frontend/src/SqlLab/components/QueryTable/index.tsx:175
 msgid "Unknown Status"
@@ -10919,7 +10915,7 @@ msgstr "Sorgu durduruldu"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:429
 msgid "Database error"
-msgstr "veri tabanı hatası"
+msgstr "Veri tabanı hatası"
 
 #: superset-frontend/src/SqlLab/components/ResultSet/index.tsx:458
 msgid "was created"
@@ -10944,7 +10940,7 @@ msgstr "Sonuçları yeniden getir"
 #: superset-frontend/src/SqlLab/components/RunQueryActionButton/index.tsx:47
 #: superset-frontend/src/explore/components/RunQueryButton/index.tsx:45
 msgid "Stop"
-msgstr "Durmak"
+msgstr "Dur"
 
 #: superset-frontend/src/SqlLab/components/RunQueryActionButton/index.tsx:52
 msgid "Run selection"
@@ -10952,7 +10948,7 @@ msgstr "Seçimi çalıştır"
 
 #: superset-frontend/src/SqlLab/components/RunQueryActionButton/index.tsx:54
 msgid "Run"
-msgstr "Koşmak"
+msgstr "Çalıştır"
 
 #: superset-frontend/src/SqlLab/components/RunQueryActionButton/index.tsx:114
 msgid "Stop running (Ctrl + x)"
@@ -11000,7 +10996,7 @@ msgstr "Sorguyu çalıştır (Ctrl + Return)"
 #: superset-frontend/src/features/datasets/AddDataset/Header/index.tsx:52
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:325
 msgid "Save"
-msgstr "Kaydetmek"
+msgstr "Kaydet"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:148
 msgid "Untitled Dataset"
@@ -11024,7 +11020,7 @@ msgstr "Geri"
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:402
 #: superset-frontend/src/SqlLab/components/SaveQuery/index.tsx:213
 msgid "Save as new"
-msgstr "yeni olarak kaydet"
+msgstr "Yeni olarak kaydet"
 
 #: superset-frontend/src/SqlLab/components/SaveDatasetModal/index.tsx:412
 msgid "Overwrite existing"
@@ -11153,7 +11149,7 @@ msgstr "Önce sorguyu başarıyla çalıştırmalısınız"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:531
 msgid "Autocomplete"
-msgstr "otomatik tamamlama"
+msgstr "Otomatik tamamlama"
 
 #: superset-frontend/src/SqlLab/components/SqlEditor/index.jsx:586
 msgid "CREATE TABLE AS"
@@ -11231,7 +11227,7 @@ msgstr "Yinelenen sekme"
 
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:262
 msgid "Add a new tab"
-msgstr "yeni sekme ekle"
+msgstr "Sekme ekle"
 
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:268
 #: superset-frontend/src/SqlLab/components/TabbedSqlEditors/index.jsx:310
@@ -11257,7 +11253,7 @@ msgstr "son bölüm:"
 
 #: superset-frontend/src/SqlLab/components/TableElement/index.tsx:185
 msgid "Keys for table"
-msgstr "tablo için anahtarlar"
+msgstr "Tablo için anahtarlar"
 
 #: superset-frontend/src/SqlLab/components/TableElement/index.tsx:196
 #, python-format
@@ -11290,7 +11286,7 @@ msgstr "Tablo önizlemesini kaldır"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:67
 msgid "Assign a set of parameters as"
-msgstr "Bir dizi parametreyi şu şekilde atayın:"
+msgstr "Bir dizi parametreyi şu şekilde ata"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:69
 msgid "below (example:"
@@ -11318,7 +11314,7 @@ msgstr "Şablon parametrelerini düzenle"
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:108
 msgid "Parameters "
-msgstr "parametreler"
+msgstr "Parametreler "
 
 #: superset-frontend/src/SqlLab/components/TemplateParamsEditor/index.tsx:114
 msgid "Invalid JSON"
@@ -11354,7 +11350,7 @@ msgstr "Farkı görmek için tıklayın"
 
 #: superset-frontend/src/components/AlteredSliceTag/index.jsx:202
 msgid "Altered"
-msgstr "değiştirilmiş"
+msgstr "Değiştirildi"
 
 #: superset-frontend/src/components/AlteredSliceTag/index.jsx:218
 msgid "Chart changes"
@@ -11382,7 +11378,7 @@ msgstr "Zorla yenilemek için tıklayın"
 
 #: superset-frontend/src/components/CachedLabel/index.tsx:51
 msgid "Cached"
-msgstr "önbelleğe alınmış"
+msgstr "Önbelleğe alındı"
 
 #: superset-frontend/src/components/Chart/Chart.jsx:267
 msgid "Add required control values to preview chart"
@@ -11462,9 +11458,8 @@ msgid "Add cross-filter"
 msgstr "Çapraz filtre ekle"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByMenuItems.tsx:149
-#, fuzzy
 msgid "Failed to load dimensions for drill by"
-msgstr "Sondaj için uygun boyut yok"
+msgstr "Alta doğru incelemeler için boyut bilgisi yüklenemedi"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByMenuItems.tsx:197
 msgid "Drill by is not yet supported for this chart type"
@@ -11488,9 +11483,8 @@ msgid "No columns found"
 msgstr "Sütun bulunamadı"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByModal.tsx:97
-#, fuzzy
 msgid "Failed to generate chart edit URL"
-msgstr "Grafik verileri yüklenemedi"
+msgstr "Grafik düzenleme URL’si oluşturulamadı"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByModal.tsx:122
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailModal.tsx:44
@@ -11511,7 +11505,7 @@ msgstr "Grafiği düzenle"
 #: superset-frontend/src/explore/components/controls/ViewQueryModalFooter.tsx:36
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1106
 msgid "Close"
-msgstr "Kapalı"
+msgstr "Kapat"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByModal.tsx:402
 #: superset-frontend/src/pages/Chart/index.tsx:69
@@ -11524,9 +11518,8 @@ msgid "Drill by: %s"
 msgstr "Detaylandırma: %s"
 
 #: superset-frontend/src/components/Chart/DrillBy/DrillByModal.tsx:450
-#, fuzzy
 msgid "There was an error loading the chart data"
-msgstr "Şemalar yüklenirken bir hata oluştu"
+msgstr "Grafik verisi yüklenirken bir hata oluştu"
 
 #: superset-frontend/src/components/Chart/DrillBy/useResultsTableView.tsx:58
 #: superset-frontend/src/explore/components/DataTablesPane/DataTablesPane.tsx:212
@@ -11563,11 +11556,11 @@ msgstr "Ayrıntılara inin: %s"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:128
 msgid "Formatting"
-msgstr "biçimlendirme"
+msgstr "Formatlanıyor"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:132
 msgid "Formatted value"
-msgstr "biçimlendirilmiş değer"
+msgstr "Biçimlendirilmiş değer"
 
 #: superset-frontend/src/components/Chart/DrillDetail/DrillDetailPane.tsx:284
 msgid "No rows were returned for this dataset"
@@ -11580,7 +11573,7 @@ msgstr "Tekrar yükle"
 #: superset-frontend/src/components/CopyToClipboard/index.jsx:40
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:84
 msgid "Copy"
-msgstr "kopyala"
+msgstr "Kopyala"
 
 #: superset-frontend/src/components/CopyToClipboard/index.jsx:44
 #: superset-frontend/src/dashboard/components/URLShortLinkButton/index.tsx:89
@@ -11600,7 +11593,7 @@ msgstr "Üzgünüz, tarayıcınız kopyalamayı desteklemiyor. Ctrl / Cmd + C'yi
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:27
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:35
 msgid "every"
-msgstr "Her"
+msgstr "her"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:28
 msgid "every month"
@@ -11624,7 +11617,7 @@ msgstr "haftanın günü"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:33
 msgid "every hour"
-msgstr "Her saat"
+msgstr "her saat"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:34
 msgid "every minute"
@@ -11649,11 +11642,11 @@ msgstr "içinde"
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:45
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:46
 msgid "on"
-msgstr "Açık"
+msgstr "açık"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:47
 msgid "and"
-msgstr "Ve"
+msgstr "ve"
 
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:48
 #: superset-frontend/src/components/CronPicker/CronPicker.tsx:50
@@ -11856,7 +11849,7 @@ msgstr "Uyarı! Veri kümesini değiştirmek, meta veriler yoksa grafiği bozabi
 
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:51
 msgid "Changing the dataset may break the chart if the chart relies on columns or metadata that does not exist in the target dataset"
-msgstr "Grafik, hedef veri kümesinde olmayan sütunlara veya meta verilere dayanıyorsa, veri kümesini değiştirmek grafiği bozabilir."
+msgstr "Grafik, hedef veri kümesinde olmayan sütunlara veya meta verilere dayanıyorsa, veri kümesinin değiştirilmesi grafiği bozabilir"
 
 #: superset-frontend/src/components/Datasource/ChangeDatasourceModal.tsx:117
 #: superset-frontend/src/dashboard/components/SliceAdder.jsx:75
@@ -11894,7 +11887,7 @@ msgstr "Ara / Filtrele"
 
 #: superset-frontend/src/components/Datasource/CollectionTable.tsx:458
 msgid "Add item"
-msgstr "Öğe eklemek"
+msgstr "Öğe ekle"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:143
 msgid "STRING"
@@ -11942,7 +11935,7 @@ msgstr "Tarih saat biçimi"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:304
 msgid "The pattern of timestamp format. For strings use "
-msgstr "Zaman damgası formatının kalıbı. Dizeler için kullanın"
+msgstr "Zaman damgası formatının kalıbı. Dize (string) kullanımı için "
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:306
 msgid "Python datetime string pattern"
@@ -11950,7 +11943,7 @@ msgstr "Python tarih saat dize deseni"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:308
 msgid " expression which needs to adhere to the "
-msgstr "uyulması gereken ifade"
+msgstr " uyulması gereken ifade "
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:310
 msgid "ISO 8601"
@@ -11966,15 +11959,15 @@ msgid " standard to ensure that the lexicographical ordering\n"
 "                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n"
 "                      is specified we fall back to using the optional defaults on a per\n"
 "                      database/column name level via the extra parameter."
-msgstr "sözlüksel sıralamanın\n"
-" kronolojik sıralamayla çakışmasını sağlamak için standart. Zaman damgası biçimi\n"
-" ISO 8601 standardına uygun değilse\n"
-", dizeyi bir tarih veya zaman damgasına dönüştürmek için\n"
-" bir ifade tanımlamanız ve yazmanız gerekir. Not\n"
-" şu anda saat dilimleri desteklenmemektedir. Zaman\n"
-" epoch biçiminde saklanıyorsa, \"epoch_s\" veya \"epoch_ms\" yazın. Herhangi bir kalıp\n"
-" belirtilmezse, ekstra parametre aracılığıyla her\n"
-" veritabanı/sütun adı düzeyinde isteğe bağlı varsayılanları kullanmaya geri döneriz."
+msgstr " standard to ensure that the lexicographical ordering\n"
+"                      coincides with the chronological ordering. If the\n"
+"                      timestamp format does not adhere to the ISO 8601 standard\n"
+"                      you will need to define an expression and type for\n"
+"                      transforming the string into a date or timestamp. Note\n"
+"                      currently time zones are not supported. If time is stored\n"
+"                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n"
+"                      is specified we fall back to using the optional defaults on a per\n"
+"                      database/column name level via the extra parameter."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:332
 msgid "Certified By"
@@ -12012,17 +12005,17 @@ msgstr "Sertifikanın ayrıntıları"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:361
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:369
 msgid "Is dimension"
-msgstr "boyut"
+msgstr "Boyut"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:363
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:371
 msgid "Default datetime"
-msgstr "varsayılan tarih saat"
+msgstr "Varsayılan tarih saat"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:364
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:372
 msgid "Is filterable"
-msgstr "filtrelenebilir"
+msgstr "Filtrelenebilir"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:500
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1427
@@ -12060,7 +12053,7 @@ msgstr "Meta veriler senkronize edildi"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DatasetSelect.tsx:38
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:92
 msgid "An error has occurred"
-msgstr "bir hata oluştu"
+msgstr "Bir hata oluştu"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:820
 #, python-format
@@ -12092,7 +12085,7 @@ msgstr "Veri kümesi listesi sayfasından erişirken yönlendirilecek varsayıla
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:880
 msgid "Autocomplete filters"
-msgstr "otomatik tamamlama filtreleri"
+msgstr "Otomatik tamamlama filtreleri"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:881
 msgid "Whether to populate autocomplete filters options"
@@ -12113,7 +12106,7 @@ msgstr "Tablo meta verilerini belirtmek için ekstra veriler. Şu anda şu forma
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:945
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:402
 msgid "Cache timeout"
-msgstr "önbellek zaman aşımı"
+msgstr "Önbellek zaman aşımı"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:946
 msgid "The duration of time in seconds before the cache is invalidated. Set to -1 to bypass the cache."
@@ -12129,7 +12122,7 @@ msgstr "Zaman sütununu kaydırmak için negatif veya pozitif saat sayısı. Bu,
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:978
 msgid "Spatial"
-msgstr "mekansal"
+msgstr "Mekansal"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:985
 msgid "<new spatial>"
@@ -12154,7 +12147,7 @@ msgstr "sanal"
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1072
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1079
 msgid "Dataset name"
-msgstr "veri kümesi adı"
+msgstr "Veri kümesi adı"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1089
 msgid "When specifying SQL, the datasource acts as a view. Superset will use this statement as a subquery while grouping and filtering on the generated parent queries."
@@ -12186,7 +12179,7 @@ msgstr "<yeni metrik>"
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1341
 msgid "Be careful."
-msgstr "Dikkat olmak."
+msgstr "Dikkat."
 
 #: superset-frontend/src/components/Datasource/DatasourceEditor.jsx:1342
 msgid "Changing these settings will affect all charts using this dataset, including charts owned by other people."
@@ -12255,7 +12248,7 @@ msgstr "TAMAM"
 
 #: superset-frontend/src/components/Datasource/DatasourceModal.tsx:241
 msgid "Edit Dataset "
-msgstr "Veri Kümesini Düzenle"
+msgstr "Veri Kümesini Düzenle "
 
 #: superset-frontend/src/components/Datasource/DatasourceModal.tsx:259
 msgid "Use legacy datasource editor"
@@ -12312,7 +12305,7 @@ msgstr "Veritabanlarınızı yönetin"
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:972
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1797
 msgid "here"
-msgstr "Burada"
+msgstr "burada"
 
 #: superset-frontend/src/components/ErrorBoundary/index.jsx:51
 #: superset-frontend/src/components/ErrorMessage/ErrorMessageWithStackTrace.tsx:25
@@ -12326,15 +12319,14 @@ msgstr "Bu, aşağıdakiler tarafından tetiklenebilir:"
 
 #: superset-frontend/src/components/ErrorMessage/DatabaseErrorMessage.tsx:59
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:72
-#, fuzzy
 msgid "Please reach out to the Chart Owner for assistance."
-msgstr ""
+msgstr "Lütfen yardım için Grafik Sahibine ulaşın."
 
 #: superset-frontend/src/components/ErrorMessage/DatabaseErrorMessage.tsx:70
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:83
-#, fuzzy, python-format
+#, python-format
 msgid "Chart Owner: %s"
-msgstr ""
+msgstr "Grafiği Oluşturan: %s"
 
 #: superset-frontend/src/components/ErrorMessage/DatabaseErrorMessage.tsx:83
 #, python-format
@@ -12354,7 +12346,7 @@ msgstr "%s Hata"
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:363
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:419
 msgid "Missing dataset"
-msgstr "veri kümesi eksik"
+msgstr "Veri kümesi eksik"
 
 #: superset-frontend/src/components/ErrorMessage/ErrorAlert.tsx:128
 #: superset-frontend/src/components/ErrorMessage/ErrorAlert.tsx:142
@@ -12371,32 +12363,31 @@ msgid "Copy message"
 msgstr "Mesajı kopyala"
 
 #: superset-frontend/src/components/ErrorMessage/ParameterErrorMessage.tsx:61
-#, fuzzy
 msgid "This was triggered by:"
-msgstr ""
+msgstr "Şu şekilde tetiklendi:"
 
 #: superset-frontend/src/components/ErrorMessage/ParameterErrorMessage.tsx:77
 msgid "Did you mean:"
 msgstr "Demek istediğin:"
 
 #: superset-frontend/src/components/ErrorMessage/ParameterErrorMessage.tsx:88
-#, fuzzy, python-format
+#, python-format
 msgid "%(suggestion)s instead of \"%(undefinedParameter)s?\""
-msgstr ""
+msgstr "“%(undefinedParameter)s?” yerine %(suggestion)s"
 
 #: superset-frontend/src/components/ErrorMessage/ParameterErrorMessage.tsx:116
 msgid "Parameter error"
-msgstr "parametre hatası"
+msgstr "Parametre hatası"
 
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:46
-#, fuzzy, python-format
+#, python-format
 msgid "We’re having trouble loading this visualization. Queries are set to timeout after %s second."
-msgstr ""
+msgstr "Bu görselleştirmeyi yüklerken sorun yaşıyoruz. Sorgular %s saniye sonra zaman aşımına uğrayacak şekilde ayarlanmıştır."
 
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:52
-#, fuzzy, python-format
+#, python-format
 msgid "We’re having trouble loading these results. Queries are set to timeout after %s second."
-msgstr ""
+msgstr "Bu sonuçları yüklerken sorun yaşıyoruz. Sorgular %s saniye sonra zaman aşımına uğrayacak şekilde ayarlanmıştır."
 
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:93
 #, python-format
@@ -12409,7 +12400,7 @@ msgstr "%(subtitle)s\n"
 
 #: superset-frontend/src/components/ErrorMessage/TimeoutErrorMessage.tsx:98
 msgid "Timeout error"
-msgstr "zaman aşımı hatası"
+msgstr "Zaman aşımı hatası"
 
 #: superset-frontend/src/components/FaveStar/index.tsx:76
 msgid "Click to favorite/unfavorite"
@@ -12429,7 +12420,7 @@ msgstr "Şifreyi göster."
 
 #: superset-frontend/src/components/ImportModal/ErrorAlert.tsx:51
 msgid "Database driver for importing maybe not installed. Visit the Superset documentation page for installation instructions: "
-msgstr "İçe aktarma için veritabanı sürücüsü yüklü olmayabilir. Kurulum talimatları için Superset dokümantasyon sayfasını ziyaret edin:"
+msgstr "İçeri aktarma (import) için veritabanı sürücüsü (driver) yüklü olmayabilir. Kurulum talimatları için Superset dokümantasyonlarını inceleyin: "
 
 #: superset-frontend/src/components/ImportModal/index.tsx:267
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1376
@@ -12471,7 +12462,7 @@ msgstr "%s SSH TÜNELİ ÖZEL ANAHTAR ŞİFRE"
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopoverTrigger.tsx:148
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricPopoverTrigger.tsx:251
 msgid "Overwrite"
-msgstr "üzerine yaz"
+msgstr "Üzerine yaz"
 
 #: superset-frontend/src/components/ImportModal/index.tsx:426
 msgid "Import"
@@ -12553,7 +12544,7 @@ msgstr "Bir değer yazın"
 #: superset-frontend/src/components/ListView/Filters/Select.tsx:106
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FilterTitlePane.tsx:56
 msgid "Filter"
-msgstr "filtre"
+msgstr "Filtre"
 
 #: superset-frontend/src/components/ListView/Filters/Select.tsx:99
 #: superset-frontend/src/components/ListView/Filters/Select.tsx:113
@@ -12597,7 +12588,7 @@ msgstr "Tarafından oluşturuldu"
 #: superset-frontend/src/pages/CssTemplateList/index.tsx:184
 #: superset-frontend/src/pages/SavedQueryList/index.tsx:359
 msgid "Created on"
-msgstr "oluşturuldu"
+msgstr "Oluşturulma zamanı"
 
 #: superset-frontend/src/components/PageHeaderWithActions/index.tsx:160
 msgid "Menu actions trigger"
@@ -12629,7 +12620,7 @@ msgstr "Yeni bir e-posta raporu planlayın"
 #: superset-frontend/src/features/cssTemplates/CssTemplateModal.tsx:218
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:325
 msgid "Add"
-msgstr "Eklemek"
+msgstr "Ekle"
 
 #: superset-frontend/src/components/ReportModal/index.tsx:237
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:403
@@ -12658,7 +12649,7 @@ msgstr "Raporunuzla birlikte gönderilecek bir açıklama ekleyin"
 
 #: superset-frontend/src/components/ReportModal/index.tsx:309
 msgid "A screenshot of the dashboard will be sent to your email at"
-msgstr "Kontrol panelinin bir ekran görüntüsü şu adresteki e-postanıza gönderilecek:"
+msgstr "Kontrol panelinin ekran görüntüsü belirtilen e-postanıza gönderilecek"
 
 #: superset-frontend/src/components/ReportModal/index.tsx:326
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:396
@@ -12716,7 +12707,7 @@ msgstr "Filtresiz"
 
 #: superset-frontend/src/components/Table/index.tsx:201
 msgid "Select all items"
-msgstr "tüm öğeleri seç"
+msgstr "Tümünü seç"
 
 #: superset-frontend/src/components/Table/index.tsx:202
 msgid "Search in filters"
@@ -12736,7 +12727,7 @@ msgstr "Tüm verileri temizle"
 
 #: superset-frontend/src/components/Table/index.tsx:207
 msgid "Select all data"
-msgstr "tüm verileri seç"
+msgstr "Tüm verileri seç"
 
 #: superset-frontend/src/components/Table/index.tsx:209
 msgid "Expand row"
@@ -12861,11 +12852,11 @@ msgstr "Kayıtlı tüm grafikler getirilemedi"
 
 #: superset-frontend/src/dashboard/actions/sliceEntities.ts:172
 msgid "Sorry there was an error fetching saved charts: "
-msgstr "Üzgünüz, kayıtlı grafikler getirilirken bir hata oluştu:"
+msgstr "Kayıtlı grafikler getirilirken bir hata oluştu: "
 
 #: superset-frontend/src/dashboard/components/ColorSchemeControlWrapper.jsx:56
 msgid "Any color palette selected here will override the colors applied to this dashboard's individual charts"
-msgstr "Burada seçilen herhangi bir renk paleti, bu kontrol panelinin ayrı grafiklerine uygulanan renkleri geçersiz kılacaktır."
+msgstr "Burada seçilen herhangi bir renk paleti, bu panonun (dashboard) alt grafiklerine uygulanan renkleri geçersiz kılacaktır"
 
 #: superset-frontend/src/dashboard/components/Dashboard.jsx:87
 msgid "You have unsaved changes."
@@ -12901,7 +12892,7 @@ msgstr "Bu kontrol panelini harici bir web uygulamasına gömmek için yapıland
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:183
 msgid "For further instructions, consult the"
-msgstr "Daha fazla talimat için şuraya başvurun:"
+msgstr "Daha fazla talimat için şuraya başvurun"
 
 #: superset-frontend/src/dashboard/components/DashboardEmbedControls.tsx:187
 msgid "Superset Embedded SDK documentation."
@@ -12938,7 +12929,7 @@ msgstr "Bileşenleri ve grafikleri panoya sürükleyip bırakın"
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:195
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:218
 msgid "You can create a new chart or use existing ones from the panel on the right"
-msgstr "Sağdaki panelden yeni bir grafik oluşturabilir veya mevcut olanları kullanabilirsiniz."
+msgstr "Sağdaki panelden yeni bir grafik oluşturabilir veya mevcut olanları kullanabilirsiniz"
 
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:201
 #: superset-frontend/src/dashboard/components/DashboardGrid.jsx:224
@@ -13000,7 +12991,7 @@ msgstr "Yenileme aralığı"
 
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:114
 msgid "Refresh frequency"
-msgstr "yenileme sıklığı"
+msgstr "Yenileme sıklığı"
 
 #: superset-frontend/src/dashboard/components/RefreshIntervalModal.tsx:133
 msgid "Are you sure you want to proceed?"
@@ -13025,7 +13016,7 @@ msgstr "Kontrol panelini kaydet"
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:178
 #, python-format
 msgid "Overwrite Dashboard [%s]"
-msgstr "Panonun Üzerine Yaz [%s]"
+msgstr "Panelin üzerine Yaz [%s]"
 
 #: superset-frontend/src/dashboard/components/SaveModal.tsx:186
 msgid "Save as:"
@@ -13082,7 +13073,7 @@ msgstr "Katma"
 
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:265
 msgid "Viz type"
-msgstr "yani tip"
+msgstr "Viz tipi"
 
 #: superset-frontend/src/dashboard/components/AddSliceCard/AddSliceCard.tsx:267
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DatasetSelect.tsx:81
@@ -13094,7 +13085,7 @@ msgstr "yani tip"
 #: superset-frontend/src/pages/ChartList/index.tsx:678
 #: superset-frontend/src/pages/DatasetList/index.tsx:606
 msgid "Dataset"
-msgstr "veri kümesi"
+msgstr "Veri kümesi"
 
 #: superset-frontend/src/dashboard/components/AnchorLink/index.tsx:72
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:470
@@ -13103,7 +13094,7 @@ msgstr "Süper küme tablosu"
 
 #: superset-frontend/src/dashboard/components/AnchorLink/index.tsx:73
 msgid "Check out this chart in dashboard:"
-msgstr "Panodaki bu tabloya göz atın:"
+msgstr "Paneldeki bu grafiğe göz atın:"
 
 #: superset-frontend/src/dashboard/components/BuilderComponentPane/index.tsx:81
 msgid "Layout elements"
@@ -13127,7 +13118,7 @@ msgstr "Bu kontrol paneline eklenmiş grafik yok"
 
 #: superset-frontend/src/dashboard/components/DashboardBuilder/DashboardBuilder.tsx:714
 msgid "Go to the edit mode to configure the dashboard and add charts"
-msgstr "Panoyu yapılandırmak ve grafikler eklemek için düzenleme moduna gidin"
+msgstr "Paneli yapılandırmak ve grafikler eklemek için düzenleme moduna gidin"
 
 #: superset-frontend/src/dashboard/components/FiltersBadge/DetailsPanel/index.tsx:127
 #, python-format
@@ -13150,15 +13141,15 @@ msgstr "Kontrol paneliniz çok büyük. Lütfen kaydetmeden önce boyutunu küç
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:512
 msgid "Add the name of the dashboard"
-msgstr "Panonun adını ekleyin"
+msgstr "Panelin adını ekleyin"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:513
 msgid "Dashboard title"
-msgstr "Pano başlığı"
+msgstr "Panel başlığı"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:551
 msgid "Undo the action"
-msgstr "eylemi geri al"
+msgstr "Yapılanı geri al"
 
 #: superset-frontend/src/dashboard/components/Header/index.jsx:571
 msgid "Redo the action"
@@ -13172,7 +13163,7 @@ msgstr "At"
 #: superset-frontend/src/dashboard/components/Header/index.jsx:630
 #: superset-frontend/src/dashboard/components/Header/index.jsx:632
 msgid "Edit dashboard"
-msgstr "Panoyu düzenle"
+msgstr "Paneli düzenle"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:130
 msgid "An error occurred while fetching available CSS templates"
@@ -13188,7 +13179,7 @@ msgstr "Süper küme kontrol paneli"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:235
 msgid "Check out this dashboard: "
-msgstr "Bu kontrol paneline göz atın:"
+msgstr "Panelden (dashboard) çık: "
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:255
 msgid "Refresh dashboard"
@@ -13216,7 +13207,7 @@ msgstr "CSS'yi düzenle"
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:504
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:329
 msgid "Download as image"
-msgstr "resim olarak indir"
+msgstr "Resim olarak indir"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:325
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:464
@@ -13237,7 +13228,7 @@ msgstr "Kalıcı bağlantıyı e-posta ile paylaşın"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:344
 msgid "Embed dashboard"
-msgstr "Panoyu göm"
+msgstr "Panele yerleştir"
 
 #: superset-frontend/src/dashboard/components/Header/HeaderActionsDropdown/index.jsx:351
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:368
@@ -13258,7 +13249,7 @@ msgstr "Üzerine yazmayı onayla"
 
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:135
 msgid "Scroll down to the bottom to enable overwriting changes. "
-msgstr "Değişikliklerin üzerine yazmayı etkinleştirmek için aşağıya doğru kaydırın."
+msgstr "Değişikliklerin etkinleştirmek için aşağıya doğru kaydırın. "
 
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:154
 #: superset-frontend/src/dashboard/components/OverwriteConfirm/OverwriteConfirmModal.tsx:199
@@ -13292,11 +13283,11 @@ msgstr "JSON meta verileri geçersiz!"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:447
 msgid "Dashboard properties updated"
-msgstr "Pano özellikleri güncellendi"
+msgstr "Panel özellikleri güncellendi"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:465
 msgid "The dashboard has been saved"
-msgstr "Pano kaydedildi"
+msgstr "Panel kaydedildi"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:479
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:522
@@ -13315,15 +13306,15 @@ msgstr "Renkler"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:562
 msgid "Roles is a list which defines access to the dashboard. Granting a role access to a dashboard will bypass dataset level checks. If no roles are defined, regular access permissions apply."
-msgstr "Roller, panoya erişimi tanımlayan bir listedir. Bir panoya rol erişimi verilmesi, veri kümesi düzeyi kontrollerini atlayacaktır. Herhangi bir rol tanımlanmamışsa, normal erişim izinleri geçerlidir."
+msgstr "Roller, panele erişimi tanımlayan bir listedir. Bir panoya rol erişimi verilmesi, veri kümesi düzeyi kontrollerini atlayacaktır. Herhangi bir rol tanımlanmamışsa, normal erişim izinleri geçerlidir."
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:639
 msgid "Dashboard properties"
-msgstr "Pano özellikleri"
+msgstr "Panel özellikleri"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:661
 msgid "This dashboard is managed externally, and can't be edited in Superset"
-msgstr "Bu pano harici olarak yönetilir ve Superset'te düzenlenemez"
+msgstr "Bu panel harici olarak yönetilir ve Superset'te düzenlenemez"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:682
 #: superset-frontend/src/explore/components/PropertiesModal/index.tsx:353
@@ -13331,7 +13322,7 @@ msgstr "Bu pano harici olarak yönetilir ve Superset'te düzenlenemez"
 #: superset-frontend/src/features/annotations/AnnotationModal.tsx:287
 #: superset-frontend/src/features/cssTemplates/CssTemplateModal.tsx:235
 msgid "Basic information"
-msgstr "temel bilgiler"
+msgstr "Temel bilgiler"
 
 #: superset-frontend/src/dashboard/components/PropertiesModal/index.tsx:696
 msgid "URL slug"
@@ -13376,11 +13367,11 @@ msgstr "Bunun yerine \"%(menuName)s\" menüsünü kullanın."
 
 #: superset-frontend/src/dashboard/components/PublishedStatus/index.jsx:33
 msgid "This dashboard is not published, it will not show up in the list of dashboards. Click here to publish this dashboard."
-msgstr "Bu pano yayınlanmadı, panolar listesinde görünmeyecek. Bu kontrol panelini yayınlamak için burayı tıklayın."
+msgstr "Bu panel yayınlanmadı, panolar listesinde görünmeyecek. Bu kontrol panelini yayınlamak için burayı tıklayın."
 
 #: superset-frontend/src/dashboard/components/PublishedStatus/index.jsx:38
 msgid "This dashboard is not published which means it will not show up in the list of dashboards. Favorite it to see it there or access it by using the URL directly."
-msgstr "Bu pano yayınlanmadı, bu da panolar listesinde görünmeyeceği anlamına gelir. Orada görmek veya doğrudan URL'yi kullanarak erişmek için favorilere ekleyin."
+msgstr "Bu panel yayınlanmadı, bu da panolar listesinde görünmeyeceği anlamına gelir. Orada görmek veya doğrudan URL'yi kullanarak erişmek için favorilere ekleyin."
 
 #: superset-frontend/src/dashboard/components/PublishedStatus/index.jsx:43
 msgid "This dashboard is published. Click to make it a draft."
@@ -13402,9 +13393,8 @@ msgid "One ore more annotation layers failed loading."
 msgstr "Bir veya daha fazla ek açıklama katmanı yüklenemedi."
 
 #: superset-frontend/src/dashboard/components/SliceHeader/index.tsx:244
-#, fuzzy
 msgid "This chart applies cross-filters to charts whose datasets contain columns with the same name."
-msgstr "Bu grafik, aynı veri kümesini kullanan diğer grafiklere çapraz filtreler yayar/uygular"
+msgstr "Bu grafik, aynı veri kümesini kullanan diğer grafiklere çapraz filtreler uygular."
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:283
 msgid "Data refreshed"
@@ -13460,7 +13450,7 @@ msgstr "Grafiği e-posta ile paylaşın"
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:471
 msgid "Check out this chart: "
-msgstr "Bu tabloya göz atın:"
+msgstr "Grafikten çık: "
 
 #: superset-frontend/src/dashboard/components/SliceHeaderControls/index.tsx:480
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:292
@@ -13547,19 +13537,19 @@ msgstr "veya sağdaki panelden mevcut olanları kullanın"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:204
 msgid "You can add the components in the"
-msgstr "Bileşenleri içine ekleyebilirsiniz."
+msgstr "Bileşenleri içine ekleyebilirsiniz"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tab.jsx:210
 msgid "edit mode"
-msgstr "Düzenleme modu"
+msgstr "düzenleme modu"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:214
 msgid "Delete dashboard tab?"
-msgstr "Pano sekmesi silinsin mi?"
+msgstr "Panel sekmesi silinsin mi?"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:217
 msgid "Deleting a tab will remove all content within it. You may still reverse this action with the"
-msgstr "Bir sekmenin silinmesi, içindeki tüm içeriği kaldırır. ile bu eylemi yine de tersine çevirebilirsiniz."
+msgstr "Bir sekmenin silinmesi, içindeki tüm içeriği kaldırır. ile bu eylemi yine de tersine çevirebilirsiniz"
 
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:221
 msgid "undo"
@@ -13572,12 +13562,12 @@ msgstr "değişikliklerinizi kaydedene kadar (cmd + z) düğmesine basın."
 #: superset-frontend/src/dashboard/components/gridComponents/Tabs.jsx:232
 #: superset-frontend/src/explore/components/controls/DateFilterControl/DateFilterLabel.tsx:328
 msgid "CANCEL"
-msgstr "İPTAL ETMEK"
+msgstr "İPTAL"
 
 #: superset-frontend/src/dashboard/components/gridComponents/new/NewDivider.jsx:31
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FilterTitlePane.tsx:57
 msgid "Divider"
-msgstr "bölücü"
+msgstr "Ayırıcı"
 
 #: superset-frontend/src/dashboard/components/gridComponents/new/NewHeader.jsx:31
 msgid "Header"
@@ -13716,7 +13706,7 @@ msgstr "Geçersiz filtreleri kaldır"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/FilterSetUnit.tsx:86
 msgid "Rebuild"
-msgstr "yeniden inşa et"
+msgstr "Yapılandır"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/FiltersHeader.tsx:88
 #, python-format
@@ -13749,7 +13739,7 @@ msgstr "Lütfen filtre değişikliklerini uygulayın"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FilterSets/utils/index.ts:43
 msgid "Unknown value"
-msgstr "bilinmeyen değer"
+msgstr "Bilinmeyen değer"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FilterBar/FiltersOutOfScopeCollapsible/index.tsx:92
 #, python-format
@@ -13834,7 +13824,7 @@ msgstr "(silinmiş veya geçersiz tür)"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:107
 msgid "Limit type"
-msgstr "limit tipi"
+msgstr "Limit tipi"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/DependencyList.tsx:157
 msgid "No available filters."
@@ -13859,7 +13849,7 @@ msgstr "Bağımlı değerler"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:282
 msgid "Scoping"
-msgstr "kapsam belirleme"
+msgstr "Kapsam belirleme"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:289
 msgid "Filter Configuration"
@@ -13872,7 +13862,7 @@ msgstr "Filtre Ayarları"
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:318
 #: superset-frontend/src/filters/components/Select/index.ts:28
 msgid "Select filter"
-msgstr "filtre seç"
+msgstr "Filtre seç"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:319
 #: superset-frontend/src/filters/components/Range/index.ts:28
@@ -13881,7 +13871,7 @@ msgstr "Aralık filtresi"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:319
 msgid "Numerical range"
-msgstr "sayısal aralık"
+msgstr "Sayısal aralık"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:320
 #: superset-frontend/src/filters/components/Time/index.ts:27
@@ -13900,13 +13890,13 @@ msgstr "Zaman aralığı"
 #: superset-frontend/src/explore/constants.ts:133
 #: superset-frontend/src/filters/components/TimeColumn/index.ts:28
 msgid "Time column"
-msgstr "Zaman sütunu"
+msgstr "Zaman alanı"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:322
 #: superset-frontend/src/explore/constants.ts:134
 #: superset-frontend/src/filters/components/TimeGrain/index.ts:28
 msgid "Time grain"
-msgstr "Zaman tahıl"
+msgstr "Zaman çözünürlüğü"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:323
 #: superset-frontend/src/filters/components/GroupBy/index.ts:28
@@ -13915,7 +13905,7 @@ msgstr "Gruplandır"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:323
 msgid "Group by"
-msgstr "göre gruplandır"
+msgstr "Gruplandırma kriteri"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:647
 msgid "Pre-filter is required"
@@ -13923,11 +13913,11 @@ msgstr "Ön filtre gereklidir"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:768
 msgid "Time column to apply dependent temporal filter to"
-msgstr "Bağımlı zamansal filtrenin uygulanacağı zaman sütunu"
+msgstr "Bağımlı zamansal filtrenin uygulanacağı zaman alanı"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:769
 msgid "Time column to apply time range to"
-msgstr "Zaman aralığının uygulanacağı zaman sütunu"
+msgstr "Zaman aralığının uygulanacağı zaman alanı"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:815
 msgid "Filter name"
@@ -13955,7 +13945,7 @@ msgstr "Veri kümeleri geçici bir sütun içermez"
 msgid "Dashboard time range filters apply to temporal columns defined in\n"
 "          the filter section of each chart. Add temporal columns to the chart\n"
 "          filters to have this dashboard filter impact those charts."
-msgstr "Pano zaman aralığı filtreleri, her grafiğin filtre bölümünde tanımlanan geçici sütunlara\n"
+msgstr "Panel zaman aralığı filtreleri, her grafiğin filtre bölümünde tanımlanan geçici sütunlara\n"
 " uygulanır. Bu pano filtresinin bu grafikleri etkilemesini sağlamak için grafik\n"
 " filtrelerine geçici sütunlar ekleyin."
 
@@ -13981,7 +13971,7 @@ msgstr "Filtrenin kaynak sorgusunu kontrol etmek için filtre yan tümceleri ekl
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1000
 msgid "Pre-filter"
-msgstr "ön filtre"
+msgstr "Ön filtre"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1011
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:35
@@ -13995,13 +13985,13 @@ msgstr "Filtre değerlerini sırala"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1056
 msgid "Sort type"
-msgstr "sıralama türü"
+msgstr "Sıralama türü"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1063
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:205
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:66
 msgid "Sort ascending"
-msgstr "artan sıralama"
+msgstr "Artan sıralama"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1073
 msgid "Sort Metric"
@@ -14009,7 +13999,7 @@ msgstr "Metrik Sırala"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1076
 msgid "If a metric is specified, sorting will be done based on the metric value"
-msgstr "Bir metrik belirtilirse, metrik değerine göre sıralama yapılır."
+msgstr "Bir metrik belirtilirse, metrik değerine göre sıralama yapılır"
 
 #: superset-frontend/src/dashboard/components/nativeFilters/FiltersConfigModal/FiltersConfigForm/FiltersConfigForm.tsx:1086
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:184
@@ -14206,15 +14196,15 @@ msgstr "Beğen (büyük/küçük harfe duyarsız)"
 
 #: superset-frontend/src/explore/constants.ts:78
 msgid "Regex"
-msgstr "normal ifade"
+msgstr "Regex"
 
 #: superset-frontend/src/explore/constants.ts:80
 msgid "Is not null"
-msgstr "boş değil"
+msgstr "Değer boş (null) değil"
 
 #: superset-frontend/src/explore/constants.ts:83
 msgid "Is null"
-msgstr "boş"
+msgstr "Boş (null)"
 
 #: superset-frontend/src/explore/constants.ts:85
 msgid "use latest_partition template"
@@ -14246,7 +14236,7 @@ msgstr "Gruplanacak bir veya daha fazla sütun. Yüksek kardinalite gruplamalar�
 
 #: superset-frontend/src/explore/controls.jsx:205
 msgid "Fixed color"
-msgstr "sabit renk"
+msgstr "Sabit renk"
 
 #: superset-frontend/src/explore/controls.jsx:214
 msgid "Right axis metric"
@@ -14266,7 +14256,7 @@ msgstr "Sütun olarak döndürmek için bir veya daha fazla denetim"
 
 #: superset-frontend/src/explore/controls.jsx:271
 msgid "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`,`1 day` or `56 weeks`"
-msgstr "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabileceğinizi unutmayın."
+msgstr "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabilirsiniz"
 
 #: superset-frontend/src/explore/controls.jsx:415
 msgid "Bubble size"
@@ -14301,7 +14291,7 @@ msgstr "Grafiğin [%s] üzerine yazıldı"
 #: superset-frontend/src/explore/actions/saveModalActions.js:129
 #, python-format
 msgid "Dashboard [%s] just got created and chart [%s] was added to it"
-msgstr "Pano [%s] yeni oluşturuldu ve [%s] grafiği buna eklendi"
+msgstr "Panel [%s] yeni oluşturuldu ve [%s] grafiği buna eklendi"
 
 #: superset-frontend/src/explore/actions/saveModalActions.js:139
 #, python-format
@@ -14324,7 +14314,7 @@ msgstr "GRUPLANDIRILMAMIŞTIR"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.test.tsx:54
 msgid "Use this section if you want to query atomic rows"
-msgstr "Atomik satırları sorgulamak istiyorsanız bu bölümü kullanın."
+msgstr "Atomik satırları (atomic rows) sorgulamak istiyorsanız bu bölümü kullanın"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:313
 msgid "The X-axis is not on the filters list"
@@ -14338,7 +14328,7 @@ msgstr "X ekseni, panolardaki zaman aralığı filtrelerinde\n"
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:501
 msgid "You cannot delete the last temporal filter as it's used for time range filters in dashboards."
-msgstr "Panolardaki zaman aralığı filtreleri için kullanıldığı için son zamansal filtreyi silemezsiniz."
+msgstr "Panellerdaki zaman aralığı filtreleri için kullanıldığı için son zamansal filtreyi silemezsiniz."
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:583
 msgid "This section contains validation errors"
@@ -14371,7 +14361,7 @@ msgstr "Bu yeni veri kümesine geçiş yaparken herhangi bir kontrolü taşıyam
 
 #: superset-frontend/src/explore/components/ControlPanelsContainer.tsx:765
 msgid "Customize"
-msgstr "Özelleştirmek"
+msgstr "Özelleştirme"
 
 #: superset-frontend/src/explore/components/EmbedCodeContent.jsx:82
 msgid "Generating link, please wait.."
@@ -14391,7 +14381,7 @@ msgstr "Grafik türü bir veri kümesi gerektirir"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:322
 msgid "This chart type is not supported when using an unsaved query as a chart source. "
-msgstr "Bu grafik türü, kaydedilmemiş bir sorguyu grafik kaynağı olarak kullanırken desteklenmez."
+msgstr "Bu grafik türü,  grafik kaynağı olarak kaydedilmemiş bir sorguyu kullanırken desteklenmez. "
 
 #: superset-frontend/src/explore/components/DatasourcePanel/index.tsx:380
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:331
@@ -14404,7 +14394,7 @@ msgstr "Veri kümesi oluştur"
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:333
 msgid " to visualize your data."
-msgstr "Verilerinizi görselleştirmek için."
+msgstr " verilerinizi görselleştirmek için."
 
 #: superset-frontend/src/explore/components/ExploreChartPanel.jsx:342
 msgid "Required control values have been removed"
@@ -14419,9 +14409,8 @@ msgid "You updated the values in the control panel, but the chart was not update
 msgstr "Değerleri kontrol panelinde güncellediniz, ancak grafik otomatik olarak güncellenmedi. \"Grafiği güncelle\" düğmesine tıklayarak sorguyu çalıştırın veya"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:135
-#, fuzzy
 msgid "An error occurred while loading dashboard information."
-msgstr "Panolar getirilirken bir hata oluştu"
+msgstr "Yönetici paneli getirilirken bir hata oluştu."
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:343
 msgid "Save (Overwrite)"
@@ -14458,7 +14447,7 @@ msgstr "Seçme"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:399
 msgid " a dashboard OR "
-msgstr "bir pano VEYA"
+msgstr " bir yönetici paneli (dashboard) VEYA "
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:400
 msgid "create"
@@ -14466,7 +14455,7 @@ msgstr "yaratmak"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:401
 msgid " a new one"
-msgstr "yeni bir"
+msgstr " yeni bir"
 
 #: superset-frontend/src/explore/components/SaveModal.tsx:429
 msgid "Save & go to new dashboard"
@@ -14490,7 +14479,7 @@ msgstr "Grafiği kaydet"
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:142
 msgid "Formatted date"
-msgstr "biçimlendirilmiş tarih"
+msgstr "Biçimlendirilmiş tarih"
 
 #: superset-frontend/src/explore/components/DataTableControl/index.tsx:194
 msgid "Column Formatting"
@@ -14523,7 +14512,7 @@ msgstr "Arama Metrikleri ve Sütunları"
 
 #: superset-frontend/src/explore/components/DatasourcePanel/index.tsx:382
 msgid " to edit or add columns and metrics."
-msgstr "sütunları ve metrikleri düzenlemek veya eklemek için."
+msgstr " sütunları ve metrikleri düzenlemek veya eklemek için."
 
 #: superset-frontend/src/explore/components/DatasourcePanel/index.tsx:399
 #: superset-frontend/src/explore/components/DatasourcePanel/index.tsx:436
@@ -14546,12 +14535,12 @@ msgstr "Daha az göster..."
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:126
 msgid "Unable to retrieve dashboard colors"
-msgstr "Pano renkleri alınamıyor"
+msgstr "Panel renkleri alınamıyor"
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:174
-#, fuzzy, python-format
+#, python-format
 msgid "Added to 1 dashboard"
-msgstr ""
+msgstr "Yönetici paneline 1 eklendi"
 
 #: superset-frontend/src/explore/components/ExploreChartHeader/index.jsx:180
 msgid "Not added to any dashboard"
@@ -14581,11 +14570,11 @@ msgstr "Grafiği kaydetmek için gerekli kontrol değerlerini ekleyin"
 
 #: superset-frontend/src/explore/components/ExploreViewContainer/index.jsx:519
 msgid "Controls labeled "
-msgstr "Kontroller etiketlendi"
+msgstr "Etiketlenen kontroller "
 
 #: superset-frontend/src/explore/components/ExploreViewContainer/index.jsx:519
 msgid "Control labeled "
-msgstr "Kontrol etiketli"
+msgstr "Etiketlenen kontrol "
 
 #: superset-frontend/src/explore/components/ExploreViewContainer/index.jsx:617
 msgid "Chart Source"
@@ -14597,7 +14586,7 @@ msgstr "Veri Kaynağı sekmesini aç"
 
 #: superset-frontend/src/explore/components/ExportToCSVDropdown/index.tsx:75
 msgid "Original"
-msgstr "orijinal"
+msgstr "Orijinal"
 
 #: superset-frontend/src/explore/components/ExportToCSVDropdown/index.tsx:81
 msgid "Pivoted"
@@ -14640,9 +14629,9 @@ msgid "A list of users who can alter the chart. Searchable by name or username."
 msgstr "Grafiği değiştirebilen kullanıcıların listesi. İsme veya kullanıcı adına göre aranabilir."
 
 #: superset-frontend/src/explore/components/RowCountLabel/index.tsx:43
-#, fuzzy, python-format
+#, python-format
 msgid "%s row"
-msgstr ""
+msgstr "%s satır"
 
 #: superset-frontend/src/explore/components/RowCountLabel/index.tsx:49
 msgid "Limit reached"
@@ -14664,7 +14653,7 @@ msgstr "Geçersiz enlem/boylam yapılandırması."
 
 #: superset-frontend/src/explore/components/controls/SpatialControl.jsx:155
 msgid "Reverse lat/long "
-msgstr "enlem/boylam ters"
+msgstr "Ters enlem/boylam "
 
 #: superset-frontend/src/explore/components/controls/SpatialControl.jsx:168
 msgid "Longitude & Latitude columns"
@@ -14762,7 +14751,7 @@ msgstr "Bu bölüm, açıklama oluşturmak için dilimi\n"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:537
 msgid "Annotation layer time column"
-msgstr "Ek açıklama katmanı zaman sütunu"
+msgstr "Ek açıklama katmanı zaman alanı"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:542
 msgid "Interval start column"
@@ -14848,7 +14837,7 @@ msgstr "Ek açıklama katmanı konturu"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:686
 msgid "Style"
-msgstr "stil"
+msgstr "Stil"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:689
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:704
@@ -14857,7 +14846,7 @@ msgstr "Sağlam"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:690
 msgid "Dashed"
-msgstr "kesikli"
+msgstr "Kesikli"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:691
 msgid "Long dashed"
@@ -14910,7 +14899,7 @@ msgstr "Katmanı gizle"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:803
 msgid "Show label"
-msgstr "etiketi göster"
+msgstr "Etiketi göster"
 
 #: superset-frontend/src/explore/components/controls/AnnotationLayerControl/AnnotationLayer.jsx:806
 msgid "Whether to always show the annotation label"
@@ -14957,7 +14946,7 @@ msgstr "Boş koleksiyon"
 
 #: superset-frontend/src/explore/components/controls/CollectionControl/index.jsx:63
 msgid "Add an item"
-msgstr "öğe ekle"
+msgstr "Öğe ekle"
 
 #: superset-frontend/src/explore/components/controls/CollectionControl/index.jsx:142
 msgid "Remove item"
@@ -14973,18 +14962,18 @@ msgstr "Bu renk düzeni, özel etiket renkleri tarafından geçersiz kılınıyo
 msgid "The color scheme is determined by the related dashboard.\n"
 "        Edit the color scheme in the dashboard properties."
 msgstr "Renk şeması, ilgili pano tarafından belirlenir.\n"
-" Pano özelliklerinde renk şemasını düzenleyin."
+" Panel özelliklerinde renk şemasını düzenleyin."
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:115
 #: superset-frontend/src/features/home/DashboardTable.tsx:77
 #: superset-frontend/src/pages/DashboardList/index.tsx:127
 #: superset-frontend/src/pages/DashboardList/index.tsx:792
 msgid "dashboard"
-msgstr "Yönetici Paneli"
+msgstr "yönetici paneli"
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:117
 msgid "Dashboard scheme"
-msgstr "Pano şeması"
+msgstr "Panel şeması"
 
 #: superset-frontend/src/explore/components/controls/ColorSchemeControl/index.tsx:177
 msgid "Select color scheme"
@@ -14996,7 +14985,7 @@ msgstr "Şema seç"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/ConditionalFormattingControl.tsx:151
 msgid "Edit formatter"
-msgstr "biçimlendiriciyi düzenle"
+msgstr "Biçimlendiriciyi düzenle"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/ConditionalFormattingControl.tsx:169
 msgid "Add new formatter"
@@ -15040,11 +15029,11 @@ msgstr "Şebeke"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:144
 msgid "Left value"
-msgstr "sol değer"
+msgstr "Sol değer"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:157
 msgid "Right value"
-msgstr "doğru değer"
+msgstr "Sağ değer"
 
 #: superset-frontend/src/explore/components/controls/ConditionalFormattingControl/FormattingPopoverContent.tsx:173
 msgid "Target value"
@@ -15080,7 +15069,7 @@ msgstr "Sorgu önizlemesi"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:345
 msgid "Save as dataset"
-msgstr "veri kümesi olarak kaydet"
+msgstr "Veri kümesi olarak kaydet"
 
 #: superset-frontend/src/explore/components/controls/DatasourceControl/index.jsx:401
 msgid "Missing URL parameters"
@@ -15113,7 +15102,7 @@ msgstr "Zaman aralığını düzenle"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/AdvancedFrame.tsx:58
 msgid "Configure Advanced Time Range "
-msgstr "Gelişmiş Zaman Aralığını Yapılandır"
+msgstr "Gelişmiş Zaman Aralığını Yapılandır "
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/AdvancedFrame.tsx:64
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:129
@@ -15152,12 +15141,12 @@ msgstr "Özel zaman aralığını yapılandırın"
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:159
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:211
 msgid "Relative quantity"
-msgstr "bağıl miktar"
+msgstr "Bağıl miktar"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:171
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:223
 msgid "Relative period"
-msgstr "bağıl dönem"
+msgstr "Bağıl dönem"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/components/CustomFrame.tsx:235
 msgid "Anchor to"
@@ -15262,12 +15251,12 @@ msgstr "Dakika %s"
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:64
 #, python-format
 msgid "Hours %s"
-msgstr "saat %s"
+msgstr "Saat %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:65
 #, python-format
 msgid "Days %s"
-msgstr "gün %s"
+msgstr "Gün %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:66
 #, python-format
@@ -15287,7 +15276,7 @@ msgstr "Çeyrek %s"
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:69
 #, python-format
 msgid "Years %s"
-msgstr "yıl %s"
+msgstr "Yıl %s"
 
 #: superset-frontend/src/explore/components/controls/DateFilterControl/utils/constants.ts:87
 msgid "Specific Date/Time"
@@ -15312,7 +15301,7 @@ msgstr "Kayıtlı ifadeler"
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:271
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:382
 msgid "Saved"
-msgstr "kaydedildi"
+msgstr "Kaydedildi"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:280
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:377
@@ -15344,11 +15333,11 @@ msgstr "\"Veri kaynağını düzenle\" kipinde veri kümesine hesaplanmış süt
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:329
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:364
 msgid " to mark a column as a time column"
-msgstr "bir sütunu zaman sütunu olarak işaretlemek için"
+msgstr " bir sütunu zaman alanı olarak işaretlemek için"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:340
 msgid " to add calculated columns"
-msgstr "hesaplanan sütunları eklemek için"
+msgstr " hesaplanan sütunları eklemek için"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopover.tsx:347
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopover/index.jsx:212
@@ -15366,12 +15355,12 @@ msgstr "\"Veri kaynağını düzenle\" kipinde bir sütunu geçici olarak işare
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:475
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:478
 msgid "Custom SQL"
-msgstr "özel SQL"
+msgstr "Özel SQL"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/ColumnSelectPopoverTrigger.tsx:41
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelectPopoverTitle.jsx:65
 msgid "My column"
-msgstr "sütunum"
+msgstr "Sütunum"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndAdhocFilterOption.tsx:72
 msgid "This filter might be incompatible with current dataset"
@@ -15382,14 +15371,12 @@ msgid "This column might be incompatible with current dataset"
 msgstr "Bu sütun mevcut veri kümesiyle uyumsuz olabilir"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelect.tsx:206
-#, fuzzy
 msgid "Drop a column here or click"
-msgstr ""
+msgstr "Buraya sütun ekleyin veya tıklayın"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelect.tsx:216
-#, fuzzy
 msgid "Drop column here"
-msgstr ""
+msgstr "Buraya sütun ekleyin"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndColumnSelectPopoverTitle.jsx:81
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopoverTitle.tsx:105
@@ -15409,14 +15396,12 @@ msgid "This metric might be incompatible with current dataset"
 msgstr "Bu metrik, mevcut veri kümesiyle uyumsuz olabilir"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndMetricSelect.tsx:333
-#, fuzzy
 msgid "Drop a column/metric here or click"
-msgstr ""
+msgstr "Buraya bir sütun/metrik ekleyin veya tıklayın"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndMetricSelect.tsx:338
-#, fuzzy
 msgid "Drop column or metric here"
-msgstr ""
+msgstr "Buraya sütun veya metrik ekleyin"
 
 #: superset-frontend/src/explore/components/controls/DndColumnSelectControl/DndSelectLabel.tsx:83
 msgid "Drop columns here"
@@ -15429,8 +15414,9 @@ msgid "\n"
 "                It won't be saved when saving the chart.\n"
 "              "
 msgstr "\n"
-" Bu filtre, yönetici paneli içeriğinden devralındı.\n"
-" Grafik kaydedilirken kaydedilmeyecek."
+"               Bu filtre, yönetici paneli içeriğinden devralındı.\n"
+"               Grafik kaydedilirken kaydedilmeyecek.\n"
+"              "
 
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:167
 msgid "Default"
@@ -15447,7 +15433,7 @@ msgstr "Sonuçları sıralamak için metrik"
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:206
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:68
 msgid "Check for sorting ascending"
-msgstr "artan sıralama için kontrol edin"
+msgstr "Artan sıralama için işaretleyin"
 
 #: superset-frontend/src/explore/components/controls/FilterBoxItemControl/index.jsx:216
 msgid "Allow multiple selections"
@@ -15481,7 +15467,7 @@ msgstr "%s seçenek(ler)"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:334
 msgid "Select subject"
-msgstr "konu seçin"
+msgstr "Konu seçin"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSimpleTabContent/index.tsx:337
 msgid "No such column found. To filter on a metric, try the Custom SQL tab."
@@ -15518,7 +15504,7 @@ msgstr "Gelişmiş tür alınamadı"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSqlTabContent/index.jsx:99
 msgid "choose WHERE or HAVING..."
-msgstr "NEREDE veya SAHİP OLARAK seçin..."
+msgstr "kullanabilecekleriniz WHERE veya HAVING …"
 
 #: superset-frontend/src/explore/components/controls/FilterControl/AdhocFilterEditPopoverSqlTabContent/index.jsx:132
 msgid "Filters by columns"
@@ -15538,7 +15524,7 @@ msgstr "Bir metriğe dayalı"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopoverTitle.tsx:55
 msgid "My metric"
-msgstr "benim ölçümüm"
+msgstr "Ölçümüm"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/MetricsControl.jsx:333
 msgid "Add metric"
@@ -15577,7 +15563,7 @@ msgstr "\"Veri kaynağını düzenle\" kipinde veri kümesine metrikler ekleyin"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:421
 msgid " to add metrics"
-msgstr "metrik eklemek için"
+msgstr " metrik eklemek için"
 
 #: superset-frontend/src/explore/components/controls/MetricControl/AdhocMetricEditPopover/index.jsx:432
 msgid "Simple ad-hoc metrics are not enabled for this dataset"
@@ -15611,7 +15597,7 @@ msgstr "Gerçek değer"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:73
 msgid "Sparkline"
-msgstr "küçük resim"
+msgstr "Küçük resim (sparkline)"
 
 #: superset-frontend/src/explore/components/controls/TimeSeriesColumnControl/index.jsx:74
 msgid "Period average"
@@ -15739,7 +15725,7 @@ msgstr "Açıklama yok."
 #: superset-frontend/src/explore/components/controls/VizTypeControl/VizTypeGallery.tsx:853
 #: superset-frontend/src/pages/Home/index.tsx:208
 msgid "Examples"
-msgstr "örnekler"
+msgstr "Örnekler"
 
 #: superset-frontend/src/explore/components/controls/VizTypeControl/index.tsx:64
 msgid "This visualization type is not supported."
@@ -15764,7 +15750,7 @@ msgstr "Süper Küme Grafiği"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:223
 msgid "New chart"
-msgstr "yeni grafik"
+msgstr "Yeni grafik"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:278
 msgid "Edit chart properties"
@@ -15773,7 +15759,7 @@ msgstr "Grafik özelliklerini düzenle"
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:282
 #: superset-frontend/src/pages/ChartList/index.tsx:411
 msgid "Dashboards added to"
-msgstr "Panolar eklendi"
+msgstr "Paneller eklendi"
 
 #: superset-frontend/src/explore/components/useExploreAdditionalActionsMenu/index.jsx:300
 msgid "Export to original .CSV"
@@ -15803,7 +15789,7 @@ msgstr "SQL Lab'da çalıştırın"
 #: superset-frontend/src/explore/controlPanels/Separator.js:25
 #: superset-frontend/src/explore/controlPanels/Separator.js:46
 msgid "Code"
-msgstr "kod"
+msgstr "Kod"
 
 #: superset-frontend/src/explore/controlPanels/Separator.js:32
 msgid "Markup type"
@@ -15815,7 +15801,7 @@ msgstr "Favori biçimlendirme dilinizi seçin"
 
 #: superset-frontend/src/explore/controlPanels/Separator.js:47
 msgid "Put your code here"
-msgstr "kodunu buraya koy"
+msgstr "Kodunu buraya koy"
 
 #: superset-frontend/src/explore/controlPanels/sections.tsx:50
 msgid "URL parameters"
@@ -15837,7 +15823,7 @@ msgstr "Açıklama katmanları"
 
 #: superset-frontend/src/explore/controlUtils/controlUtils.test.tsx:74
 msgid "My beautiful colors"
-msgstr "benim güzel renklerim"
+msgstr "Güzel renklerim"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:96
 msgid "< (Smaller than)"
@@ -15963,7 +15949,7 @@ msgstr "saniye"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:402
 msgid "Grace period"
-msgstr "ödemesiz dönem"
+msgstr "Ödemesiz dönem"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:406
 msgid "Send as PNG"
@@ -15975,7 +15961,7 @@ msgstr "CSV olarak gönder"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:408
 msgid "Send as text"
-msgstr "metin olarak gönder"
+msgstr "Metin olarak gönder"
 
 #: superset-frontend/src/features/alerts/AlertReportModal.tsx:409
 msgid "Ignore cache when generating screenshot"
@@ -16012,7 +15998,7 @@ msgstr "CRON ifadesi"
 
 #: superset-frontend/src/features/alerts/components/AlertStatusIcon.tsx:67
 msgid "Report sent"
-msgstr "rapor gönderildi"
+msgstr "Rapor gönderildi"
 
 #: superset-frontend/src/features/alerts/components/AlertStatusIcon.tsx:68
 msgid "Alert triggered, notification sent"
@@ -16282,7 +16268,7 @@ msgstr "Tablo önbelleği zaman aşımı"
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:282
 msgid "Duration (in seconds) of the metadata caching timeout for tables of this database. If left unset, the cache never expires. "
-msgstr "Bu veritabanının tabloları için meta verileri önbelleğe alma zaman aşımının süresi (saniye olarak). Ayarlanmadan bırakılırsa, önbelleğin süresi asla dolmaz."
+msgstr "Bu veritabanının tabloları için meta verileri önbelleğe alma zaman aşımının süresi (saniye cinsinden). Ayarlanmadan bırakılırsa, önbelleğin süresi asla dolmaz. "
 
 #: superset-frontend/src/features/databases/DatabaseModal/ExtraOptions.tsx:295
 #: superset-frontend/src/pages/DatabaseList/index.tsx:309
@@ -16430,7 +16416,7 @@ msgstr "SSH Sunucusu"
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:45
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:75
 msgid "e.g. 127.0.0.1"
-msgstr "Örneğin. 127.0.0.1"
+msgstr "örneğin. 127.0.0.1"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:85
 msgid "SSH Port"
@@ -16443,7 +16429,7 @@ msgstr "22"
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:132
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:107
 msgid "e.g. Analytics"
-msgstr "Örneğin. Analitik"
+msgstr "örneğin. Analitik"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:119
 msgid "Login with"
@@ -16462,7 +16448,7 @@ msgstr "SSH Şifresi"
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:154
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:202
 msgid "e.g. ********"
-msgstr "Örneğin. ********"
+msgstr "örneğin. ********"
 
 #: superset-frontend/src/features/databases/DatabaseModal/SSHTunnelForm.tsx:181
 msgid "Private Key"
@@ -16525,13 +16511,13 @@ msgstr "Lütfen test etmek için bir SQLAlchemy URI'si girin"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:652
 msgid "e.g. xy12345.us-east-2.aws"
-msgstr "Örneğin. xy12345.us-doğu-2.aws"
+msgstr "örneğin. xy12345.us-doğu-2.aws"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:112
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:29
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:654
 msgid "e.g. world_population"
-msgstr "Örneğin. Dünya nüfusu"
+msgstr "örneğin. world_population (dünya nüfusu)"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:808
 msgid "Database settings updated"
@@ -16548,7 +16534,7 @@ msgstr "Veya desteklediğimiz diğer veritabanları listesinden seçim yapın:"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:917
 msgid "Supported databases"
-msgstr "desteklenen veritabanları"
+msgstr "Desteklenen veritabanları"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:921
 msgid "Choose a database..."
@@ -16560,11 +16546,11 @@ msgstr "Yeni bir veritabanı eklemek ister misiniz?"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:950
 msgid "Any databases that allow connections via SQL Alchemy URIs can be added. "
-msgstr "SQL Alchemy URI'leri aracılığıyla bağlantılara izin veren tüm veritabanları eklenebilir."
+msgstr "SQL Alchemy URI'leri üzerinden bağlantılara izin veren tüm veritabanları eklenebilir. "
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:964
 msgid "Any databases that allow connections via SQL Alchemy URIs can be added. Learn about how to connect a database driver "
-msgstr "SQL Alchemy URI'leri aracılığıyla bağlantılara izin veren tüm veritabanları eklenebilir. Bir veritabanı sürücüsünün nasıl bağlanacağını öğrenin"
+msgstr "SQL Alchemy URI'leri üzerinden bağlantılara izin veren tüm veritabanları eklenebilir. Bir veritabanı sürücüsünün nasıl bağlanacağını öğrenin "
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1056
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1094
@@ -16632,7 +16618,7 @@ msgstr "Ek alanlar gerekli olabilir"
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1788
 msgid "Select databases require additional fields to be completed in the Advanced tab to successfully connect the database. Learn what requirements your databases has "
-msgstr "Belirli veritabanları, veritabanına başarıyla bağlanmak için Gelişmiş sekmesinde ek alanların doldurulmasını gerektirir. Veritabanlarınızın hangi gereksinimlere sahip olduğunu öğrenin"
+msgstr "Belirli veritabanları, veritabanını başarıyla bağlamak için Gelişmiş sekmesinde ek alanların doldurulmasını gerektirir. Veritabanlarınızın gereksinimlerini öğrenin "
 
 #: superset-frontend/src/features/databases/DatabaseModal/index.tsx:1909
 msgid "Import database from file"
@@ -16656,7 +16642,7 @@ msgstr "Ev sahibi"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:67
 msgid "e.g. 5432"
-msgstr "Örneğin. 5432"
+msgstr "örneğin. 5432"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:69
 msgid "Port"
@@ -16664,7 +16650,7 @@ msgstr "Liman"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:90
 msgid "e.g. sql/protocolv1/o/12345"
-msgstr "Örneğin. sql/protokolv1/o/12345"
+msgstr "örneğin. sql/protokolv1/o/12345"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:93
 msgid "Copy the name of the HTTP Path of your cluster."
@@ -16684,7 +16670,7 @@ msgstr "Veritabanının Superset'te nasıl görüneceğine ilişkin bir takma ad
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:217
 msgid "e.g. param1=value1&param2=value2"
-msgstr "Örneğin. param1=değer1&param2=değer2"
+msgstr "örneğin. param1=değer1&param2=değer2"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/CommonParameters.tsx:218
 msgid "Additional Parameters"
@@ -16768,11 +16754,11 @@ msgstr "Bağlanmaya çalıştığınız veritabanının hesap adını kopyalayı
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:32
 msgid "e.g. compute_wh"
-msgstr "Örneğin. hesaplama_wh"
+msgstr "örneğin. hesaplama_wh"
 
 #: superset-frontend/src/features/databases/DatabaseModal/DatabaseConnectionForm/ValidatedInputField.tsx:36
 msgid "e.g. AccountAdmin"
-msgstr "Örneğin. Hesap Yöneticisi"
+msgstr "örneğin. Hesap Yöneticisi"
 
 #: superset-frontend/src/features/datasets/DuplicateDatasetModal.tsx:61
 msgid "Duplicate dataset"
@@ -16821,15 +16807,15 @@ msgstr "Bu tabloda zaten bir veri kümesi var"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:42
 msgid "Datasets can be created from database tables or SQL queries. Select a database table to the left or "
-msgstr "Veri kümeleri, veritabanı tablolarından veya SQL sorgularından oluşturulabilir. Soldan bir veritabanı tablosu seçin veya"
+msgstr "Veri kümeleri, veritabanı tablolarından veya SQL sorgularından oluşturulabilir. Soldan bir veritabanı tablosu seçin veya "
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:45
 msgid "create dataset from SQL query"
-msgstr "SQL sorgusundan veri kümesi oluşturma"
+msgstr "SQL sorgusundan veri kümesi oluştur"
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:46
 msgid " to open SQL Lab. From there you can save the query as a dataset."
-msgstr "SQL Lab'ı açmak için Oradan sorguyu bir veri kümesi olarak kaydedebilirsiniz."
+msgstr " SQL Lab'ı açar. Oradan sorguyu bir veri kümesi olarak kaydedebilirsiniz."
 
 #: superset-frontend/src/features/datasets/AddDataset/DatasetPanel/MessageContent.tsx:66
 msgid "Select dataset source"
@@ -16875,7 +16861,7 @@ msgstr "Grafik son değiştiren"
 
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/UsageTab/index.tsx:109
 msgid "Dashboard usage"
-msgstr "Pano kullanımı"
+msgstr "Panel kullanımı"
 
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/UsageTab/index.tsx:144
 msgid "Create chart with dataset"
@@ -16891,7 +16877,7 @@ msgstr "çizelge"
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/UsageTab/index.tsx:253
 #: superset-frontend/src/profile/components/CreatedContent.tsx:61
 msgid "No charts"
-msgstr "grafik yok"
+msgstr "Grafik yok"
 
 #: superset-frontend/src/features/datasets/AddDataset/EditDataset/UsageTab/index.tsx:254
 msgid "This dataset is not used to power any charts."
@@ -16982,15 +16968,15 @@ msgstr "%s görüntülendi"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:151
 msgid "Edited"
-msgstr "düzenlendi"
+msgstr "Düzenlendi"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:159
 msgid "Created"
-msgstr "oluşturuldu"
+msgstr "Oluşturuldu"
 
 #: superset-frontend/src/features/home/ActivityTable.tsx:170
 msgid "Viewed"
-msgstr "görüntülendi"
+msgstr "Görüntülendi"
 
 #: superset-frontend/src/features/home/ChartTable.tsx:145
 #: superset-frontend/src/features/home/DashboardTable.tsx:156
@@ -17015,7 +17001,7 @@ msgstr "Hepsini gör \""
 #: superset-frontend/src/pages/DashboardList/index.tsx:232
 #, python-format
 msgid "An error occurred while fetching dashboards: %s"
-msgstr "Panolar getirilirken bir hata oluştu: %s"
+msgstr "Paneller getirilirken bir hata oluştu: %s"
 
 #: superset-frontend/src/features/home/EmptyState.tsx:27
 msgid "charts"
@@ -17251,33 +17237,28 @@ msgid "Sorry, your browser does not support copying."
 msgstr "Üzgünüz, tarayıcınız kopyalamayı desteklemiyor."
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:139
-#, fuzzy
 msgid "rowlevelsecurity"
-msgstr "Satır Düzeyinde Güvenlik"
+msgstr "satır bazında güvenlik (rowlevelsecurity)"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:253
 msgid "Rule added"
 msgstr ""
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:337
-#, fuzzy
 msgid "Edit Rule"
-msgstr "Düzenleme modu"
+msgstr "Kural Düzenle"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:337
-#, fuzzy
 msgid "Add Rule"
-msgstr "Kötü formül."
+msgstr "Kural Ekle"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:355
-#, fuzzy
 msgid "Rule Name"
-msgstr "Ad Soyad"
+msgstr "Kural Adı"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:364
-#, fuzzy
 msgid "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter, base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them."
-msgstr "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where yan tümceleri ekler. Temel filtreler, filtrede tanımlanan roller dışındaki tüm sorgulara filtre uygular ve bir filtre grubu içindeki RLS filtresi uygulanmazsa kullanıcıların neleri görebileceğini tanımlamak için kullanılabilir."
+msgstr "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where cümleleri ekler, temel filtreler filtrede tanımlanan roller dışındaki tüm sorgulara filtre uygular ve bir filtre grubundaki hiçbir RLS filtresi uygulanmadığında kullanıcıların neleri görebileceğini tanımlamak için kullanılabilir."
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:386
 msgid "These are the tables this filter will be applied to."
@@ -17290,9 +17271,8 @@ msgstr "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Te
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:431
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:139
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:267
-#, fuzzy
 msgid "Group Key"
-msgstr "göre gruplandır"
+msgstr "Grup anahtarı"
 
 #: superset-frontend/src/features/rls/RowLevelSecurityModal.tsx:433
 msgid "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe')."
@@ -17309,27 +17289,25 @@ msgstr "Bu, WHERE yan tümcesine eklenecek koşuldur. Örneğin, yalnızca belir
 
 #: superset-frontend/src/features/rls/constants.ts:24
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:262
-#, fuzzy
 msgid "Regular"
-msgstr "Dairesel"
+msgstr "Normal"
 
 #: superset-frontend/src/features/rls/constants.ts:28
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:263
-#, fuzzy
 msgid "Base"
-msgstr "veri tabanı"
+msgstr "Baz"
 
 #: superset-frontend/src/filters/components/GroupBy/GroupByFilterPlugin.tsx:86
 msgid "No columns"
-msgstr "sütun yok"
+msgstr "Sütun yok"
 
 #: superset-frontend/src/filters/components/GroupBy/GroupByFilterPlugin.tsx:87
 #: superset-frontend/src/filters/components/Select/SelectFilterPlugin.tsx:226
 #: superset-frontend/src/filters/components/TimeColumn/TimeColumnFilterPlugin.tsx:86
 #: superset-frontend/src/filters/components/TimeGrain/TimeGrainFilterPlugin.tsx:96
-#, fuzzy, python-format
+#, python-format
 msgid "%s option"
-msgstr ""
+msgstr "%s seçenek"
 
 #: superset-frontend/src/filters/components/GroupBy/controlPanel.ts:42
 msgid "Columns to show"
@@ -17389,7 +17367,7 @@ msgstr "AntD kullanarak aralık filtresi eklentisi"
 
 #: superset-frontend/src/filters/components/Select/SelectFilterPlugin.tsx:130
 msgid " (excluded)"
-msgstr "(hariç)"
+msgstr " (hariç)"
 
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:104
 msgid "Select first filter value by default"
@@ -17401,7 +17379,7 @@ msgstr "Bu seçeneği kullanırken, varsayılan değer ayarlanamaz"
 
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:123
 msgid "Inverse selection"
-msgstr "ters seçim"
+msgstr "Tersini seç"
 
 #: superset-frontend/src/filters/components/Select/controlPanel.ts:125
 msgid "Exclude selected values"
@@ -17441,7 +17419,7 @@ msgstr "Çalışma"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:65
 msgid "Not triggered"
-msgstr "tetiklenmedi"
+msgstr "Tetiklenmedi"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:66
 msgid "On Grace"
@@ -17486,7 +17464,7 @@ msgstr "Yürütme günlüğü"
 #: superset-frontend/src/pages/SavedQueryList/index.tsx:177
 #: superset-frontend/src/pages/Tags/index.tsx:267
 msgid "Bulk select"
-msgstr "toplu seçim"
+msgstr "Toplu seçim"
 
 #: superset-frontend/src/pages/AlertReportList/index.tsx:439
 #, python-format
@@ -17654,7 +17632,7 @@ msgstr "talimatları görüntüle"
 
 #: superset-frontend/src/pages/ChartCreation/index.tsx:351
 msgid "Add a dataset"
-msgstr "veri kümesi ekle"
+msgstr "Veri kümesi ekle"
 
 #: superset-frontend/src/pages/ChartCreation/index.tsx:353
 msgid "or"
@@ -17692,7 +17670,7 @@ msgstr "Seçilen grafikler silinirken bir sorun oluştu: %s"
 
 #: superset-frontend/src/pages/ChartList/index.tsx:299
 msgid "An error occurred while fetching dashboards"
-msgstr "Panolar getirilirken bir hata oluştu"
+msgstr "Paneller getirilirken bir hata oluştu"
 
 #: superset-frontend/src/pages/ChartList/index.tsx:378
 msgid "Visualization type"
@@ -17795,16 +17773,16 @@ msgstr "Halihazırda var olan bir veya daha fazla panoyu içe aktarıyorsunuz. �
 
 #: superset-frontend/src/pages/DashboardList/index.tsx:170
 msgid "Dashboard imported"
-msgstr "Pano içe aktarıldı"
+msgstr "Panel içe aktarıldı"
 
 #: superset-frontend/src/pages/DashboardList/index.tsx:258
 msgid "There was an issue deleting the selected dashboards: "
-msgstr "Seçili kontrol panelleri silinirken bir sorun oluştu:"
+msgstr "Seçili kontrol panelleri silinirken bir sorun oluştu: "
 
 #: superset-frontend/src/pages/DashboardList/index.tsx:534
 #, python-format
 msgid "An error occurred while fetching dashboard owner values: %s"
-msgstr "Pano sahibi değerleri alınırken bir hata oluştu: %s"
+msgstr "Panel sahibi değerleri alınırken bir hata oluştu: %s"
 
 #: superset-frontend/src/pages/DashboardList/index.tsx:556
 #, python-format
@@ -17885,7 +17863,7 @@ msgstr "Fiziksel veri kümesi"
 
 #: superset-frontend/src/pages/DatasetList/index.tsx:281
 msgid "Virtual dataset"
-msgstr "sanal veri kümesi"
+msgstr "Sanal veri kümesi"
 
 #: superset-frontend/src/pages/DatasetList/index.tsx:342
 #: superset-frontend/src/pages/DatasetList/index.tsx:559
@@ -18001,11 +17979,11 @@ msgstr "Kayıtlı sorgularınız getirilirken bir sorun oluştu: %s"
 
 #: superset-frontend/src/pages/Home/index.tsx:343
 msgid "Thumbnails"
-msgstr "küçük resimler"
+msgstr "Küçük resimler"
 
 #: superset-frontend/src/pages/Home/index.tsx:368
 msgid "Recents"
-msgstr "sonlar"
+msgstr "Güncel"
 
 #: superset-frontend/src/pages/QueryHistoryList/index.tsx:115
 #, python-format
@@ -18041,29 +18019,26 @@ msgid "Search by query text"
 msgstr "Sorgu metnine göre ara"
 
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:94
-#, fuzzy, python-format
+#, python-format
 msgid "Deleted %s"
-msgstr "Silindi: %s"
+msgstr "Silindi %s"
 
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:108
-#, fuzzy
 msgid "Deleted"
-msgstr "silmek"
+msgstr "Silindi"
 
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:111
-#, fuzzy, python-format
+#, python-format
 msgid "There was an issue deleting rules: %s"
-msgstr "%s silinirken bir sorun oluştu: %s"
+msgstr "%s silinirken bir sorun oluştu"
 
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:235
-#, fuzzy
 msgid "No Rules yet"
-msgstr "Henüz son kayıt yok"
+msgstr "Henüz kural yok"
 
 #: superset-frontend/src/pages/RowLevelSecurityList/index.tsx:305
-#, fuzzy
 msgid "Are you sure you want to delete the selected rules?"
-msgstr "Seçilen katmanları silmek istediğinizden emin misiniz?"
+msgstr "Seçilen kuralları silmek istediğinizden emin misiniz?"
 
 #: superset-frontend/src/pages/SavedQueryList/index.tsx:56
 msgid "The passwords for the databases below are needed in order to import them together with the saved queries. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed."
@@ -18151,7 +18126,7 @@ msgstr "Güvenlik erişimi"
 
 #: superset-frontend/src/profile/components/CreatedContent.tsx:91
 msgid "No dashboards"
-msgstr "Pano yok"
+msgstr "Panel yok"
 
 #: superset-frontend/src/profile/components/Favorites.tsx:61
 msgid "No favorite charts yet, go click on stars!"
@@ -18171,7 +18146,7 @@ msgstr "katıldı"
 
 #: superset-frontend/src/profile/components/UserInfo.tsx:76
 msgid "id"
-msgstr "İD"
+msgstr "id"
 
 #: superset-frontend/src/reports/actions/reports.js:68
 msgid "There was an issue fetching reports attached to this dashboard."
@@ -18208,7 +18183,7 @@ msgstr "Geçersiz Giriş"
 
 #: superset-frontend/src/utils/getClientErrorObject.ts:75
 msgid "Unexpected error: "
-msgstr "Beklenmeyen hata:"
+msgstr "Beklenmeyen hata: "
 
 #: superset-frontend/src/utils/getClientErrorObject.ts:76
 msgid "(no description, click to see stack trace)"
@@ -18313,15 +18288,14 @@ msgid "Tools"
 msgstr "Aletler"
 
 #: superset-frontend/src/visualizations/FilterBox/FilterBoxChartPlugin.js:28
-#, fuzzy
 msgid "Filter box (deprecated)"
-msgstr "Hiçbir filtre seçilmedi."
+msgstr "Filtre kutusu (kullanım dışı)"
 
 #: superset-frontend/src/visualizations/FilterBox/FilterBoxChartPlugin.js:30
 msgid "Chart component that lets you add a custom filter UI in your dashboard. When added to dashboard, a filter box lets users specify specific values or ranges to filter charts by. The charts that each filter box is applied to can be fine tuned as well in the dashboard view.\n"
 "\n"
 "    Note that this plugin is being replaced with the new Filters feature that lives in the dashboard view itself. It's easier to use and has more capabilities!"
-msgstr "Kontrol panelinize özel bir filtre kullanıcı arabirimi eklemenizi sağlayan grafik bileşeni. Panoya eklendiğinde, bir filtre kutusu, kullanıcıların grafikleri filtrelemek için belirli değerleri veya aralıkları belirlemesine olanak tanır. Her bir filtre kutusunun uygulandığı grafiklerde, pano görünümünde de ince ayar yapılabilir.\n"
+msgstr "Kontrol panelinize özel bir filtre kullanıcı arabirimi eklemenizi sağlayan grafik bileşeni. Panele eklendiğinde, bir filtre kutusu, kullanıcıların grafikleri filtrelemek için belirli değerleri veya aralıkları belirlemesine olanak tanır. Her bir filtre kutusunun uygulandığı grafiklerde, pano görünümünde de ince ayar yapılabilir.\n"
 "\n"
 " Bu eklentinin, pano görünümünün kendisinde bulunan yeni Filtreler özelliği ile değiştirildiğini unutmayın. Kullanımı daha kolay ve daha fazla yeteneğe sahip!"
 
@@ -18371,7 +18345,7 @@ msgstr "Limit seçici değerleri"
 
 #: superset-frontend/src/visualizations/FilterBox/controlPanel.jsx:98
 msgid "These filters apply to the values available in the dropdowns"
-msgstr "Bu filtreler açılır menülerde bulunan değerler için geçerlidir."
+msgstr "Bu filtreler açılır menülerde bulunan değerler için geçerlidir"
 
 #: superset-frontend/src/visualizations/TimeTable/controlPanel.js:51
 msgid "URL"

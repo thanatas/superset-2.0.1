@@ -183,3 +183,5 @@ class SupersetDashboardIndexView(IndexView):
         return redirect("/dashboard/list/")
 
 FAB_INDEX_VIEW = f"{SupersetDashboardIndexView.__module__}.{SupersetDashboardIndexView.__name__}"
+
+APP_ICON = "/static/assets/images/asat-logo.png"

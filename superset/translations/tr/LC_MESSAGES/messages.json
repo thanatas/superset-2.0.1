@@ -32,9 +32,9 @@
       "The hostname provided can't be resolved.": [
         "Sağlanan ana bilgisayar adı çözülemiyor."
       ],
-      "The port is closed.": ["Liman kapalı."],
+      "The port is closed.": ["Port kapalı."],
       "The host might be down, and can't be reached on the provided port.": [
-        "Ana bilgisayar kapalı olabilir ve sağlanan bağlantı noktasından ulaşılamaz."
+        "Sunucu kapalı olabilir ve port noktasından ulaşılamaz."
       ],
       "Superset encountered an error while running a command.": [
         "Superset, bir komutu çalıştırırken bir hatayla karşılaştı."
@@ -114,7 +114,7 @@
       "Custom SQL fields cannot contain sub-queries.": [
         "Özel SQL alanları alt sorgular içeremez."
       ],
-      "Invalid certificate": ["geçersiz sertifika"],
+      "Invalid certificate": ["Geçersiz sertifika"],
       "Unsafe return type for function %(func)s: %(value_type)s": [
         "%(func)s işlevi için güvenli olmayan dönüş türü: %(value_type)s"
       ],
@@ -179,14 +179,14 @@
       "Group By' and 'Columns' can't overlap": [
         "Group By' ve 'Sütunlar' çakışamaz"
       ],
-      "Treemap": ["ağaç görünüm"],
+      "Treemap": ["Ağaç görünüm"],
       "Calendar Heatmap": ["Takvim Isı Haritası"],
       "Bubble Chart": ["Kabarcık Grafiği"],
       "Please use 3 different metric labels": [
         "Lütfen 3 farklı metrik etiket kullanın"
       ],
       "Pick a metric for x, y and size": [
-        "x, y ve boyut için bir metrik seçin"
+        "X, Y ve boyutları için bir metrik seçin"
       ],
       "Bullet Chart": ["Madde İşareti Tablosu"],
       "Pick a metric to display": ["Görüntülenecek bir metrik seçin"],
@@ -198,7 +198,7 @@
         "Zaman serileriniz için bir zaman ayrıntı düzeyi seçin"
       ],
       "An enclosed time range (both start and end) must be specified when using a Time Comparison.": [
-        "Zaman Karşılaştırması kullanılırken kapalı bir zaman aralığı (hem başlangıç ​​hem de bitiş) belirtilmelidir."
+        "Zaman karşılaştırması kullanılırken hem başlangıç ​​hem de bitiş belirtilmelidir."
       ],
       "Time Series - Multiple Line Charts": [
         "Zaman Serisi - Çoklu Çizgi Grafikleri"
@@ -226,7 +226,7 @@
       "Pick at least one field for [Series]": [
         "[Seri] için en az bir alan seçin"
       ],
-      "Sunburst": ["güneş patlaması"],
+      "Sunburst": ["Güneş patlaması"],
       "Sankey": ["Sankey"],
       "Pick exactly 2 columns as [Source / Target]": [
         "[Kaynak / Hedef] olarak tam olarak 2 sütun seçin"
@@ -244,7 +244,7 @@
       "Parallel Coordinates": ["Paralel Koordinatlar"],
       "Heatmap": ["Sıcaklık haritası"],
       "Horizon Charts": ["Ufuk Grafikleri"],
-      "Mapbox": ["harita kutusu"],
+      "Mapbox": ["Harita kutusu"],
       "[Longitude] and [Latitude] must be set": [
         "[Boylam] ve [Enlem] ayarlanmalıdır"
       ],
@@ -325,14 +325,14 @@
       ],
       "Name must be unique": ["Ad benzersiz olmalıdır"],
       "Deleted %(num)d chart": ["", "Deleted %(num)d charts"],
-      "Is certified": ["sertifikalı"],
-      "Has created by": ["tarafından oluşturuldu"],
+      "Is certified": ["Sertifikalı"],
+      "Has created by": ["Oluşturan"],
       "Created by me": ["Benim tarafımdan oluşturuldu"],
       "Owned Created or Favored": [
         "Sahip olunan Oluşturulan veya Tercih edilen"
       ],
       "Total (%(aggfunc)s)": ["Toplam (%(aggfunc)s)"],
-      "Subtotal": ["ara toplam"],
+      "Subtotal": ["Ara toplam"],
       "`confidence_interval` must be between 0 and 1 (exclusive)": [
         "\"güven_aralığı\", 0 ile 1 arasında olmalıdır (özel)"
       ],
@@ -365,9 +365,9 @@
         "Zaman deltası belirsizdir. Lütfen [%(human_readable)s önce] veya [%(human_readable)s sonra] belirtin."
       ],
       "Database does not exist": ["Veritabanı mevcut değil"],
-      "Dashboards do not exist": ["Panolar mevcut değil"],
+      "Dashboards do not exist": ["Paneller mevcut değil"],
       "Datasource type is required when datasource_id is given": [
-        "datasource_id verildiğinde veri kaynağı türü gereklidir"
+        "Datasource_id verildiğinde veri kaynağı türü gereklidir"
       ],
       "Chart parameters are invalid.": ["Grafik parametreleri geçersiz."],
       "Chart could not be created.": ["Grafik oluşturulamadı."],
@@ -401,9 +401,9 @@
         "Veri kümesinde eksik sütunlar: %(invalid_columns)s"
       ],
       "A time column must be specified when using a Time Comparison.": [
-        "Zaman Karşılaştırması kullanılırken bir zaman sütunu belirtilmelidir."
+        "Zaman Karşılaştırması kullanılırken bir zaman alanı belirtilmelidir."
       ],
-      "The chart does not exist": ["grafik mevcut değil"],
+      "The chart does not exist": ["Grafik yok"],
       "The chart datasource does not exist": [
         "Grafik veri kaynağı mevcut değil"
       ],
@@ -411,7 +411,7 @@
         "Yinelenen sütun/metrik etiketleri: %(labels)s. Lütfen tüm sütunların ve metriklerin benzersiz bir etiketi olduğundan emin olun."
       ],
       "The following entries in `series_columns` are missing in `columns`: %(columns)s. ": [
-        "\"series_columns\" içindeki şu girişler \"columns\" içinde eksik: %(columns)s."
+        "\"series_columns\" içindeki aşağıdaki girişler \"columns\" içinde eksik: %(columns)s. "
       ],
       "`operation` property of post processing object undefined": [
         "sonradan işleme nesnesinin \"işlem\" özelliği tanımsız"
@@ -465,12 +465,12 @@
       "Column": ["Kolon"],
       "Verbose Name": ["Ayrıntılı Ad"],
       "Description": ["Tanım"],
-      "Groupable": ["gruplanabilir"],
+      "Groupable": ["Gruplanabilir"],
       "Filterable": ["Filtrelenebilir"],
       "Table": ["Masa"],
       "Expression": ["İfade"],
-      "Is temporal": ["zamansal"],
-      "Datetime Format": ["tarih saat formatı"],
+      "Is temporal": ["Zamansal"],
+      "Datetime Format": ["Tarih saat formatı"],
       "Type": ["Tip"],
       "Business Data Type": ["İş Veri Türü"],
       "Invalid date/timestamp format": ["Geçersiz tarih/zaman damgası biçimi"],
@@ -547,23 +547,21 @@
       ],
       "Deleted %(num)d dashboard": ["", "Deleted %(num)d dashboards"],
       "Title or Slug": ["Başlık veya Slug"],
-      "Role": ["rol"],
+      "Role": ["Rol"],
       "Must be unique": ["Eşsiz olmalı"],
-      "Dashboard parameters are invalid.": ["Pano parametreleri geçersiz."],
-      "Dashboard could not be created.": ["Pano oluşturulamadı."],
-      "Dashboards could not be deleted.": ["Panolar silinemedi."],
-      "Dashboard could not be updated.": ["Pano güncellenemedi."],
-      "Dashboard could not be deleted.": ["Pano silinemedi."],
-      "Changing this Dashboard is forbidden": [
-        "Bu Panoyu değiştirmek yasaktır"
-      ],
+      "Dashboard parameters are invalid.": ["Panel parametreleri geçersiz."],
+      "Dashboard could not be created.": ["Panel oluşturulamadı."],
+      "Dashboards could not be deleted.": ["Paneller silinemedi."],
+      "Dashboard could not be updated.": ["Panel güncellenemedi."],
+      "Dashboard could not be deleted.": ["Panel silinemedi."],
+      "Changing this Dashboard is forbidden": ["Bu panel değiştirilemez"],
       "Import dashboard failed for an unknown reason": [
         "Kontrol panelini içe aktarma, bilinmeyen bir nedenle başarısız oldu"
       ],
       "You don't have access to this dashboard.": [
         "Bu kontrol paneline erişiminiz yok."
       ],
-      "No data in file": ["dosyada veri yok"],
+      "No data in file": ["Dosyada veri yok"],
       "Invalid state.": ["Geçersiz durum."],
       "An error occurred while creating the value.": [
         "Değer oluşturulurken bir hata oluştu."
@@ -622,7 +620,7 @@
       "No validator found (configured for the engine)": [
         "Doğrulayıcı bulunamadı (motor için yapılandırılmış)"
       ],
-      "Was unable to check your query": ["sorgunuz kontrol edilemedi"],
+      "Was unable to check your query": ["Sorgunuz onaylanmadı"],
       "An unexpected error occurred": ["Beklenmedik bir hata oluştu"],
       "Import database failed for an unknown reason": [
         "Veritabanını içe aktarma, bilinmeyen bir nedenle başarısız oldu"
@@ -800,10 +798,19 @@
       "The user/password combination is not valid (Incorrect password for user).": [
         ""
       ],
+      "Could not connect to database: \"%(database)s\"": [
+        "“%(database)s” veritabanına bağlanılamıyor."
+      ],
       "Could not resolve hostname: \"%(host)s\".": [""],
       "Port out of range 0-65535": [""],
+      "Invalid Connection String: Expecting String of the form 'ocient://user:pass@host:port/database'.": [
+        "Geçersiz Bağlantı Dizesi: ‘ocient://user:pass@host:port/database’ biçiminde bir dize bekleniyor."
+      ],
       "Syntax Error: %(qualifier)s input \"%(input)s\" expecting \"%(expected)s": [
         ""
+      ],
+      "Table or View \"%(table)s\" does not exist.": [
+        "“%(table)s” isimli tablo ya da View yok."
       ],
       "Invalid reference to column: \"%(column)s\"": [""],
       "The password provided for username \"%(username)s\" is incorrect.": [
@@ -848,13 +855,13 @@
       "Home": ["Ev"],
       "Database Connections": ["Veritabanı Bağlantıları"],
       "Data": ["Veri"],
-      "Dashboards": ["Panolar"],
+      "Dashboards": ["Paneller"],
       "Charts": ["Grafikler"],
-      "Datasets": ["veri kümeleri"],
+      "Datasets": ["Veri kümeleri"],
       "Plugins": ["Eklentiler"],
       "Manage": ["Üstesinden gelmek"],
       "CSS Templates": ["CSS Şablonları"],
-      "Import Dashboards": ["Panoları İçe Aktar"],
+      "Import Dashboards": ["Panelleri içe aktar"],
       "SQL Lab": ["SQL Laboratuvarı"],
       "SQL": ["SQL"],
       "Saved Queries": ["Kayıtlı Sorgular"],
@@ -891,7 +898,7 @@
         "Sıralamada kullanılan bilinmeyen sütun: %(col)s"
       ],
       "Time column \"%(col)s\" does not exist in dataset": [
-        "Veri kümesinde \"%(col)s\" zaman sütunu yok"
+        "Veri kümesinde \"%(col)s\" zaman alanı yok"
       ],
       "error_message": ["hata mesajı"],
       "Filter value list cannot be empty": ["Filtre değeri listesi boş olamaz"],
@@ -933,7 +940,7 @@
       "Invalid tab ids: %s(tab_ids)": [
         "Geçersiz sekme kimlikleri: %s(tab_ids)"
       ],
-      "Dashboard does not exist": ["Pano mevcut değil"],
+      "Dashboard does not exist": ["Panel mevcut değil"],
       "Chart does not exist": ["Grafik mevcut değil"],
       "Database is required for alerts": [
         "Uyarılar için veritabanı gereklidir"
@@ -1033,9 +1040,11 @@
       "Report schedule unexpected error": ["Zamanlama beklenmeyen hata bildir"],
       "Changing this report is forbidden": ["Bu raporu değiştirmek yasaktır"],
       "An error occurred while pruning logs ": [
-        "Günlükler sadeleştirilirken bir hata oluştu"
+        "Günlükler sadeleştirilirken bir hata oluştu "
       ],
-      "\n            Error: %(text)s\n            ": ["\n Hata: %(text)s"],
+      "\n            Error: %(text)s\n            ": [
+        "\n            Hata: %(text)s\n            "
+      ],
       "EMAIL_REPORTS_CTA": ["EMAIL_REPORTS_CTA"],
       "%(name)s.csv": ["%(name)s.csv"],
       "%(prefix)s %(title)s": ["%(prefix)s %(title)s"],
@@ -1045,6 +1054,12 @@
       "*%(name)s*\n\n%(description)s\n\nError: %(text)s\n": [
         "*%(name)s*\n\n%(description)s\n\nHata: %(text)s\n"
       ],
+      "Deleted %(num)d rules": [
+        "%(num)d kural silindi",
+        "%(num)d kural silindi"
+      ],
+      "RLS Rule not found.": ["RLS kuralı bulunamadı."],
+      "RLS Rule could not be deleted.": ["RLS kuralı silinemedi."],
       "%(dialect)s cannot be used as a data source for security reasons.": [
         "%(dialect)s, güvenlik nedeniyle veri kaynağı olarak kullanılamaz."
       ],
@@ -1065,7 +1080,7 @@
       "Please check your query and confirm that all template parameters are surround by double braces, for example, \"{{ ds }}\". Then, try running your query again.": [
         "Lütfen sorgunuzu kontrol edin ve tüm şablon parametrelerinin çift parantez içinde olduğunu onaylayın, örneğin, \"{{ ds }}\". Ardından, sorgunuzu tekrar çalıştırmayı deneyin."
       ],
-      "The database could not be found": ["veritabanı bulunamadı"],
+      "The database could not be found": ["Veritabanı bulunamadı"],
       "The query estimation was killed after %(sqllab_timeout)s seconds. It might be too complex, or the database might be under heavy load.": [
         "Sorgu tahmini, %(sqllab_timeout)s saniye sonra sonlandırıldı. Çok karmaşık olabilir veya veritabanı ağır yük altında olabilir."
       ],
@@ -1093,11 +1108,11 @@
         "Zamanlanmış görev yürütücü bulunamadı"
       ],
       "Record Count": ["Kayıt sayısı"],
-      "No records found": ["kayıt bulunamadı"],
+      "No records found": ["Kayıt bulunamadı"],
       "Filter List": ["Filtre Listesi"],
       "Search": ["Arama"],
       "Refresh": ["Yenile"],
-      "Import dashboards": ["Panoları içe aktar"],
+      "Import dashboards": ["Panelleri içe aktar"],
       "Import Dashboard(s)": ["Gösterge Tablolarını İçe Aktar"],
       "File": ["Dosya"],
       "Choose File": ["Dosya seçin"],
@@ -1107,7 +1122,7 @@
         "Şu veri kaynaklarına erişim izniniz yok: %(name)s."
       ],
       "Request Permissions": ["İzin İste"],
-      "Cancel": ["İptal etmek"],
+      "Cancel": ["İptal"],
       "Use the edit button to change this field": [
         "Bu alanı değiştirmek için düzenle düğmesini kullanın"
       ],
@@ -1174,7 +1189,7 @@
       "Resample operation requires DatetimeIndex": [
         "Yeniden örnekleme işlemi için DatetimeIndex gerekir"
       ],
-      "Resample method should in ": ["Yeniden örnekleme yöntemi"],
+      "Resample method should in ": ["Yeniden örnekleme yöntemi "],
       "Undefined window for rolling operation": [
         "Döndürme işlemi için tanımsız pencere"
       ],
@@ -1195,7 +1210,7 @@
       "Invalid numpy function: %(operator)s": [
         "Geçersiz numpy fonksiyonu: %(operator)s"
       ],
-      "User": ["kullanıcı"],
+      "User": ["Kullanıcı"],
       "User Roles": ["Kullanıcı rolleri"],
       "Database URL": ["Veritabanı URL'si"],
       "Datasource": ["Veri kaynağı"],
@@ -1210,8 +1225,8 @@
       "Export to YAML?": ["YAML'a aktarılsın mı?"],
       "Delete": ["Silmek"],
       "Delete all Really?": ["Tümünü silmek Gerçekten mi?"],
-      "Is favorite": ["favori"],
-      "Is tagged": ["etiketlendi"],
+      "Is favorite": ["Favori"],
+      "Is tagged": ["Etiketli"],
       "The data source seems to have been deleted": [
         "Veri kaynağı silinmiş görünüyor"
       ],
@@ -1230,7 +1245,7 @@
         "Bu isteği onaylama izniniz yok"
       ],
       "You don't have the rights to download as csv": [
-        "csv olarak indirme hakkınız yok"
+        "CSV olarak indirme yetkiniz yok"
       ],
       "Cannot import dashboard: %(db_error)s.\nMake sure to create the database before importing the dashboard.": [
         "Gösterge tablosu içe aktarılamıyor: %(db_error)s.\nGösterge tablosunu içe aktarmadan önce veritabanını oluşturduğunuzdan emin olun."
@@ -1259,12 +1274,12 @@
         "Grafik [{}] gösterge tablosuna [{}] eklendi"
       ],
       "You don't have the rights to create a dashboard": [
-        "Pano oluşturma hakkınız yok"
+        "Panel oluşturma yetkiniz yok"
       ],
       "Dashboard [{}] just got created and chart [{}] was added to it": [
-        "Pano [{}] yeni oluşturuldu ve [{}] grafiği buna eklendi"
+        "Panel [{}] yeni oluşturuldu ve [{}] grafiği buna eklendi"
       ],
-      "Schema undefined": ["tanımsız şema"],
+      "Schema undefined": ["Tanımsız şema"],
       "Database not found: %(id)s": ["Veritabanı bulunamadı: %(id)s"],
       "This dashboard was changed recently. Please reload dashboard to get latest version.": [
         "Bu pano yakın zamanda değiştirildi. En son sürümü almak için lütfen kontrol panelini yeniden yükleyin."
@@ -1296,7 +1311,7 @@
       "Show CSS Template": ["CSS Şablonunu Göster"],
       "Add CSS Template": ["CSS Şablonu Ekle"],
       "Edit CSS Template": ["CSS Şablonunu Düzenle"],
-      "Template Name": ["şablon adı"],
+      "Template Name": ["Şablon adı"],
       "A human-friendly name": ["İnsan dostu bir isim"],
       "Used internally to identify the plugin. Should be set to the package name from the pluginʼs package.json": [
         "Eklentiyi tanımlamak için dahili olarak kullanılır. Eklenti paketindeki paket adına ayarlanmalıdır.json"
@@ -1314,7 +1329,7 @@
       "Could not determine datasource type": [
         "Veri kaynağı türü belirlenemedi"
       ],
-      "Could not find viz object": ["viz nesnesi bulunamadı"],
+      "Could not find viz object": ["Biz nesnesi bulunamadı"],
       "Show Chart": ["Grafiği Göster"],
       "Add Chart": ["Grafik Ekle"],
       "Edit Chart": ["Grafiği Düzenle"],
@@ -1326,18 +1341,18 @@
       ],
       "Creator": ["Yaratıcı"],
       "Last Modified": ["Son düzenleme"],
-      "Parameters": ["parametreler"],
+      "Parameters": ["Parametreler"],
       "Chart": ["Çizelge"],
       "Name": ["İsim"],
       "Visualization Type": ["Görselleştirme Türü"],
-      "Show Dashboard": ["Panoyu Göster"],
-      "Add Dashboard": ["Pano Ekle"],
+      "Show Dashboard": ["Paneli göster"],
+      "Add Dashboard": ["Panel ekle"],
       "Edit Dashboard": ["Kontrol Panelini Düzenle"],
       "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view": [
-        "Bu json nesnesi, pencere öğelerinin panodaki konumunu açıklar. Pano görünümünde sürükle ve bırak kullanılarak pencere öğelerinin boyutu ve konumları ayarlanırken dinamik olarak oluşturulur."
+        "Bu json nesnesi, araçların (widget) panodaki (dashboard) konumunu açıklar. Panel görünümünde sürükle ve bırak kullanılarak araçların boyutu ve konumları ayarlanırken dinamik olarak oluşturulur"
       ],
       "The CSS for individual dashboards can be altered here, or in the dashboard view where changes are immediately visible": [
-        "Bağımsız panolar için CSS burada veya değişikliklerin hemen görülebildiği pano görünümünde değiştirilebilir."
+        "Bağımsız panolar (dashboard) için CSS burada veya pano (dashboard) görünümünde değiştirilebilir"
       ],
       "To get a readable URL for your dashboard": [
         "Kontrol paneliniz için okunabilir bir URL almak için"
@@ -1356,7 +1371,7 @@
       ],
       "Dashboard": ["Gösterge Paneli"],
       "Title": ["Başlık"],
-      "Slug": ["sülük"],
+      "Slug": ["Kısa tanım"],
       "Roles": ["Roller"],
       "Published": ["Yayınlanan"],
       "Position JSON": ["JSON'u konumlandırın"],
@@ -1378,6 +1393,7 @@
       "Select a database to upload the file to": [
         "Dosyayı yüklemek için bir veritabanı seçin"
       ],
+      "Column Data Types": ["Sütun Veri Tİpleri"],
       "A dictionary with column names and their data types if you need to change the defaults. Example: {\"user_id\":\"integer\"}": [
         ""
       ],
@@ -1393,7 +1409,7 @@
       "Other": ["Diğer"],
       "If Table Already Exists": ["Tablo Zaten Varsa"],
       "What should happen if the table already exists": [
-        "Tablo zaten varsa ne olmalı?"
+        "Tablo zaten varsa ne olmalı"
       ],
       "Fail": ["Hata"],
       "Replace": ["Yer değiştirmek"],
@@ -1412,7 +1428,7 @@
         "Datetime Formatını Otomatik Yorumla"
       ],
       "Interpret the datetime format automatically": [
-        "tarih saat biçimini otomatik olarak yorumla"
+        "Tarih saat biçimini otomatik olarak yorumla"
       ],
       "Decimal Character": ["Ondalık Karakter"],
       "Character to interpret as decimal point": [
@@ -1512,7 +1528,7 @@
       "Json list of the column names that should be read. If not None, only these columns will be read from the file.": [
         "Okunması gereken sütun adlarının Json listesi. Yok değilse, dosyadan yalnızca bu sütunlar okunacaktır."
       ],
-      "Databases": ["veritabanları"],
+      "Databases": ["Veritabanları"],
       "Show Database": ["Veritabanını Göster"],
       "Add Database": ["Veritabanı Ekle"],
       "Edit Database": ["Veritabanını Düzenle"],
@@ -1530,7 +1546,7 @@
         "Kullanıcıların SQL Lab'de SELECT olmayan deyimleri (UPDATE, DELETE, CREATE, ...) çalıştırmasına izin ver"
       ],
       "When allowing CREATE TABLE AS option in SQL Lab, this option forces the table to be created in this schema": [
-        "SQL Lab'de CREATE TABLE AS seçeneğine izin verildiğinde, bu seçenek tablonun bu şemada oluşturulmasını zorlar."
+        "SQL Lab'de CREATE TABLE AS seçeneğine izin verildiğinde, tablonun bu şemada oluşturulması zorlanmış olur"
       ],
       "If Presto, all the queries in SQL Lab are going to be executed as the currently logged on user who must have permission to run them.<br/>If Hive and hive.server2.enable.doAs is enabled, will run the queries as service account, but impersonate the currently logged on user via hive.server2.proxy.user property.": [
         "Presto ise, SQL Lab'deki tüm sorgular, onları çalıştırma iznine sahip olması gereken, o anda oturum açmış olan kullanıcı olarak yürütülecektir.<br/>Hive ve Hive.server2.enable.doAs etkinleştirildiyse, sorguları hizmet hesabı, ancak hive.server2.proxy.user özelliği aracılığıyla şu anda oturum açmış kullanıcıyı taklit edin."
@@ -1549,13 +1565,13 @@
       "SQLAlchemy URI": ["SQLAlchemy URI'si"],
       "Chart Cache Timeout": ["Grafik Önbelleği Zaman Aşımı"],
       "Secure Extra": ["Güvenli Ekstra"],
-      "Root certificate": ["kök sertifika"],
+      "Root certificate": ["Kök sertifika"],
       "Async Execution": ["Eşzamansız Yürütme"],
       "Impersonate the logged on user": [
         "Oturum açmış kullanıcının kimliğine bürün"
       ],
       "Allow Csv Upload": ["Csv Yüklemeye İzin Ver"],
-      "Backend": ["arka uç"],
+      "Backend": ["Arkaplan"],
       "Extra field cannot be decoded by JSON. %(msg)s": [
         "Ekstra alan JSON tarafından çözümlenemiyor. %(msg)s"
       ],
@@ -1617,7 +1633,7 @@
       "Label": ["Etiket"],
       "End Time": ["Bitiş zamanı"],
       "Pop Tab Link": ["Pop Sekme Bağlantısı"],
-      "Changed on": ["tarihinde değiştirildi"],
+      "Changed on": ["Değiştirilme zamanı"],
       "Untitled Query": ["Başlıksız Sorgu"],
       "Time Range": ["Zaman aralığı"],
       "Time Column": ["Zaman Sütunu"],
@@ -1627,15 +1643,15 @@
       "A reference to the [Time] configuration, taking granularity into account": [
         "Ayrıntı düzeyini hesaba katan [Zaman] konfigürasyonuna bir referans"
       ],
-      "Aggregate": ["agrega"],
-      "Raw records": ["ham kayıtlar"],
+      "Aggregate": ["Toplam"],
+      "Raw records": ["Ham kayıtlar"],
       "Category name": ["Kategori adı"],
       "Total value": ["Toplam değer"],
       "Minimum value": ["En az değer"],
       "Maximum value": ["Maksimum değer"],
       "Average value": ["Ortalama değer"],
       "Certified by %s": ["%s tarafından onaylandı"],
-      "description": ["Tanım"],
+      "description": ["tanım"],
       "bolt": ["cıvata"],
       "Changing this control takes effect instantly": [
         "Bu kontrolün değiştirilmesi anında etkili olur"
@@ -1666,7 +1682,7 @@
       ],
       "Min periods": ["Minimum süreler"],
       "The minimum number of rolling periods required to show a value. For instance if you do a cumulative sum on 7 days you may want your \"Min Period\" to be 7, so that all data points shown are the total of 7 periods. This will hide the \"ramp up\" taking place over the first 7 periods": [
-        "Bir değeri göstermek için gereken minimum yuvarlanma periyodu sayısı. Örneğin, 7 günde kümülatif bir toplam yaparsanız, gösterilen tüm veri noktalarının toplamı 7 dönem olacak şekilde \"Min. Dönem\"inizin 7 olmasını isteyebilirsiniz. Bu, ilk 7 periyotta meydana gelen \"yükselme\"yi gizleyecektir."
+        "Bir değeri göstermek için gereken minimum yuvarlanma periyodu sayısı. Örneğin, 7 günde kümülatif bir toplam yaparsanız, gösterilen tüm veri noktalarının toplamı 7 dönem olacak şekilde \"Min. Dönem\"inizin 7 olmasını isteyebilirsiniz. Bu, ilk 7 periyotta meydana gelen \"yükselme\"yi gizleyecektir"
       ],
       "Time comparison": ["Zaman karşılaştırması"],
       "Time shift": ["Vardiya"],
@@ -1683,7 +1699,7 @@
       "Overlay one or more timeseries from a relative time period. Expects relative time deltas in natural language (example:  24 hours, 7 days, 52 weeks, 365 days). Free text is supported.": [
         "Göreceli bir zaman aralığından bir veya daha fazla zaman serisini kaplayın. Doğal dilde göreli zaman deltaları bekler (örnek: 24 saat, 7 gün, 52 hafta, 365 gün). Serbest metin desteklenir."
       ],
-      "Calculation type": ["hesaplama türü"],
+      "Calculation type": ["Hesaplama türü"],
       "Actual values": ["Gerçek değerler"],
       "Difference": ["Fark"],
       "Percentage change": ["Yüzdelik değişimi"],
@@ -1691,7 +1707,7 @@
       "How to display time shifts: as individual lines; as the difference between the main time series and each time shift; as the percentage change; or as the ratio between series and time shifts.": [
         "Zaman kaymaları nasıl görüntülenir: ayrı satırlar olarak; ana zaman serisi ile her bir zaman kayması arasındaki fark olarak; yüzde değişim olarak; veya seri ve zaman kaymaları arasındaki oran olarak."
       ],
-      "Resample": ["yeniden örnekleme"],
+      "Resample": ["Yeniden örnekleme (resample)"],
       "Rule": ["Kural"],
       "1 minutely frequency": ["1 dakikalık frekans"],
       "1 hourly frequency": ["1 saatlik sıklık"],
@@ -1708,7 +1724,7 @@
       "Linear interpolation": ["Doğrusal enterpolasyon"],
       "Forward values": ["İleri değerler"],
       "Backward values": ["Geriye dönük değerler"],
-      "Median values": ["medyan değerler"],
+      "Median values": ["Medyan değerler"],
       "Mean values": ["Ortalama değerler"],
       "Sum values": ["Toplam değerler"],
       "Pandas resample method": ["Pandalar yeniden örnekleme yöntemi"],
@@ -1729,7 +1745,7 @@
       "Enable forecasting": ["Tahmini etkinleştir"],
       "Forecast periods": ["Tahmin dönemleri"],
       "How many periods into the future do we want to predict": [
-        "Gelecekte kaç dönem tahmin etmek istiyoruz?"
+        "Kaç dönem ilerisini tahmin etmek istiyoruz"
       ],
       "Confidence interval": ["Güven aralığı"],
       "Width of the confidence interval. Should be between 0 and 1": [
@@ -1783,7 +1799,10 @@
       "Whether to sort ascending or descending on the base Axis.": [
         "Temel Eksende artan veya azalan sıralama."
       ],
-      "Dimensions": ["boyutlar"],
+      "Decides which measure to sort the base axis by.": [
+        "Taban ekseninin hangi sütuna göre sıralanacağına karar verir."
+      ],
+      "Dimensions": ["Boyutlar"],
       "One or many columns to group by. High cardinality groupings should include a sort by metric and series limit to limit the number of fetched and rendered series.": [
         "Gruplanacak bir veya daha fazla sütun. Yüksek kardinalite gruplamaları, getirilen ve işlenen serilerin sayısını sınırlamak için bir metriğe göre sıralama ve seri limiti içermelidir."
       ],
@@ -1792,9 +1811,9 @@
       ],
       "Dimension": ["Boyut"],
       "Defines the grouping of entities. Each series is shown as a specific color on the chart and has a legend toggle": [
-        "Varlıkların gruplandırılmasını tanımlar. Her seri, grafikte belirli bir renk olarak gösterilir ve bir gösterge anahtarına sahiptir."
+        "Varlıkların gruplandırılmasını tanımlar. Her seri, grafikte belirli bir renk olarak gösterilir ve bir gösterge anahtarına (legend token) sahiptir"
       ],
-      "Entity": ["varlık"],
+      "Entity": ["Varlık"],
       "This defines the element to be plotted on the chart": [
         "Bu, grafikte çizilecek öğeyi tanımlar"
       ],
@@ -1803,7 +1822,7 @@
       ],
       "Right Axis Metric": ["Sağ Eksen Metrik"],
       "Choose a metric for right axis": ["Sağ eksen için bir metrik seçin"],
-      "Sort by": ["Göre sırala"],
+      "Sort by": ["Sıralama kriteri"],
       "Metric used to define how the top series are sorted if a series or row limit is present. If undefined reverts to the first metric (where appropriate).": [
         "Bir dizi veya satır sınırı varsa en üstteki dizilerin nasıl sıralanacağını tanımlamak için kullanılan metrik. Tanımsızsa, ilk metriğe geri döner (uygun olduğunda)."
       ],
@@ -1816,7 +1835,7 @@
       "Color Metric": ["Renk Metrik"],
       "A metric to use for color": ["Renk için kullanılacak bir metrik"],
       "The time column for the visualization. Note that you can define arbitrary expression that return a DATETIME column in the table. Also note that the filter below is applied against this column or expression": [
-        "Görselleştirme için zaman sütunu. Tabloda bir DATETIME sütunu döndüren rastgele bir ifade tanımlayabileceğinizi unutmayın. Ayrıca, aşağıdaki filtrenin bu sütuna veya ifadeye uygulandığına dikkat edin."
+        "Görselleştirme için zaman alanı. Tabloda bir DATETIME sütunu döndüren rastgele bir ifade tanımlayabilirsiniz. Ayrıca, aşağıdaki filtrenin bu sütuna veya ifadeye uygulandığına akılda bulundurun"
       ],
       "Drop temporal column here": ["Zamansal sütunu buraya bırakın"],
       "Drop a temporal column here or click": [
@@ -1834,7 +1853,7 @@
         "Tüm daireler için statik bir renk tanımlamak için bunu kullanın"
       ],
       "Linear Color Scheme": ["Doğrusal Renk Şeması"],
-      "all": ["Tümü"],
+      "all": ["tümü"],
       "5 seconds": ["5 saniye"],
       "30 seconds": ["30 saniye"],
       "1 minute": ["1 dakika"],
@@ -1844,16 +1863,16 @@
       "1 day": ["1 gün"],
       "7 days": ["7 gün"],
       "week": ["hafta"],
-      "week starting Sunday": ["Pazar başlayan hafta"],
+      "week starting Sunday": ["hafta Pazar’dan başlar"],
       "week ending Saturday": ["cumartesi biten hafta"],
       "month": ["ay"],
       "quarter": ["çeyrek"],
       "year": ["yıl"],
       "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`, `1 day` or `56 weeks`": [
-        "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabileceğinizi unutmayın."
+        "Görselleştirme için zaman ayrıntı düzeyi. \"10 seconds, \"1 day” veya \"56 weeks” şeklinde basit bir metin yazıp kullanabilirsiniz. Metinlerin örneklerde verildiği şekilde İngilizce yazılması zorunlu"
       ],
       "The time granularity for the visualization. This applies a date transformation to alter your time column and defines a new time granularity. The options here are defined on a per database engine basis in the Superset source code.": [
-        "Görselleştirme için zaman ayrıntı düzeyi. Bu, zaman sütununuzu değiştirmek için bir tarih dönüşümü uygular ve yeni bir zaman ayrıntı düzeyi tanımlar. Buradaki seçenekler, Superset kaynak kodunda veritabanı motoru bazında tanımlanır."
+        "Görselleştirme için zaman ayrıntı düzeyi. Bu, zaman alanını değiştirmek için bir tarih dönüşümü uygular ve yeni bir zaman ayrıntı düzeyi tanımlar. Buradaki seçenekler, Superset kaynak kodunda veritabanı motoru bazında tanımlanır."
       ],
       "The time range for the visualization. All relative times, e.g. \"Last month\", \"Last 7 days\", \"now\", etc. are evaluated on the server using the server's local time (sans timezone). All tooltips and placeholder times are expressed in UTC (sans timezone). The timestamps are then evaluated by the database using the engine's local timezone. Note one can explicitly set the timezone per the ISO 8601 format if specifying either the start and/or end time.": [
         "Görselleştirme için zaman aralığı. Tüm göreli zamanlar, örn. \"Geçen ay\", \"Son 7 gün\", \"şimdi\" vb. sunucuda sunucunun yerel saati (sans saat dilimi) kullanılarak değerlendirilir. Tüm araç ipuçları ve yer tutucu süreleri UTC (sans timezone) cinsinden ifade edilir. Zaman damgaları daha sonra veritabanı tarafından motorun yerel saat dilimini kullanarak değerlendirilir. Başlangıç ​​ve/veya bitiş zamanı belirtilirse, ISO 8601 formatına göre saat dilimini açıkça ayarlayabileceğinizi unutmayın."
@@ -1864,7 +1883,7 @@
       ],
       "Sort Descending": ["Azalan şekilde sırala"],
       "Whether to sort descending or ascending": ["Azalan veya artan sıralama"],
-      "Series limit": ["Seri sınırı"],
+      "Series limit": ["Seri limiti"],
       "Limits the number of series that get displayed. A joined subquery (or an extra phase where subqueries are not supported) is applied to limit the number of series that get fetched and rendered. This feature is useful when grouping by high cardinality column(s) though does increase the query complexity and cost.": [
         "Görüntülenecek seri sayısını sınırlar. Getirilen ve işlenen dizilerin sayısını sınırlandırmak için birleştirilmiş bir alt sorgu (veya alt sorguların desteklenmediği fazladan bir aşama) uygulanır. Bu özellik, yüksek kardinalite sütunlarına göre gruplandırırken kullanışlıdır, ancak sorgu karmaşıklığını ve maliyetini artırır."
       ],
@@ -1881,7 +1900,7 @@
       "Show less columns": ["Daha az sütun göster"],
       "Show all columns": ["Tüm sütunları göster"],
       "D3 format": ["D3 formatı"],
-      "Fraction digits": ["kesir basamakları"],
+      "Fraction digits": ["Ondalık basamaklar"],
       "Number of decimal digits to round numbers to": [
         "Sayıları yuvarlamak için ondalık basamak sayısı"
       ],
@@ -1889,7 +1908,7 @@
       "Default minimal column width in pixels, actual width may still be larger than this if other columns don't need much space": [
         "Piksel cinsinden varsayılan minimum sütun genişliği, diğer sütunlar fazla alana ihtiyaç duymuyorsa gerçek genişlik yine de bundan daha büyük olabilir"
       ],
-      "auto": ["Oto"],
+      "auto": ["otomatik"],
       "Text align": ["Metin hizalama"],
       "Horizontal alignment": ["Yatay hizalama"],
       "Center": ["Merkez"],
@@ -1925,9 +1944,9 @@
       ],
       "Adaptive formatting": ["Uyarlanabilir biçimlendirme"],
       "Original value": ["Orijinal değeri"],
-      "Duration in ms (66000 => 1m 6s)": ["ms cinsinden süre (66000 => 1m 6s)"],
+      "Duration in ms (66000 => 1m 6s)": ["Ms cinsinden süre (66000 => 1m 6s)"],
       "Duration in ms (1.40008 => 1ms 400µs 80ns)": [
-        "ms cinsinden süre (1,40008 => 1ms 400µs 80ns)"
+        "Ms cinsinden süre (1,40008 => 1ms 400µs 80ns)"
       ],
       "D3 time format syntax: https://github.com/d3/d3-time-format": [
         "D3 saat biçimi sözdizimi: https://github.com/d3/d3-time-format"
@@ -1951,7 +1970,7 @@
       "The time unit used for the grouping of blocks": [
         "Blokların gruplanması için kullanılan zaman birimi"
       ],
-      "Subdomain": ["alt alan adı"],
+      "Subdomain": ["Alt alan adı"],
       "min": ["dakika"],
       "The time unit for each block. Should be a smaller unit than domain_granularity. Should be larger or equal to Time Grain": [
         "Her blok için zaman birimi. domain_granlarity'den daha küçük bir birim olmalıdır. Time Grain'den daha büyük veya ona eşit olmalıdır"
@@ -1966,7 +1985,7 @@
         "Piksel cinsinden hücreler arasındaki mesafe"
       ],
       "Cell Radius": ["Hücre Yarıçapı"],
-      "The pixel radius": ["piksel yarıçapı"],
+      "The pixel radius": ["Piksel yarıçapı"],
       "Color Steps": ["Renk Adımları"],
       "The number color \"steps\"": ["Sayı rengi \"adımlar\""],
       "Time Format": ["Zaman formatı"],
@@ -1983,20 +2002,20 @@
         "Metrik adının başlık olarak görüntülenip görüntülenmeyeceği"
       ],
       "Number Format": ["Sayı Biçimi"],
-      "Correlation": ["korelasyon"],
+      "Correlation": ["Korelasyon"],
       "Visualizes how a metric has changed over a time using a color scale and a calendar view. Gray values are used to indicate missing values and the linear color scheme is used to encode the magnitude of each day's value.": [
         "Renk ölçeği ve takvim görünümü kullanarak bir metriğin zaman içinde nasıl değiştiğini görselleştirir. Eksik değerleri belirtmek için gri değerler kullanılır ve her günün değerinin büyüklüğünü kodlamak için doğrusal renk şeması kullanılır."
       ],
       "Business": ["İşletme"],
       "Comparison": ["Karşılaştırmak"],
-      "Intensity": ["yoğunluk"],
+      "Intensity": ["Yoğunluk"],
       "Pattern": ["Model"],
       "Report": ["Rapor"],
       "Trend": ["Akım"],
-      "less than {min} {name}": ["{min} {isim}'den az"],
-      "between {down} and {up} {name}": ["{aşağı} ve {yukarı} arasında {name}"],
+      "less than {min} {name}": ["{min} {name}’den az"],
+      "between {down} and {up} {name}": ["{down} ve {up} arasında {name}"],
       "more than {max} {name}": ["{max} değerinden fazla {name}"],
-      "Sort by metric": ["Metrik göre sırala"],
+      "Sort by metric": ["Metrike göre sırala"],
       "Whether to sort results by the selected metric in descending order.": [
         "Sonuçların seçilen metriğe göre azalan düzende sıralanıp sıralanmayacağı."
       ],
@@ -2018,7 +2037,7 @@
       "Circular": ["Dairesel"],
       "Legacy": ["Miras"],
       "Proportional": ["Orantılı"],
-      "Relational": ["ilişkisel"],
+      "Relational": ["İlişkisel"],
       "Country": ["Ülke"],
       "Which country to plot the map for?": [
         "Harita hangi ülke için çizilecek?"
@@ -2035,7 +2054,7 @@
         "Tek bir metriğin bir koroplet haritası üzerinde bir ülkenin ana alt bölümleri (eyaletler, iller vb.) arasında nasıl değiştiğini görselleştirir. İlgili coğrafi sınırın üzerine geldiğinizde her bir alt bölümün değeri yükselir."
       ],
       "2D": ["2D"],
-      "Geo": ["coğrafi"],
+      "Geo": ["Coğrafi"],
       "Range": ["Menzil"],
       "Stacked": ["Yığılmış"],
       "Sorry, there appears to be no data": [
@@ -2050,7 +2069,7 @@
       ],
       "Minimum leaf node event count": ["Minimum yaprak düğüm olay sayısı"],
       "Leaf nodes that represent fewer than this number of events will be initially hidden in the visualization": [
-        "Bu olay sayısından daha azını temsil eden yaprak düğümler başlangıçta görselleştirmede gizlenecektir."
+        "Bu olay sayısından daha azını temsil eden “leaf nodes” başlangıçta görselleştirmede gizlenecektir"
       ],
       "Additional metadata": ["Ek meta veriler"],
       "Metadata": ["Meta veriler"],
@@ -2067,11 +2086,11 @@
         "Paylaşılan bir zaman çizelgesi görünümünde farklı etkinliklerin aldığı süreyi karşılaştırır."
       ],
       "Event Flow": ["Olay Akışı"],
-      "Progressive": ["ilerici"],
-      "Axis ascending": ["artan eksen"],
-      "Axis descending": ["azalan eksen"],
-      "Metric ascending": ["artan metrik"],
-      "Metric descending": ["azalan metrik"],
+      "Progressive": ["Artan"],
+      "Axis ascending": ["Artan eksen"],
+      "Axis descending": ["Azalan eksen"],
+      "Metric ascending": ["Artan metrik"],
+      "Metric descending": ["Azalan metrik"],
       "Heatmap Options": ["Isı Haritası Seçenekleri"],
       "XScale Interval": ["Ölçek Aralığı"],
       "Number of steps to take between ticks when displaying the X scale": [
@@ -2081,7 +2100,7 @@
       "Number of steps to take between ticks when displaying the Y scale": [
         "Y ölçeğini görüntülerken işaretler arasında atılacak adım sayısı"
       ],
-      "Rendering": ["oluşturma"],
+      "Rendering": ["Oluşturma"],
       "pixelated (Sharp)": ["pikselli (Keskin)"],
       "auto (Smooth)": ["otomatik (Düzgün)"],
       "image-rendering CSS attribute of the canvas object that defines how the browser scales up the image": [
@@ -2092,7 +2111,7 @@
       "x": ["X"],
       "y": ["y"],
       "Color will be shaded based the normalized (0% to 100%) value of a given cell against the other cells in the selected range: ": [
-        "Renk, belirli bir hücrenin seçilen aralıktaki diğer hücrelere göre normalleştirilmiş (%0 ila %100) değerine göre gölgelendirilir:"
+        "Renk, belirli bir hücrenin seçilen aralıktaki diğer hücrelere göre normalleştirilmiş (%0 ila %100) değerine göre gölgelendirilir: "
       ],
       "x: values are normalized within each column": [
         "x: değerler her sütunda normalleştirilir"
@@ -2121,7 +2140,7 @@
       "Whether to include the percentage in the tooltip": [
         "Yüzdenin araç ipucuna dahil edilip edilmeyeceği"
       ],
-      "Normalized": ["normalleştirilmiş"],
+      "Normalized": ["Normalleştirilmiş"],
       "Whether to apply a normal distribution based on rank on the color scale": [
         "Renk skalasında sıralamaya dayalı normal dağılım uygulanıp uygulanmayacağı"
       ],
@@ -2132,11 +2151,11 @@
       "Sizes of vehicles": ["Araçların boyutları"],
       "Employment and education": ["İstihdam ve eğitim"],
       "Density": ["Yoğunluk"],
-      "Predictive": ["tahmini"],
+      "Predictive": ["Tahmini"],
       "Single Metric": ["Tek Metrik"],
       "to": ["ile"],
       "count": ["saymak"],
-      "cumulative": ["Kümülatif"],
+      "cumulative": ["kümülatif"],
       "percentile (exclusive)": ["yüzdelik dilim (özel)"],
       "Select the numeric columns to draw the histogram": [
         "Histogramı çizmek için sayısal sütunları seçin"
@@ -2178,7 +2197,7 @@
       "Purple": ["Mor"],
       "Gold": ["Altın"],
       "Dim Gray": ["Soluk Gri"],
-      "Crimson": ["kızıl"],
+      "Crimson": ["Kızıl"],
       "Forest Green": ["Orman yeşili"],
       "Longitude": ["Boylam"],
       "Column containing longitude data": ["Boylam verilerini içeren sütun"],
@@ -2195,21 +2214,21 @@
       ],
       "Auto": ["Oto"],
       "Point Radius Unit": ["Nokta Yarıçapı Birimi"],
-      "Pixels": ["pikseller"],
+      "Pixels": ["Pikseller"],
       "Miles": ["Mil"],
-      "Kilometers": ["kilometre"],
+      "Kilometers": ["Kilometre"],
       "The unit of measure for the specified point radius": [
         "Belirtilen nokta yarıçapı için ölçü birimi"
       ],
-      "Labelling": ["etiketleme"],
+      "Labelling": ["Etiketleme"],
       "label": ["etiket"],
       "`count` is COUNT(*) if a group by is used. Numerical columns will be aggregated with the aggregator. Non-numerical columns will be used to label points. Leave empty to get a count of points in each cluster.": [
         "Bir by grubu kullanılıyorsa \"sayı\" COUNT(*) olur. Sayısal sütunlar, toplayıcı ile toplanacaktır. Noktaları etiketlemek için sayısal olmayan sütunlar kullanılacaktır. Her kümedeki puan sayısını almak için boş bırakın."
       ],
       "Cluster label aggregator": ["Küme etiketi toplayıcı"],
       "sum": ["toplam"],
-      "mean": ["Anlam"],
-      "max": ["maks."],
+      "mean": ["mean"],
+      "max": ["max"],
       "std": ["std"],
       "var": ["var"],
       "Aggregate function applied to the list of points in each cluster to produce the cluster label.": [
@@ -2221,14 +2240,14 @@
         "Görünüm değiştikçe noktalar ve kümeler güncellenir"
       ],
       "Map Style": ["Harita Stili"],
-      "Streets": ["sokaklar"],
+      "Streets": ["Sokaklar"],
       "Dark": ["Karanlık"],
       "Light": ["Işık"],
       "Satellite Streets": ["Uydu Sokaklar"],
       "Satellite": ["Uydu"],
-      "Outdoors": ["açık havada"],
+      "Outdoors": ["Outdor"],
       "Base layer map style": ["Temel katman harita stili"],
-      "Opacity": ["opaklık"],
+      "Opacity": ["Opak değeri"],
       "Opacity of all clusters, points, and labels. Between 0 and 1.": [
         "Tüm kümelerin, noktaların ve etiketlerin opaklığı. 0 ile 1 arasında."
       ],
@@ -2236,12 +2255,12 @@
       "The color for points and clusters in RGB": [
         "RGB'deki noktaların ve kümelerin rengi"
       ],
-      "Viewport": ["görünüm alanı"],
-      "Default longitude": ["varsayılan boylam"],
+      "Viewport": ["Görünüm"],
+      "Default longitude": ["Varsayılan boylam"],
       "Longitude of default viewport": ["Varsayılan görünümün boylamı"],
-      "Default latitude": ["varsayılan enlem"],
+      "Default latitude": ["Varsayılan enlem"],
       "Latitude of default viewport": ["Varsayılan görünümün enlemi"],
-      "Zoom": ["yakınlaştır"],
+      "Zoom": ["Yakınlaştır"],
       "Zoom level of the map": ["Haritanın yakınlaştırma düzeyi"],
       "One or many controls to group by. If grouping, latitude and longitude columns must be present.": [
         "Gruplamak için bir veya daha fazla kontrol. Gruplandırma yapılacaksa enlem ve boylam sütunları bulunmalıdır."
@@ -2250,14 +2269,14 @@
       "Dark mode": ["Karanlık mod"],
       "MapBox": ["Harita Kutusu"],
       "Scatter": ["Dağılım"],
-      "Transformable": ["dönüştürülebilir"],
+      "Transformable": ["Dönüştürülebilir"],
       "Significance Level": ["Önem Düzeyi"],
       "Threshold alpha level for determining significance": [
         "Önemi belirlemek için eşik alfa seviyesi"
       ],
       "p-value precision": ["p değeri hassasiyeti"],
       "Number of decimal places with which to display p-values": [
-        "p değerlerinin görüntüleneceği ondalık basamak sayısı"
+        "P değerlerinin görüntüleneceği ondalık basamak sayısı"
       ],
       "Lift percent precision": ["Kaldırma yüzdesi hassasiyeti"],
       "Number of decimal places with which to display lift values": [
@@ -2267,8 +2286,8 @@
         "Gruplar arasındaki istatistiksel farklılıkları anlamak için kullanılan eşleştirilmiş t-testlerini görselleştiren tablo."
       ],
       "Paired t-test Table": ["Eşleştirilmiş t-test Tablosu"],
-      "Statistical": ["istatistiksel"],
-      "Tabular": ["tablo"],
+      "Statistical": ["İstatistiksel"],
+      "Tabular": ["Tablo yapısında"],
       "Options": ["Seçenekler"],
       "Data Table": ["Veri tablosu"],
       "Whether to display the interactive data table": [
@@ -2280,13 +2299,13 @@
       "Plots the individual metrics for each row in the data vertically and links them together as a line. This chart is useful for comparing multiple metrics across all of the samples or rows in the data.": [
         "Verilerdeki her satır için ayrı metrikleri dikey olarak çizer ve bunları bir çizgi olarak birbirine bağlar. Bu grafik, verilerdeki tüm örneklerde veya satırlarda birden çok ölçümü karşılaştırmak için kullanışlıdır."
       ],
-      "Coordinates": ["koordinatlar"],
+      "Coordinates": ["Koordinatlar"],
       "Directional": ["Yönlü"],
       "Time Series Options": ["Zaman Serisi Seçenekleri"],
       "Not Time Series": ["Zaman Serisi Değil"],
-      "Ignore time": ["zamanı yoksay"],
+      "Ignore time": ["Zamanı yoksay"],
       "Time Series": ["Zaman serisi"],
-      "Standard time series": ["standart zaman serisi"],
+      "Standard time series": ["Standart zaman serisi"],
       "Aggregate Mean": ["Toplam Ortalama"],
       "Mean of values over specified period": [
         "Belirtilen süre boyunca değerlerin ortalaması"
@@ -2302,7 +2321,7 @@
       "Metric percent change in value from `since` to `until`": [
         "\"başlangıç\"tan \"kadar\"a kadar değerdeki metrik yüzde değişimi"
       ],
-      "Factor": ["faktör"],
+      "Factor": ["Faktör"],
       "Metric factor change from `since` to `until`": [
         "\"başlangıçtan\" ​​dan \"kadar\"a metrik faktör değişikliği"
       ],
@@ -2328,7 +2347,7 @@
       ],
       "Rich Tooltip": ["Zengin İpucu"],
       "The rich tooltip shows a list of all series for that point in time": [
-        "Zengin araç ipucu, o an için tüm serilerin bir listesini gösterir."
+        "Ayrıntılı ipucu, o an için tüm serilerin bir listesini gösterir"
       ],
       "Rolling Window": ["Hareketli Pencere"],
       "Rolling Function": ["Yuvarlanma İşlevi"],
@@ -2358,7 +2377,7 @@
       "Method": ["Yöntem"],
       "asfreq": ["asfrek"],
       "bfill": ["dolgu"],
-      "ffill": ["doldurmak"],
+      "ffill": ["doldur"],
       "median": ["medyan"],
       "Part of a Whole": ["Bir Bütünün Parçası"],
       "Compare the same summarized metric across multiple groups.": [
@@ -2371,7 +2390,7 @@
       "Aggregate function to apply when pivoting and computing the total rows and columns": [
         "Toplam satırları ve sütunları döndürürken ve hesaplarken uygulanacak toplama işlevi"
       ],
-      "Show totals": ["toplamları göster"],
+      "Show totals": ["Toplamları göster"],
       "Display total row/column": ["Toplam satır/sütun görüntüle"],
       "Combine Metrics": ["Metrikleri Birleştir"],
       "Display metrics side by side within each column, as opposed to each column being displayed side by side for each metric.": [
@@ -2402,12 +2421,12 @@
       "Visualizes the flow of different group's values through different stages of a system. New stages in the pipeline are visualized as nodes or layers. The thickness of the bars or edges represent the metric being visualized.": [
         "Bir sistemin farklı aşamalarında farklı grupların değerlerinin akışını görselleştirir. Ardışık düzendeki yeni aşamalar, düğümler veya katmanlar olarak görselleştirilir. Çubukların veya kenarların kalınlığı, görselleştirilen metriği temsil eder."
       ],
-      "Demographics": ["demografi"],
+      "Demographics": ["Demografi"],
       "Survey Responses": ["Anket Yanıtları"],
       "Sankey Diagram": ["Sankey Şeması"],
-      "Percentages": ["yüzdeler"],
+      "Percentages": ["Yüzdeler"],
       "Sankey Diagram with Loops": ["Döngüler ile Sankey Diyagramı"],
-      "of total": ["Toplam"],
+      "of total": ["toplamı"],
       "of parent": ["ebeveynin"],
       "Primary Metric": ["Birincil Metrik"],
       "The primary metric is used to define the arc segment sizes": [
@@ -2423,7 +2442,7 @@
       "When a secondary metric is provided, a linear color scale is used.": [
         "İkincil bir ölçü sağlandığında, doğrusal bir renk ölçeği kullanılır."
       ],
-      "Hierarchy": ["hiyerarşi"],
+      "Hierarchy": ["Hiyerarşi"],
       "This defines the level of the hierarchy": [
         "Bu, hiyerarşinin seviyesini tanımlar"
       ],
@@ -2483,12 +2502,12 @@
       "deck.gl Multiple Layers": ["deck.gl Çoklu Katmanlar"],
       "deckGL": ["güverteGL"],
       "Data has no time steps": ["Verinin zaman adımı yok"],
-      "Start (Longitude, Latitude): ": ["Başlangıç ​​(Boylam, Enlem):"],
-      "End (Longitude, Latitude): ": ["Bitiş (Boylam, Enlem):"],
+      "Start (Longitude, Latitude): ": ["Başlangıç ​​(Boylam, Enlem): "],
+      "End (Longitude, Latitude): ": ["Bitiş (Boylam, Enlem): "],
       "Start Longitude & Latitude": ["Boylam ve Enlem Başlat"],
       "Point to your spatial columns": ["Uzamsal sütunlarınızın üzerine gelin"],
       "End Longitude & Latitude": ["Boylam ve Enlem Sonu"],
-      "Arc": ["ark"],
+      "Arc": ["Ark"],
       "Target Color": ["Hedef Renk"],
       "Color of the target location": ["Hedef konumun rengi"],
       "Categorical Color": ["Kategorik Renk"],
@@ -2502,7 +2521,7 @@
       ],
       "deck.gl Arc": ["deck.gl Ark"],
       "3D": ["3 boyutlu"],
-      "Web": ["ağ"],
+      "Web": ["Web"],
       "GeoJson Settings": ["GeoJson Ayarları"],
       "Point Radius Scale": ["Nokta Yarıçapı Ölçeği"],
       "The GeoJsonLayer takes in GeoJSON formatted data and renders it as interactive polygons, lines and points (circles, icons and/or texts).": [
@@ -2519,7 +2538,7 @@
       ],
       "deck.gl Grid": ["deck.gl Izgara"],
       "Experimental": ["Deneysel"],
-      "Centroid (Longitude and Latitude): ": ["Centroid (Boylam ve Enlem):"],
+      "Centroid (Longitude and Latitude): ": ["Centroid (Boylam ve Enlem): "],
       "Dynamic Aggregation Function": ["Dinamik Toplama İşlevi"],
       "The function to use when aggregating points into groups": [
         "Noktaları gruplar halinde toplarken kullanılacak işlev"
@@ -2534,7 +2553,7 @@
         "Bir harita üzerinde altıgen bir ızgarayı kaplar ve verileri her bir hücrenin sınırları içinde toplar."
       ],
       "deck.gl 3D Hexagon": ["deck.gl 3D Altıgen"],
-      "Polyline": ["çoklu çizgi"],
+      "Polyline": ["Çoklu çizgi"],
       "Visualizes connected points, which form a path, on a map.": [
         "Bir yol oluşturan bağlantılı noktaları bir harita üzerinde görselleştirir."
       ],
@@ -2555,7 +2574,7 @@
       ],
       "Bucket break points": ["Kova kırılma noktaları"],
       "List of n+1 values for bucketing metric into n buckets.": [
-        "n gruba bölme metriği için n+1 değerlerinin listesi."
+        "N gruba bölme metriği için n+1 değerlerinin listesi."
       ],
       "Emit Filter Events": ["Olayları Filtrele"],
       "Whether to apply filter when items are clicked": [
@@ -2576,8 +2595,8 @@
       "Square kilometers": ["Kilometrekare"],
       "Square miles": ["Mil kare"],
       "Radius in meters": ["Metre cinsinden yarıçap"],
-      "Radius in kilometers": ["kilometre cinsinden yarıçap"],
-      "Radius in miles": ["mil cinsinden yarıçap"],
+      "Radius in kilometers": ["Kilometre cinsinden yarıçap"],
+      "Radius in miles": ["Mil cinsinden yarıçap"],
       "Minimum Radius": ["Minimum Yarıçap"],
       "Minimum radius size of the circle, in pixels. As the zoom level changes, this insures that the circle respects this minimum radius.": [
         "Dairenin piksel cinsinden minimum yarıçap boyutu. Yakınlaştırma seviyesi değiştikçe bu, dairenin bu minimum yarıçapa uymasını sağlar."
@@ -2601,10 +2620,10 @@
       ],
       "deck.gl Screen Grid": ["deck.gl Ekran Izgarası"],
       "For more information about objects are in context in the scope of this function, refer to the": [
-        "Bu işlevin kapsamındaki nesneler hakkında daha fazla bilgi için bkz."
+        "Bu işlev kapsamındaki nesneler hakkında daha fazla bilgi için bkz"
       ],
       " source code of Superset's sandboxed parser": [
-        "Superset'in korumalı alan ayrıştırıcısının kaynak kodu"
+        " Superset'in “sandbox parser” kaynak kodu"
       ],
       "This functionality is disabled in your environment for security reasons.": [
         "Bu işlevsellik, güvenlik nedeniyle ortamınızda devre dışı bırakılmıştır."
@@ -2649,19 +2668,19 @@
         "Satır bilgilerini içeren veritabanı sütunları"
       ],
       "Line width": ["Hat genişliği"],
-      "The width of the lines": ["çizgilerin genişliği"],
+      "The width of the lines": ["Çizgilerin genişliği"],
       "Fill Color": ["Dolgu Rengi"],
       " Set the opacity to 0 if you do not want to override the color specified in the GeoJSON": [
-        "GeoJSON'da belirtilen rengi geçersiz kılmak istemiyorsanız opaklığı 0 olarak ayarlayın."
+        " GeoJSON'da belirtilen rengi baskılamak istemiyorsanız opaklığı 0 olarak ayarlayın"
       ],
       "Stroke Color": ["Fırça rengi"],
       "Filled": ["Dolu"],
       "Whether to fill the objects": ["Nesnelerin doldurulup doldurulmayacağı"],
-      "Stroked": ["okşadı"],
+      "Stroked": ["Stok"],
       "Whether to display the stroke": [
         "Konturun görüntülenip görüntülenmeyeceği"
       ],
-      "Extruded": ["ekstrüde"],
+      "Extruded": ["Çıkartılmış"],
       "Whether to make the grid 3D": ["Izgarayı 3D yapıp yapmamak"],
       "Grid Size": ["Izgara Boyutu"],
       "Defines the grid size in pixels": [
@@ -2672,14 +2691,14 @@
       ],
       "Longitude & Latitude": ["Boylam enlem"],
       "Fixed point radius": ["Sabit nokta yarıçapı"],
-      "Multiplier": ["çarpan"],
+      "Multiplier": ["Çarpan"],
       "Factor to multiply the metric by": ["Metrik ile çarpılacak faktör"],
       "Lines encoding": ["Satır kodlaması"],
       "The encoding format of the lines": ["Satırların kodlama biçimi"],
       "geohash (square)": ["geohash (kare)"],
       "Reverse Lat & Long": ["Ters Enlem ve Boylam"],
       "GeoJson Column": ["GeoJson Sütunu"],
-      "Select the geojson column": ["geojson sütununu seçin"],
+      "Select the geojson column": ["Geojson sütununu seçin"],
       "Right Axis Format": ["Sağ Eksen Formatı"],
       "Show Markers": ["İşaretçileri Göster"],
       "Show data points as circle markers on the lines": [
@@ -2698,7 +2717,7 @@
       "step-before": ["adım öncesi"],
       "step-after": ["adım adım"],
       "Line interpolation as defined by d3.js": [
-        "d3.js tarafından tanımlandığı şekliyle hat enterpolasyonu"
+        "d3.js da tanımlandığı şekliyle hat enterpolasyonu"
       ],
       "Show Range Filter": ["Aralık Filtresini Göster"],
       "Whether to display the time range interactive selector": [
@@ -2747,7 +2766,7 @@
         "Birden çok gruptan ilgili bir metriğin zaman içinde nasıl değiştiğini görselleştiren bir zaman serisi grafiği. Her grup farklı bir renk kullanılarak görselleştirilir."
       ],
       "Stretched style": ["Gerilmiş stil"],
-      "Stacked style": ["yığılmış stil"],
+      "Stacked style": ["Yığın (stacked) biçimi"],
       "Video game consoles": ["Video oyun konsolları"],
       "Vehicle Types": ["Araç Tipleri"],
       "Area Chart (legacy)": ["Alan Grafiği (eski)"],
@@ -2883,7 +2902,7 @@
         "Zamanın döndürüleceği periyodiklik. Kullanıcılar \n \"Pandalar\" ofset takma adı sağlayabilir.\n Kabul edilen \"freq\" ​​ifadeleri hakkında daha fazla ayrıntı için bilgi balonunu tıklayın."
       ],
       "Time-series Period Pivot": ["Zaman Serisi Dönem Pivotu"],
-      "Formula": ["formül"],
+      "Formula": ["Formül"],
       "Event": ["Etkinlik"],
       "Interval": ["Aralık"],
       "Stack": ["Yığın"],
@@ -2893,7 +2912,7 @@
       "Whether to display a legend for the chart": [
         "Grafik için bir açıklamanın görüntülenip görüntülenmeyeceği"
       ],
-      "Margin": ["kenar boşluğu"],
+      "Margin": ["Marj"],
       "Additional padding for legend.": ["Efsane için ek dolgu."],
       "Scroll": ["Taslak"],
       "Plain": ["Ova"],
@@ -2921,7 +2940,7 @@
       "Whether to sort tooltip by the selected metric in descending order.": [
         "Araç ipucunun seçilen metriğe göre azalan düzende sıralanıp sıralanmayacağı."
       ],
-      "Tooltip": ["ipucu"],
+      "Tooltip": ["İpucu"],
       "Sort Series By": ["Serileri Şuna Göre Sırala"],
       "Based on what should series be ordered on the chart and legend": [
         "Grafikte ve göstergede hangi dizilerin sıralanması gerektiğine bağlı olarak"
@@ -2948,7 +2967,7 @@
       "Huge": ["Büyük"],
       "Subheader Font Size": ["Alt Başlık Yazı Tipi Boyutu"],
       "Display settings": ["Görüntü ayarları"],
-      "Subheader": ["alt başlık"],
+      "Subheader": ["Alt başlık"],
       "Description text that shows up below your Big Number": [
         "Büyük Numaranızın altında görünen açıklama metni"
       ],
@@ -2961,12 +2980,12 @@
       ],
       "A Big Number": ["Büyük Bir Sayı"],
       "With a subheader": ["Alt başlık ile"],
-      "Formattable": ["biçimlendirilebilir"],
+      "Formattable": ["Biçimlendirilebilir"],
       "Comparison Period Lag": ["Karşılaştırma Süresi Gecikmesi"],
       "Based on granularity, number of time periods to compare against": [
         "Ayrıntı düzeyine bağlı olarak, karşılaştırılacak zaman aralığı sayısı"
       ],
-      "Comparison suffix": ["karşılaştırma eki"],
+      "Comparison suffix": ["Karşılaştırma soneki"],
       "Suffix to apply after the percentage display": [
         "Yüzde gösteriminden sonra uygulanacak son ek"
       ],
@@ -3001,7 +3020,7 @@
       "Categories to group by on the x-axis.": [
         "X ekseninde gruplandırılacak kategoriler."
       ],
-      "Distribute across": ["genelinde dağıtmak"],
+      "Distribute across": ["Boyunca dağıt"],
       "Columns to calculate distribution across.": [
         "Dağılımı hesaplamak için sütunlar."
       ],
@@ -3020,13 +3039,13 @@
       "Sequential": ["Ardışık"],
       "Columns to group by": ["Gruplandırılacak sütunlar"],
       "General": ["Genel"],
-      "Min": ["dak."],
+      "Min": ["Min"],
       "Minimum value on the gauge axis": ["Gösterge eksenindeki minimum değer"],
-      "Max": ["maks."],
+      "Max": ["Max"],
       "Maximum value on the gauge axis": [
         "Gösterge eksenindeki maksimum değer"
       ],
-      "Start angle": ["başlangıç ​​açısı"],
+      "Start angle": ["Başlangıç ​​açısı"],
       "Angle at which to start progress axis": [
         "İlerleme ekseninin başlatılacağı açı"
       ],
@@ -3050,7 +3069,7 @@
       "Whether to animate the progress and the value or just display them": [
         "İlerlemeyi ve değeri canlandırmak veya sadece görüntülemek"
       ],
-      "Axis": ["eksen"],
+      "Axis": ["Eksen"],
       "Show axis line ticks": ["Eksen çizgi işaretlerini göster"],
       "Whether to show minor ticks on the axis": [
         "Eksen üzerinde küçük işaretlerin gösterilip gösterilmeyeceği"
@@ -3095,11 +3114,11 @@
       "The category of source nodes used to assign colors. If a node is associated with more than one category, only the first will be used.": [
         "Renkleri atamak için kullanılan kaynak düğümlerin kategorisi. Bir düğüm birden fazla kategoriyle ilişkiliyse, yalnızca ilki kullanılacaktır."
       ],
-      "Target category": ["hedef kategori"],
+      "Target category": ["Hedef kategori"],
       "Category of target nodes": ["Hedef düğümlerin kategorisi"],
       "Chart options": ["Grafik seçenekleri"],
       "Layout": ["Düzen"],
-      "Graph layout": ["grafik düzeni"],
+      "Graph layout": ["Grafik düzeninde"],
       "Force": ["Güç"],
       "Layout type of graph": ["Yerleşim grafiği türü"],
       "Edge symbols": ["Kenar sembolleri"],
@@ -3124,7 +3143,7 @@
       ],
       "Node select mode": ["Düğüm seçme modu"],
       "Single": ["Bekar"],
-      "Multiple": ["çoklu"],
+      "Multiple": ["Çoklu"],
       "Allow node selections": ["Düğüm seçimlerine izin ver"],
       "Label threshold": ["Etiket eşiği"],
       "Minimum value for label to be displayed on graph.": [
@@ -3171,7 +3190,7 @@
       "Draw a marker on data points. Only applicable for line types.": [
         "Veri noktalarında bir işaretçi çizin. Sadece hat türleri için geçerlidir."
       ],
-      "Marker size": ["işaretçi boyutu"],
+      "Marker size": ["Markör boyutu"],
       "Size of marker. Also applies to forecast observations.": [
         "İşaretçinin boyutu. Tahmin gözlemleri için de geçerlidir."
       ],
@@ -3200,7 +3219,7 @@
         "Y Eksenini Kes. Bir minimum veya maksimum sınır belirtilerek geçersiz kılınabilir."
       ],
       "Primary y-axis format": ["Birincil y ekseni formatı"],
-      "Logarithmic y-axis": ["logaritmik y ekseni"],
+      "Logarithmic y-axis": ["Logaritmik y ekseni"],
       "Logarithmic scale on primary y-axis": [
         "Birincil y ekseninde logaritmik ölçek"
       ],
@@ -3228,7 +3247,7 @@
       "Whether to display the aggregate count": [
         "Toplam sayının görüntülenip görüntülenmeyeceği"
       ],
-      "Pie shape": ["pasta şekli"],
+      "Pie shape": ["Pasta dilimi biçiminde"],
       "Outer Radius": ["Dış Yarıçap"],
       "Outer edge of Pie chart": ["Pasta grafiğin dış kenarı"],
       "Inner Radius": ["İç yarıçap"],
@@ -3240,7 +3259,7 @@
       "The maximum value of metrics. It is an optional configuration": [
         "Metriklerin maksimum değeri. İsteğe bağlı bir yapılandırmadır"
       ],
-      "Label position": ["etiket konumu"],
+      "Label position": ["Etiket konumu"],
       "Radar": ["Radar"],
       "Customize Metrics": ["Metrikleri Özelleştir"],
       "Further customize how to display each metric": [
@@ -3290,7 +3309,7 @@
       "AXIS TITLE POSITION": ["EKSEN BAŞLIK KONUMU"],
       "Rotate axis label": ["Eksen etiketini döndür"],
       "Axis Format": ["Eksen Formatı"],
-      "Logarithmic axis": ["logaritmik eksen"],
+      "Logarithmic axis": ["Logaritmik eksen"],
       "Draw split lines for minor axis ticks": [
         "Küçük eksen işaretleri için bölünmüş çizgiler çizin"
       ],
@@ -3336,7 +3355,7 @@
         "Zaman serisi Düzgün çizgi, çizgi grafiğinin bir varyasyonudur. Açılar ve sert kenarlar olmadan, Smooth-line bazen daha akıllı ve daha profesyonel görünür."
       ],
       "Time-series Smooth Line": ["Zaman Serisi Düzgün Çizgi"],
-      "Step type": ["adım tipi"],
+      "Step type": ["Adım tipi"],
       "Start": ["Başlangıç"],
       "Middle": ["Orta"],
       "End": ["Son"],
@@ -3352,16 +3371,16 @@
       "Stepped Line": ["Basamaklı Hat"],
       "Time-series Stepped Line": ["Zaman Serisi Kademeli Çizgi"],
       "Id": ["İD"],
-      "Name of the id column": ["kimlik sütununun adı"],
-      "Parent": ["ebeveyn"],
+      "Name of the id column": ["Kimlik sütununun adı"],
+      "Parent": ["Ata"],
       "Name of the column containing the id of the parent node": [
         "Üst düğümün kimliğini içeren sütunun adı"
       ],
       "Optional name of the data column.": ["Veri sütununun isteğe bağlı adı."],
-      "Root node id": ["kök düğüm kimliği"],
+      "Root node id": ["Kök node id"],
       "Id of root node of the tree.": ["Ağacın kök düğümünün kimliği."],
       "Metric for node values": ["Düğüm değerleri için metrik"],
-      "Tree layout": ["ağaç düzeni"],
+      "Tree layout": ["Ağaç düzeninde"],
       "Orthogonal": ["Dikey"],
       "Radial": ["Radyal"],
       "Layout type of tree": ["Ağaç düzeni türü"],
@@ -3370,11 +3389,11 @@
       "Right to Left": ["Sağdan sola"],
       "Top to Bottom": ["Yukarıdan Aşağıya"],
       "Bottom to Top": ["Aşağıdan Yukarıya"],
-      "Orientation of tree": ["ağacın yönü"],
+      "Orientation of tree": ["Ağacın yönü"],
       "Node label position": ["Düğüm etiketi konumu"],
       "left": ["sol"],
       "top": ["tepe"],
-      "right": ["Sağ"],
+      "right": ["sağ"],
       "bottom": ["alt"],
       "Position of intermediate node label on tree": [
         "Ara düğüm etiketinin ağaç üzerindeki konumu"
@@ -3383,14 +3402,14 @@
       "Position of child node label on tree": [
         "Alt düğüm etiketinin ağaç üzerindeki konumu"
       ],
-      "Emphasis": ["vurgu"],
-      "ancestor": ["Ata"],
+      "Emphasis": ["Vurgu"],
+      "ancestor": ["ata"],
       "descendant": ["azalan"],
       "Which relatives to highlight on hover": [
         "Fareyle üzerine gelindiğinde hangi akrabaların vurgulanacağı"
       ],
       "Symbol": ["Sembol"],
-      "Empty circle": ["boş daire"],
+      "Empty circle": ["Boş daire"],
       "Circle": ["Daire"],
       "Rectangle": ["Dikdörtgen"],
       "Triangle": ["Üçgen"],
@@ -3433,12 +3452,12 @@
       "Show total aggregations of selected metrics. Note that row limit does not apply to the result.": [
         "Seçilen metriklerin toplam toplamalarını göster. Satır sınırının sonuç için geçerli olmadığını unutmayın."
       ],
-      "Ordering": ["sipariş"],
+      "Ordering": ["Sıralama"],
       "Order results by selected columns": [
         "Sonuçları seçilen sütunlara göre sırala"
       ],
       "Sort descending": ["Azalan şekilde sırala"],
-      "Server pagination": ["sunucu sayfalandırma"],
+      "Server pagination": ["Sunucu sayfalandırması"],
       "Enable server side pagination of results (experimental feature)": [
         "Sonuçların sunucu tarafında sayfalandırmasını etkinleştir (deneysel özellik)"
       ],
@@ -3473,7 +3492,7 @@
       "Count": ["Saymak"],
       "Count Unique Values": ["Benzersiz Değerleri Say"],
       "List Unique Values": ["Benzersiz Değerleri Listeleme"],
-      "Sum": ["toplam"],
+      "Sum": ["Toplam"],
       "Average": ["Ortalama"],
       "Median": ["Medyan"],
       "Sample Variance": ["Örnek Varyans"],
@@ -3492,13 +3511,13 @@
       "Display row level total": ["Satır düzeyi toplamını görüntüle"],
       "Show columns total": ["Sütun toplamını göster"],
       "Display column level total": ["Sütun düzeyi toplamını görüntüle"],
-      "Transpose pivot": ["devrik pivot"],
+      "Transpose pivot": ["Transpoze pivot"],
       "Swap rows and columns": ["Satırları ve sütunları değiştir"],
       "Combine metrics": ["Metrikleri birleştirin"],
       "D3 time format for datetime columns": [
         "Tarih saat sütunları için D3 saat biçimi"
       ],
-      "Sort rows by": ["Satırları şuna göre sırala:"],
+      "Sort rows by": ["Satır sıralama belirleyeni"],
       "key a-z": ["a'dan z'ye anahtar"],
       "key z-a": ["anahtar z-a"],
       "value ascending": ["artan değer"],
@@ -3511,7 +3530,7 @@
       "By value: use metric values as sorting key": [
         "Değere göre: sıralama anahtarı olarak metrik değerleri kullanın"
       ],
-      "Sort columns by": ["Sütunları şuna göre sırala:"],
+      "Sort columns by": ["Sütun sıralama belirleyeni"],
       "Change order of columns.": ["Sütunların sırasını değiştirin."],
       "By key: use column names as sorting key": [
         "Anahtara göre: sütun adlarını sıralama anahtarı olarak kullanın"
@@ -3536,11 +3555,11 @@
       "page_size.entries": ["page_size.entries"],
       "No matching records found": ["Hiçbir eşleşen kayıt bulunamadı"],
       "Shift + Click to sort by multiple columns": [
-        "Birden çok sütuna göre sıralamak için Shift + Tıklama"
+        "Birden çok sütuna göre sıralamak için Shift le birlikte tıklayın"
       ],
       "Totals": ["Toplamlar"],
       "Timestamp format": ["Zaman damgası biçimi"],
-      "Page length": ["sayfa uzunluğu"],
+      "Page length": ["Sayfa uzunluğu"],
       "Search box": ["Arama kutusu"],
       "Whether to include a client-side search box": [
         "Bir istemci tarafı arama kutusu eklenip eklenmeyeceği"
@@ -3652,7 +3671,7 @@
       "Your query was not properly saved": [
         "Sorgunuz düzgün bir şekilde kaydedilmedi"
       ],
-      "Your query was saved": ["sorgunuz kaydedildi"],
+      "Your query was saved": ["Sorgunuz kaydedildi"],
       "Your query was updated": ["Sorgunuz güncellendi"],
       "Your query could not be updated": ["Sorgunuz güncellenemedi"],
       "An error occurred while storing your query in the backend. To avoid losing your changes, please save your query using the \"Save Query\" button.": [
@@ -3689,7 +3708,7 @@
       ],
       "Primary key": ["Birincil anahtar"],
       "Foreign key": ["Yabancı anahtar"],
-      "Index": ["dizin"],
+      "Index": ["İndeks"],
       "Estimate selected query cost": ["Seçili sorgu maliyetini tahmin et"],
       "Estimate cost": ["Tahmini maliyet"],
       "Cost estimate": ["Maliyet tahmini"],
@@ -3709,16 +3728,16 @@
       ],
       "LIMIT": ["SINIR"],
       "State": ["Durum"],
-      "Started": ["başladı"],
+      "Started": ["Başlatıldı"],
       "Duration": ["Süre"],
       "Results": ["Sonuçlar"],
       "Actions": ["Hareketler"],
       "Success": ["Başarı"],
       "Failed": ["Arızalı"],
       "Running": ["Koşma"],
-      "Fetching": ["getiriliyor"],
-      "Offline": ["çevrimdışı"],
-      "Scheduled": ["planlanmış"],
+      "Fetching": ["Eşleniyor"],
+      "Offline": ["Çevrimdışı"],
+      "Scheduled": ["Planlanmış"],
       "Unknown Status": ["Bilinmeyen Durum"],
       "Edit": ["Düzenlemek"],
       "View": ["Görüş"],
@@ -3762,26 +3781,26 @@
       "Track job": ["İşi takip et"],
       "See query details": ["Sorgu ayrıntılarına bakın"],
       "Query was stopped": ["Sorgu durduruldu"],
-      "Database error": ["veri tabanı hatası"],
+      "Database error": ["Veri tabanı hatası"],
       "was created": ["yaratıldı"],
       "Query in a new tab": ["Yeni bir sekmede sorgula"],
       "The query returned no data": ["Sorgu veri döndürmedi"],
       "Fetch data preview": ["Veri önizlemesini getir"],
       "Refetch results": ["Sonuçları yeniden getir"],
-      "Stop": ["Durmak"],
+      "Stop": ["Dur"],
       "Run selection": ["Seçimi çalıştır"],
-      "Run": ["Koşmak"],
+      "Run": ["Çalıştır"],
       "Stop running (Ctrl + x)": ["Çalıştırmayı durdur (Ctrl + x)"],
       "Stop running (Ctrl + e)": ["Çalıştırmayı durdur (Ctrl + e)"],
       "Run query (Ctrl + Return)": ["Sorguyu çalıştır (Ctrl + Return)"],
-      "Save": ["Kaydetmek"],
+      "Save": ["Kaydet"],
       "Untitled Dataset": ["Adsız Veri Kümesi"],
       "An error occurred saving dataset": [
         "Veri kümesi kaydedilirken bir hata oluştu"
       ],
       "Save or Overwrite Dataset": ["Veri Kümesini Kaydet veya Üzerine Yaz"],
       "Back": ["Geri"],
-      "Save as new": ["yeni olarak kaydet"],
+      "Save as new": ["Yeni olarak kaydet"],
       "Overwrite existing": ["Var olanın üzerine yaz"],
       "Select or type dataset name": ["Veri kümesi adını seçin veya yazın"],
       "Existing dataset": ["Mevcut veri kümesi"],
@@ -3829,7 +3848,7 @@
       "You must run the query successfully first": [
         "Önce sorguyu başarıyla çalıştırmalısınız"
       ],
-      "Autocomplete": ["otomatik tamamlama"],
+      "Autocomplete": ["Otomatik tamamlama"],
       "CREATE TABLE AS": ["TABLO OLUŞTUR"],
       "CREATE VIEW AS": ["GÖRÜNÜMÜ ŞEKİLDE OLUŞTUR"],
       "Estimate the cost before running a query": [
@@ -3858,7 +3877,7 @@
       "Hide tool bar": ["Sekmeyi gizle"],
       "Close all other tabs": ["Diğer tüm sekmeleri kapatın"],
       "Duplicate tab": ["Yinelenen sekme"],
-      "Add a new tab": ["yeni sekme ekle"],
+      "Add a new tab": ["Sekme ekle"],
       "New tab (Ctrl + q)": ["Yeni sekme (Ctrl + q)"],
       "New tab (Ctrl + t)": ["Yeni sekme (Ctrl + t)"],
       "Add a new tab to create SQL Query": [
@@ -3866,7 +3885,7 @@
       ],
       "Copy partition query to clipboard": ["Bölüm sorgusunu panoya kopyala"],
       "latest partition:": ["son bölüm:"],
-      "Keys for table": ["tablo için anahtarlar"],
+      "Keys for table": ["Tablo için anahtarlar"],
       "View keys & indexes (%s)": [
         "Anahtarları ve dizinleri görüntüleyin (%s)"
       ],
@@ -3878,9 +3897,7 @@
       "Show CREATE VIEW statement": ["CREATE VIEW deyimini göster"],
       "CREATE VIEW statement": ["GÖRÜNÜM deyimi OLUŞTUR"],
       "Remove table preview": ["Tablo önizlemesini kaldır"],
-      "Assign a set of parameters as": [
-        "Bir dizi parametreyi şu şekilde atayın:"
-      ],
+      "Assign a set of parameters as": ["Bir dizi parametreyi şu şekilde ata"],
       "below (example:": ["aşağıda (örnek:"],
       "), and they become available in your SQL (example:": [
         ") ve SQL'inizde kullanılabilir hale gelirler (örnek:"
@@ -3889,7 +3906,7 @@
       "Jinja templating": ["Jinja şablonu"],
       "syntax.": ["sözdizimi."],
       "Edit template parameters": ["Şablon parametrelerini düzenle"],
-      "Parameters ": ["parametreler"],
+      "Parameters ": ["Parametreler "],
       "Invalid JSON": ["Geçersiz JSON"],
       "Untitled query": ["Adsız sorgu"],
       "%s%s": ["%s%s"],
@@ -3897,13 +3914,13 @@
       "Before": ["Önce"],
       "After": ["Sonrasında"],
       "Click to see difference": ["Farkı görmek için tıklayın"],
-      "Altered": ["değiştirilmiş"],
+      "Altered": ["Değiştirildi"],
       "Chart changes": ["Grafik değişiklikleri"],
       "Select ...": ["Seçme ..."],
       "Loaded data cached": ["Yüklenen veriler önbelleğe alındı"],
       "Loaded from cache": ["Önbellekten yüklendi"],
       "Click to force-refresh": ["Zorla yenilemek için tıklayın"],
-      "Cached": ["önbelleğe alınmış"],
+      "Cached": ["Önbelleğe alındı"],
       "Add required control values to preview chart": [
         "Grafiği önizlemek için gerekli kontrol değerlerini ekleyin"
       ],
@@ -3944,6 +3961,9 @@
       ],
       "Remove cross-filter": ["Çapraz filtreyi kaldır"],
       "Add cross-filter": ["Çapraz filtre ekle"],
+      "Failed to load dimensions for drill by": [
+        "Alta doğru incelemeler için boyut bilgisi yüklenemedi"
+      ],
       "Drill by is not yet supported for this chart type": [
         "Bu grafik türü için detaya gitme yöntemi henüz desteklenmiyor"
       ],
@@ -3953,10 +3973,16 @@
       "Drill by": ["Sondaj ölçütü"],
       "Search columns": ["Arama sütunları"],
       "No columns found": ["Sütun bulunamadı"],
+      "Failed to generate chart edit URL": [
+        "Grafik düzenleme URL’si oluşturulamadı"
+      ],
       "Edit chart": ["Grafiği düzenle"],
-      "Close": ["Kapalı"],
+      "Close": ["Kapat"],
       "Failed to load chart data.": ["Grafik verileri yüklenemedi."],
       "Drill by: %s": ["Detaylandırma: %s"],
+      "There was an error loading the chart data": [
+        "Grafik verisi yüklenirken bir hata oluştu"
+      ],
       "Results %s": ["Sonuçlar %s"],
       "Drill to detail by": ["Ayrıntılara göre detaylandırın"],
       "Drill to detail": ["Detaylandırmak için matkap"],
@@ -3970,32 +3996,32 @@
         "Bu değere göre detaya inmek için bir boyut değerine sağ tıklayın."
       ],
       "Drill to detail: %s": ["Ayrıntılara inin: %s"],
-      "Formatting": ["biçimlendirme"],
-      "Formatted value": ["biçimlendirilmiş değer"],
+      "Formatting": ["Formatlanıyor"],
+      "Formatted value": ["Biçimlendirilmiş değer"],
       "No rows were returned for this dataset": [
         "Bu veri kümesi için hiçbir satır döndürülmedi"
       ],
       "Reload": ["Tekrar yükle"],
-      "Copy": ["kopyala"],
+      "Copy": ["Kopyala"],
       "Copy to clipboard": ["Panoya kopyala"],
       "Copied to clipboard!": ["Panoya kopyalandı!"],
       "Sorry, your browser does not support copying. Use Ctrl / Cmd + C!": [
         "Üzgünüz, tarayıcınız kopyalamayı desteklemiyor. Ctrl / Cmd + C'yi kullanın!"
       ],
-      "every": ["Her"],
+      "every": ["her"],
       "every month": ["her ay"],
       "every day of the month": ["ayın her günü"],
       "day of the month": ["ayın günü"],
       "every day of the week": ["haftanın her günü"],
       "day of the week": ["haftanın günü"],
-      "every hour": ["Her saat"],
+      "every hour": ["her saat"],
       "every minute": ["her dakika"],
       "minute": ["dakika"],
       "reboot": ["yeniden başlat"],
       "Every": ["Her"],
       "in": ["içinde"],
-      "on": ["Açık"],
-      "and": ["Ve"],
+      "on": ["açık"],
+      "and": ["ve"],
       "at": ["de"],
       ":": [":"],
       "minute(s)": ["dakika(lar)"],
@@ -4054,7 +4080,7 @@
         "Uyarı! Veri kümesini değiştirmek, meta veriler yoksa grafiği bozabilir."
       ],
       "Changing the dataset may break the chart if the chart relies on columns or metadata that does not exist in the target dataset": [
-        "Grafik, hedef veri kümesinde olmayan sütunlara veya meta verilere dayanıyorsa, veri kümesini değiştirmek grafiği bozabilir."
+        "Grafik, hedef veri kümesinde olmayan sütunlara veya meta verilere dayanıyorsa, veri kümesinin değiştirilmesi grafiği bozabilir"
       ],
       "dataset": ["veri kümesi"],
       "Successfully changed dataset!": ["Veri kümesi başarıyla değiştirildi!"],
@@ -4063,7 +4089,7 @@
       "Proceed": ["İlerlemek"],
       "Warning!": ["Uyarı!"],
       "Search / Filter": ["Ara / Filtrele"],
-      "Add item": ["Öğe eklemek"],
+      "Add item": ["Öğe ekle"],
       "STRING": ["SİCİM"],
       "NUMERIC": ["SAYISAL"],
       "DATETIME": ["DATETIME"],
@@ -4075,13 +4101,13 @@
       "Advanced Data type": ["Gelişmiş Veri türü"],
       "Datetime format": ["Tarih saat biçimi"],
       "The pattern of timestamp format. For strings use ": [
-        "Zaman damgası formatının kalıbı. Dizeler için kullanın"
+        "Zaman damgası formatının kalıbı. Dize (string) kullanımı için "
       ],
       "Python datetime string pattern": ["Python tarih saat dize deseni"],
-      " expression which needs to adhere to the ": ["uyulması gereken ifade"],
+      " expression which needs to adhere to the ": [" uyulması gereken ifade "],
       "ISO 8601": ["ISO 8601"],
       " standard to ensure that the lexicographical ordering\n                      coincides with the chronological ordering. If the\n                      timestamp format does not adhere to the ISO 8601 standard\n                      you will need to define an expression and type for\n                      transforming the string into a date or timestamp. Note\n                      currently time zones are not supported. If time is stored\n                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n                      is specified we fall back to using the optional defaults on a per\n                      database/column name level via the extra parameter.": [
-        "sözlüksel sıralamanın\n kronolojik sıralamayla çakışmasını sağlamak için standart. Zaman damgası biçimi\n ISO 8601 standardına uygun değilse\n, dizeyi bir tarih veya zaman damgasına dönüştürmek için\n bir ifade tanımlamanız ve yazmanız gerekir. Not\n şu anda saat dilimleri desteklenmemektedir. Zaman\n epoch biçiminde saklanıyorsa, \"epoch_s\" veya \"epoch_ms\" yazın. Herhangi bir kalıp\n belirtilmezse, ekstra parametre aracılığıyla her\n veritabanı/sütun adı düzeyinde isteğe bağlı varsayılanları kullanmaya geri döneriz."
+        " standard to ensure that the lexicographical ordering\n                      coincides with the chronological ordering. If the\n                      timestamp format does not adhere to the ISO 8601 standard\n                      you will need to define an expression and type for\n                      transforming the string into a date or timestamp. Note\n                      currently time zones are not supported. If time is stored\n                      in epoch format, put `epoch_s` or `epoch_ms`. If no pattern\n                      is specified we fall back to using the optional defaults on a per\n                      database/column name level via the extra parameter."
       ],
       "Certified By": ["Tarafından onaylanmış"],
       "Person or group that has certified this metric": [
@@ -4090,16 +4116,16 @@
       "Certified by": ["Tarafından onaylanmış"],
       "Certification details": ["Sertifika ayrıntıları"],
       "Details of the certification": ["Sertifikanın ayrıntıları"],
-      "Is dimension": ["boyut"],
-      "Default datetime": ["varsayılan tarih saat"],
-      "Is filterable": ["filtrelenebilir"],
+      "Is dimension": ["Boyut"],
+      "Default datetime": ["Varsayılan tarih saat"],
+      "Is filterable": ["Filtrelenebilir"],
       "<new column>": ["<yeni sütun>"],
       "Select owners": ["Sahipleri seçin"],
       "Modified columns: %s": ["Değiştirilen sütunlar: %s"],
       "Removed columns: %s": ["Kaldırılan sütunlar: %s"],
       "New columns added: %s": ["Yeni sütunlar eklendi: %s"],
       "Metadata has been synced": ["Meta veriler senkronize edildi"],
-      "An error has occurred": ["bir hata oluştu"],
+      "An error has occurred": ["Bir hata oluştu"],
       "Column name [%s] is duplicated": ["Sütun adı [%s] yineleniyor"],
       "Metric name [%s] is duplicated": ["Metrik adı [%s] yineleniyor"],
       "Calculated column [%s] requires an expression": [
@@ -4110,7 +4136,7 @@
       "Default URL to redirect to when accessing from the dataset list page": [
         "Veri kümesi listesi sayfasından erişirken yönlendirilecek varsayılan URL"
       ],
-      "Autocomplete filters": ["otomatik tamamlama filtreleri"],
+      "Autocomplete filters": ["Otomatik tamamlama filtreleri"],
       "Whether to populate autocomplete filters options": [
         "Otomatik tamamlama filtreleri seçeneklerinin doldurulup doldurulmayacağı"
       ],
@@ -4121,7 +4147,7 @@
       "Extra data to specify table metadata. Currently supports metadata of the format: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"This table is the source of truth.\" }, \"warning_markdown\": \"This is a warning.\" }`.": [
         "Tablo meta verilerini belirtmek için ekstra veriler. Şu anda şu formattaki meta verileri desteklemektedir: `{ \"certification\": { \"certified_by\": \"Data Platform Team\", \"details\": \"Bu tablo gerçeğin kaynağıdır.\" }, \"warning_markdown\": \"Bu bir uyarıdır.\" }`."
       ],
-      "Cache timeout": ["önbellek zaman aşımı"],
+      "Cache timeout": ["Önbellek zaman aşımı"],
       "The duration of time in seconds before the cache is invalidated. Set to -1 to bypass the cache.": [
         "Önbellek geçersiz kılınmadan önceki saniye cinsinden süre. Önbelleği atlamak için -1 olarak ayarlayın."
       ],
@@ -4129,7 +4155,7 @@
       "The number of hours, negative or positive, to shift the time column. This can be used to move UTC time to local time.": [
         "Zaman sütununu kaydırmak için negatif veya pozitif saat sayısı. Bu, UTC saatini yerel saate taşımak için kullanılabilir."
       ],
-      "Spatial": ["mekansal"],
+      "Spatial": ["Mekansal"],
       "<new spatial>": ["<yeni uzamsal>"],
       "<no type>": ["<tür yok>"],
       "Click the lock to make changes.": [
@@ -4139,7 +4165,7 @@
         "Daha fazla değişikliği önlemek için kilide tıklayın."
       ],
       "virtual": ["sanal"],
-      "Dataset name": ["veri kümesi adı"],
+      "Dataset name": ["Veri kümesi adı"],
       "When specifying SQL, the datasource acts as a view. Superset will use this statement as a subquery while grouping and filtering on the generated parent queries.": [
         "SQL belirtilirken, veri kaynağı bir görünüm görevi görür. Superset, oluşturulan üst sorguları gruplandırırken ve filtrelerken bu ifadeyi bir alt sorgu olarak kullanır."
       ],
@@ -4152,7 +4178,7 @@
         "Bu metriğin kullanımı hakkında isteğe bağlı uyarı"
       ],
       "<new metric>": ["<yeni metrik>"],
-      "Be careful.": ["Dikkat olmak."],
+      "Be careful.": ["Dikkat."],
       "Changing these settings will affect all charts using this dataset, including charts owned by other people.": [
         "Bu ayarların değiştirilmesi, diğer kişilerin sahip olduğu grafikler de dahil olmak üzere bu veri kümesini kullanan tüm grafikleri etkiler."
       ],
@@ -4170,7 +4196,7 @@
       ],
       "Confirm save": ["Kaydetmeyi onayla"],
       "OK": ["TAMAM"],
-      "Edit Dataset ": ["Veri Kümesini Düzenle"],
+      "Edit Dataset ": ["Veri Kümesini Düzenle "],
       "Use legacy datasource editor": [
         "Eski veri kaynağı düzenleyicisini kullan"
       ],
@@ -4188,25 +4214,39 @@
       "No databases match your search": ["Aramanızla eşleşen veri tabanı yok"],
       "There are no databases available": ["Kullanılabilir veri tabanı yok"],
       "Manage your databases": ["Veritabanlarınızı yönetin"],
-      "here": ["Burada"],
+      "here": ["burada"],
       "Unexpected error": ["Beklenmeyen hata"],
       "This may be triggered by:": [
         "Bu, aşağıdakiler tarafından tetiklenebilir:"
       ],
+      "Please reach out to the Chart Owner for assistance.": [
+        "Lütfen yardım için Grafik Sahibine ulaşın."
+      ],
+      "Chart Owner: %s": ["Grafiği Oluşturan: %s"],
       "%(message)s\nThis may be triggered by: \n%(issues)s": [
         "%(message)s\nBu şu şekilde tetikleniyor olabilir: \n%(issues)s"
       ],
       "%s Error": ["%s Hata"],
-      "Missing dataset": ["veri kümesi eksik"],
+      "Missing dataset": ["Veri kümesi eksik"],
       "See more": ["Daha fazla gör"],
       "See less": ["Daha az görün"],
       "Copy message": ["Mesajı kopyala"],
+      "This was triggered by:": ["Şu şekilde tetiklendi:"],
       "Did you mean:": ["Demek istediğin:"],
-      "Parameter error": ["parametre hatası"],
+      "%(suggestion)s instead of \"%(undefinedParameter)s?\"": [
+        "“%(undefinedParameter)s?” yerine %(suggestion)s"
+      ],
+      "Parameter error": ["Parametre hatası"],
+      "We’re having trouble loading this visualization. Queries are set to timeout after %s second.": [
+        "Bu görselleştirmeyi yüklerken sorun yaşıyoruz. Sorgular %s saniye sonra zaman aşımına uğrayacak şekilde ayarlanmıştır."
+      ],
+      "We’re having trouble loading these results. Queries are set to timeout after %s second.": [
+        "Bu sonuçları yüklerken sorun yaşıyoruz. Sorgular %s saniye sonra zaman aşımına uğrayacak şekilde ayarlanmıştır."
+      ],
       "%(subtitle)s\nThis may be triggered by:\n %(issue)s": [
         "%(subtitle)s\nBu, şunlarla tetiklenebilir:\n%(issue)s"
       ],
-      "Timeout error": ["zaman aşımı hatası"],
+      "Timeout error": ["Zaman aşımı hatası"],
       "Click to favorite/unfavorite": [
         "Favori/favoriden kaldırmak için tıklayın"
       ],
@@ -4214,7 +4254,7 @@
       "Hide password.": ["Şifreyi gizle."],
       "Show password.": ["Şifreyi göster."],
       "Database driver for importing maybe not installed. Visit the Superset documentation page for installation instructions: ": [
-        "İçe aktarma için veritabanı sürücüsü yüklü olmayabilir. Kurulum talimatları için Superset dokümantasyon sayfasını ziyaret edin:"
+        "İçeri aktarma (import) için veritabanı sürücüsü (driver) yüklü olmayabilir. Kurulum talimatları için Superset dokümantasyonlarını inceleyin: "
       ],
       "OVERWRITE": ["ÜZERİNE YAZ"],
       "Database passwords": ["Veritabanı şifreleri"],
@@ -4224,7 +4264,7 @@
       "%s SSH TUNNEL PRIVATE KEY PASSWORD": [
         "%s SSH TÜNELİ ÖZEL ANAHTAR ŞİFRE"
       ],
-      "Overwrite": ["üzerine yaz"],
+      "Overwrite": ["Üzerine yaz"],
       "Import": ["İçe aktarmak"],
       "Import %s": ["%s'yi içe aktar"],
       "Select file": ["Dosya Seç"],
@@ -4245,18 +4285,18 @@
       "Start date": ["Başlangıç ​​tarihi"],
       "End date": ["Bitiş tarihi"],
       "Type a value": ["Bir değer yazın"],
-      "Filter": ["filtre"],
+      "Filter": ["Filtre"],
       "Select or type a value": ["Bir değer seçin veya yazın"],
       "Last modified": ["Son düzenleme"],
       "Modified by": ["Tarafından düzenlendi"],
       "Created by": ["Tarafından oluşturuldu"],
-      "Created on": ["oluşturuldu"],
+      "Created on": ["Oluşturulma zamanı"],
       "Menu actions trigger": ["Menü eylemleri tetiklenir"],
       "Weekly Report for %s": ["%s için Haftalık Rapor"],
       "Weekly Report": ["Haftalık rapor"],
       "Edit email report": ["E-posta raporunu düzenle"],
       "Schedule a new email report": ["Yeni bir e-posta raporu planlayın"],
-      "Add": ["Eklemek"],
+      "Add": ["Ekle"],
       "Message content": ["Mesaj içeriği"],
       "Text embedded in email": ["E-postaya gömülü metin"],
       "Image (PNG) embedded in email": ["E-postaya gömülü resim (PNG)"],
@@ -4268,7 +4308,7 @@
         "Raporunuzla birlikte gönderilecek bir açıklama ekleyin"
       ],
       "A screenshot of the dashboard will be sent to your email at": [
-        "Kontrol panelinin bir ekran görüntüsü şu adresteki e-postanıza gönderilecek:"
+        "Kontrol panelinin ekran görüntüsü belirtilen e-postanıza gönderilecek"
       ],
       "Timezone": ["Saat dilimi"],
       "Failed to update report": ["Rapor güncellenemedi"],
@@ -4284,12 +4324,12 @@
       "Filter menu": ["Filtre menüsü"],
       "Reset": ["Sıfırla"],
       "No filters": ["Filtresiz"],
-      "Select all items": ["tüm öğeleri seç"],
+      "Select all items": ["Tümünü seç"],
       "Search in filters": ["Filtrelerde ara"],
       "Select current page": ["Geçerli sayfayı seç"],
       "Invert current page": ["Geçerli sayfayı ters çevir"],
       "Clear all data": ["Tüm verileri temizle"],
-      "Select all data": ["tüm verileri seç"],
+      "Select all data": ["Tüm verileri seç"],
       "Expand row": ["Satırı genişlet"],
       "Collapse row": ["Satırı daralt"],
       "Click to sort descending": ["Azalan sıralamak için tıklayın"],
@@ -4351,10 +4391,10 @@
         "Kayıtlı tüm grafikler getirilemedi"
       ],
       "Sorry there was an error fetching saved charts: ": [
-        "Üzgünüz, kayıtlı grafikler getirilirken bir hata oluştu:"
+        "Kayıtlı grafikler getirilirken bir hata oluştu: "
       ],
       "Any color palette selected here will override the colors applied to this dashboard's individual charts": [
-        "Burada seçilen herhangi bir renk paleti, bu kontrol panelinin ayrı grafiklerine uygulanan renkleri geçersiz kılacaktır."
+        "Burada seçilen herhangi bir renk paleti, bu panonun (dashboard) alt grafiklerine uygulanan renkleri geçersiz kılacaktır"
       ],
       "You have unsaved changes.": ["Kaydedilmemiş değişiklikleriniz mevcut."],
       "Changes saved.": ["Değişiklikler kaydedildi."],
@@ -4373,7 +4413,7 @@
         "Bu kontrol panelini harici bir web uygulamasına gömmek için yapılandırın."
       ],
       "For further instructions, consult the": [
-        "Daha fazla talimat için şuraya başvurun:"
+        "Daha fazla talimat için şuraya başvurun"
       ],
       "Superset Embedded SDK documentation.": [
         "Superset Gömülü SDK belgeleri."
@@ -4392,7 +4432,7 @@
         "Bileşenleri ve grafikleri panoya sürükleyip bırakın"
       ],
       "You can create a new chart or use existing ones from the panel on the right": [
-        "Sağdaki panelden yeni bir grafik oluşturabilir veya mevcut olanları kullanabilirsiniz."
+        "Sağdaki panelden yeni bir grafik oluşturabilir veya mevcut olanları kullanabilirsiniz"
       ],
       "Create a new chart": ["Yeni bir grafik oluştur"],
       "Drag and drop components to this tab": [
@@ -4421,7 +4461,7 @@
       ],
       "Refresh interval saved": ["Yenileme aralığı kaydedildi"],
       "Refresh interval": ["Yenileme aralığı"],
-      "Refresh frequency": ["yenileme sıklığı"],
+      "Refresh frequency": ["Yenileme sıklığı"],
       "Are you sure you want to proceed?": [
         "Devam etmek istediğinizden emin misiniz?"
       ],
@@ -4431,7 +4471,7 @@
         "Yeni pano için bir ad seçmelisiniz"
       ],
       "Save dashboard": ["Kontrol panelini kaydet"],
-      "Overwrite Dashboard [%s]": ["Panonun Üzerine Yaz [%s]"],
+      "Overwrite Dashboard [%s]": ["Panelin üzerine Yaz [%s]"],
       "Save as:": ["Farklı kaydet:"],
       "[dashboard name]": ["[kontrol paneli adı]"],
       "also copy (duplicate) charts": ["grafikleri de kopyalayın (çoğaltın)"],
@@ -4446,10 +4486,10 @@
         "Erişiminiz olan tüm grafikleri veya yalnızca sahip olduklarınızı görüntülemeyi seçebilirsiniz.\n Filtre seçiminiz kaydedilecek ve siz değiştirmeyi seçene kadar etkin kalacaktır."
       ],
       "Added": ["Katma"],
-      "Viz type": ["yani tip"],
-      "Dataset": ["veri kümesi"],
+      "Viz type": ["Viz tipi"],
+      "Dataset": ["Veri kümesi"],
       "Superset chart": ["Süper küme tablosu"],
-      "Check out this chart in dashboard:": ["Panodaki bu tabloya göz atın:"],
+      "Check out this chart in dashboard:": ["Paneldeki bu grafiğe göz atın:"],
       "Layout elements": ["Düzen öğeleri"],
       "Load a CSS template": ["Bir CSS şablonu yükleyin"],
       "Live CSS editor": ["Canlı CSS düzenleyici"],
@@ -4458,7 +4498,7 @@
         "Bu kontrol paneline eklenmiş grafik yok"
       ],
       "Go to the edit mode to configure the dashboard and add charts": [
-        "Panoyu yapılandırmak ve grafikler eklemek için düzenleme moduna gidin"
+        "Paneli yapılandırmak ve grafikler eklemek için düzenleme moduna gidin"
       ],
       "Applied cross-filters (%d)": ["Uygulanan çapraz filtreler (%d)"],
       "Applied filters (%d)": ["Uygulanan filtreler (%d)"],
@@ -4468,34 +4508,34 @@
       "Your dashboard is too large. Please reduce its size before saving it.": [
         "Kontrol paneliniz çok büyük. Lütfen kaydetmeden önce boyutunu küçültün."
       ],
-      "Add the name of the dashboard": ["Panonun adını ekleyin"],
-      "Dashboard title": ["Pano başlığı"],
-      "Undo the action": ["eylemi geri al"],
+      "Add the name of the dashboard": ["Panelin adını ekleyin"],
+      "Dashboard title": ["Panel başlığı"],
+      "Undo the action": ["Yapılanı geri al"],
       "Redo the action": ["İşlemi yeniden yap"],
       "Discard": ["At"],
-      "Edit dashboard": ["Panoyu düzenle"],
+      "Edit dashboard": ["Paneli düzenle"],
       "An error occurred while fetching available CSS templates": [
         "Kullanılabilir CSS şablonları getirilirken bir hata oluştu"
       ],
       "Refreshing charts": ["Grafikler yenileniyor"],
       "Superset dashboard": ["Süper küme kontrol paneli"],
-      "Check out this dashboard: ": ["Bu kontrol paneline göz atın:"],
+      "Check out this dashboard: ": ["Panelden (dashboard) çık: "],
       "Refresh dashboard": ["Kontrol panelini yenile"],
       "Exit fullscreen": ["Tam ekrandan çık"],
       "Enter fullscreen": ["Tam ekran yap"],
       "Edit properties": ["Özellikleri düzenle"],
       "Edit CSS": ["CSS'yi düzenle"],
-      "Download as image": ["resim olarak indir"],
+      "Download as image": ["Resim olarak indir"],
       "Share": ["Paylaşmak"],
       "Copy permalink to clipboard": ["Kalıcı bağlantıyı panoya kopyala"],
       "Share permalink by email": ["Kalıcı bağlantıyı e-posta ile paylaşın"],
-      "Embed dashboard": ["Panoyu göm"],
+      "Embed dashboard": ["Panele yerleştir"],
       "Manage email report": ["E-posta raporunu yönet"],
       "Set filter mapping": ["Filtre eşlemeyi ayarla"],
       "Set auto-refresh interval": ["Otomatik yenileme aralığını ayarla"],
       "Confirm overwrite": ["Üzerine yazmayı onayla"],
       "Scroll down to the bottom to enable overwriting changes. ": [
-        "Değişikliklerin üzerine yazmayı etkinleştirmek için aşağıya doğru kaydırın."
+        "Değişikliklerin etkinleştirmek için aşağıya doğru kaydırın. "
       ],
       "Yes, overwrite changes": ["Evet, değişikliklerin üzerine yaz"],
       "Are you sure you intend to overwrite the following values?": [
@@ -4505,21 +4545,21 @@
       "Apply": ["Uygula"],
       "A valid color scheme is required": ["Geçerli bir renk şeması gerekli"],
       "JSON metadata is invalid!": ["JSON meta verileri geçersiz!"],
-      "Dashboard properties updated": ["Pano özellikleri güncellendi"],
-      "The dashboard has been saved": ["Pano kaydedildi"],
+      "Dashboard properties updated": ["Panel özellikleri güncellendi"],
+      "The dashboard has been saved": ["Panel kaydedildi"],
       "Access": ["Erişim"],
       "Owners is a list of users who can alter the dashboard. Searchable by name or username.": [
         "Sahipler, kontrol panelini değiştirebilen kullanıcıların bir listesidir. İsme veya kullanıcı adına göre aranabilir."
       ],
       "Colors": ["Renkler"],
       "Roles is a list which defines access to the dashboard. Granting a role access to a dashboard will bypass dataset level checks. If no roles are defined, regular access permissions apply.": [
-        "Roller, panoya erişimi tanımlayan bir listedir. Bir panoya rol erişimi verilmesi, veri kümesi düzeyi kontrollerini atlayacaktır. Herhangi bir rol tanımlanmamışsa, normal erişim izinleri geçerlidir."
+        "Roller, panele erişimi tanımlayan bir listedir. Bir panoya rol erişimi verilmesi, veri kümesi düzeyi kontrollerini atlayacaktır. Herhangi bir rol tanımlanmamışsa, normal erişim izinleri geçerlidir."
       ],
-      "Dashboard properties": ["Pano özellikleri"],
+      "Dashboard properties": ["Panel özellikleri"],
       "This dashboard is managed externally, and can't be edited in Superset": [
-        "Bu pano harici olarak yönetilir ve Superset'te düzenlenemez"
+        "Bu panel harici olarak yönetilir ve Superset'te düzenlenemez"
       ],
-      "Basic information": ["temel bilgiler"],
+      "Basic information": ["Temel bilgiler"],
       "URL slug": ["URL bilgisi"],
       "A readable URL for your dashboard": [
         "Kontrol paneliniz için okunabilir bir URL"
@@ -4542,10 +4582,10 @@
         "Bunun yerine \"%(menuName)s\" menüsünü kullanın."
       ],
       "This dashboard is not published, it will not show up in the list of dashboards. Click here to publish this dashboard.": [
-        "Bu pano yayınlanmadı, panolar listesinde görünmeyecek. Bu kontrol panelini yayınlamak için burayı tıklayın."
+        "Bu panel yayınlanmadı, panolar listesinde görünmeyecek. Bu kontrol panelini yayınlamak için burayı tıklayın."
       ],
       "This dashboard is not published which means it will not show up in the list of dashboards. Favorite it to see it there or access it by using the URL directly.": [
-        "Bu pano yayınlanmadı, bu da panolar listesinde görünmeyeceği anlamına gelir. Orada görmek veya doğrudan URL'yi kullanarak erişmek için favorilere ekleyin."
+        "Bu panel yayınlanmadı, bu da panolar listesinde görünmeyeceği anlamına gelir. Orada görmek veya doğrudan URL'yi kullanarak erişmek için favorilere ekleyin."
       ],
       "This dashboard is published. Click to make it a draft.": [
         "Bu pano yayınlandı. Taslak yapmak için tıklayın."
@@ -4556,6 +4596,9 @@
       ],
       "One ore more annotation layers failed loading.": [
         "Bir veya daha fazla ek açıklama katmanı yüklenemedi."
+      ],
+      "This chart applies cross-filters to charts whose datasets contain columns with the same name.": [
+        "Bu grafik, aynı veri kümesini kullanan diğer grafiklere çapraz filtreler uygular."
       ],
       "Data refreshed": ["Veriler yenilendi"],
       "Cached %s": ["%s önbelleğe alındı"],
@@ -4568,7 +4611,7 @@
       "View as table": ["Tablo olarak görüntüle"],
       "Chart Data: %s": ["Grafik Verisi: %s"],
       "Share chart by email": ["Grafiği e-posta ile paylaşın"],
-      "Check out this chart: ": ["Bu tabloya göz atın:"],
+      "Check out this chart: ": ["Grafikten çık: "],
       "Download": ["İndirmek"],
       "Export to .CSV": [".CSV'ye aktar"],
       "Export to full .CSV": ["Tam .CSV dosyasına aktar"],
@@ -4600,19 +4643,19 @@
         "veya sağdaki panelden mevcut olanları kullanın"
       ],
       "You can add the components in the": [
-        "Bileşenleri içine ekleyebilirsiniz."
+        "Bileşenleri içine ekleyebilirsiniz"
       ],
-      "edit mode": ["Düzenleme modu"],
-      "Delete dashboard tab?": ["Pano sekmesi silinsin mi?"],
+      "edit mode": ["düzenleme modu"],
+      "Delete dashboard tab?": ["Panel sekmesi silinsin mi?"],
       "Deleting a tab will remove all content within it. You may still reverse this action with the": [
-        "Bir sekmenin silinmesi, içindeki tüm içeriği kaldırır. ile bu eylemi yine de tersine çevirebilirsiniz."
+        "Bir sekmenin silinmesi, içindeki tüm içeriği kaldırır. ile bu eylemi yine de tersine çevirebilirsiniz"
       ],
       "undo": ["geri alma"],
       "button (cmd + z) until you save your changes.": [
         "değişikliklerinizi kaydedene kadar (cmd + z) düğmesine basın."
       ],
-      "CANCEL": ["İPTAL ETMEK"],
-      "Divider": ["bölücü"],
+      "CANCEL": ["İPTAL"],
+      "Divider": ["Ayırıcı"],
       "Header": ["Başlık"],
       "Text": ["Metin"],
       "Tabs": ["Sekmeler"],
@@ -4657,7 +4700,7 @@
         "Bu filtre seti şununla aynıdır: \"%s\""
       ],
       "Remove invalid filters": ["Geçersiz filtreleri kaldır"],
-      "Rebuild": ["yeniden inşa et"],
+      "Rebuild": ["Yapılandır"],
       "Filters (%d)": ["Filtreler (%d)"],
       "This filter doesn't exist in dashboard. It will not be applied.": [
         "Bu filtre gösterge tablosunda mevcut değil. Uygulanmayacak."
@@ -4671,7 +4714,7 @@
       "Please apply filter changes": [
         "Lütfen filtre değişikliklerini uygulayın"
       ],
-      "Unknown value": ["bilinmeyen değer"],
+      "Unknown value": ["Bilinmeyen değer"],
       "Filters out of scope (%d)": ["Kapsam dışı filtreler (%d)"],
       "Dependent on": ["Bağımlı"],
       "Filter only displays values relevant to selections made in other filters.": [
@@ -4693,7 +4736,7 @@
       "No compatible datasets found": ["Uyumlu veri kümesi bulunamadı"],
       "Value is required": ["Değer gerekli"],
       "(deleted or invalid type)": ["(silinmiş veya geçersiz tür)"],
-      "Limit type": ["limit tipi"],
+      "Limit type": ["Limit tipi"],
       "No available filters.": ["Kullanılabilir filtre yok."],
       "Add filter": ["Filtre ekle"],
       "Values are dependent on other filters": [
@@ -4703,24 +4746,24 @@
         "Diğer filtrelerde seçilen değerler, filtre seçeneklerini yalnızca ilgili değerleri gösterecek şekilde etkiler"
       ],
       "Values dependent on": ["Bağımlı değerler"],
-      "Scoping": ["kapsam belirleme"],
+      "Scoping": ["Kapsam belirleme"],
       "Filter Configuration": ["Filtre Yapılandırması"],
       "Filter Settings": ["Filtre Ayarları"],
-      "Select filter": ["filtre seç"],
+      "Select filter": ["Filtre seç"],
       "Range filter": ["Aralık filtresi"],
-      "Numerical range": ["sayısal aralık"],
+      "Numerical range": ["Sayısal aralık"],
       "Time filter": ["Zaman filtresi"],
       "Time range": ["Zaman aralığı"],
-      "Time column": ["Zaman sütunu"],
-      "Time grain": ["Zaman tahıl"],
+      "Time column": ["Zaman alanı"],
+      "Time grain": ["Zaman çözünürlüğü"],
       "Group By": ["Gruplandır"],
-      "Group by": ["göre gruplandır"],
+      "Group by": ["Gruplandırma kriteri"],
       "Pre-filter is required": ["Ön filtre gereklidir"],
       "Time column to apply dependent temporal filter to": [
-        "Bağımlı zamansal filtrenin uygulanacağı zaman sütunu"
+        "Bağımlı zamansal filtrenin uygulanacağı zaman alanı"
       ],
       "Time column to apply time range to": [
-        "Zaman aralığının uygulanacağı zaman sütunu"
+        "Zaman aralığının uygulanacağı zaman alanı"
       ],
       "Filter name": ["Filtre adı"],
       "Name is required": ["İsim gerekli"],
@@ -4729,7 +4772,7 @@
         "Veri kümeleri geçici bir sütun içermez"
       ],
       "Dashboard time range filters apply to temporal columns defined in\n          the filter section of each chart. Add temporal columns to the chart\n          filters to have this dashboard filter impact those charts.": [
-        "Pano zaman aralığı filtreleri, her grafiğin filtre bölümünde tanımlanan geçici sütunlara\n uygulanır. Bu pano filtresinin bu grafikleri etkilemesini sağlamak için grafik\n filtrelerine geçici sütunlar ekleyin."
+        "Panel zaman aralığı filtreleri, her grafiğin filtre bölümünde tanımlanan geçici sütunlara\n uygulanır. Bu pano filtresinin bu grafikleri etkilemesini sağlamak için grafik\n filtrelerine geçici sütunlar ekleyin."
       ],
       "Dataset is required": ["Veri kümesi gerekli"],
       "Pre-filter available values": [
@@ -4738,14 +4781,14 @@
       "Add filter clauses to control the filter's source query,\n                    though only in the context of the autocomplete i.e., these conditions\n                    do not impact how the filter is applied to the dashboard. This is useful\n                    when you want to improve the query's performance by only scanning a subset\n                    of the underlying data or limit the available values displayed in the filter.": [
         "Filtrenin kaynak sorgusunu kontrol etmek için filtre yan tümceleri ekleyin,\n yalnızca otomatik tamamlama bağlamında, yani bu koşullar\n filtrenin panoya nasıl uygulandığını etkilemez. Bu, \n temeldeki verilerin yalnızca bir alt kümesini tarayarak\n sorgunun performansını iyileştirmek veya filtrede görüntülenen mevcut değerleri sınırlamak istediğinizde kullanışlıdır."
       ],
-      "Pre-filter": ["ön filtre"],
+      "Pre-filter": ["Ön filtre"],
       "No filter": ["Filtresiz"],
       "Sort filter values": ["Filtre değerlerini sırala"],
-      "Sort type": ["sıralama türü"],
-      "Sort ascending": ["artan sıralama"],
+      "Sort type": ["Sıralama türü"],
+      "Sort ascending": ["Artan sıralama"],
       "Sort Metric": ["Metrik Sırala"],
       "If a metric is specified, sorting will be done based on the metric value": [
-        "Bir metrik belirtilirse, metrik değerine göre sıralama yapılır."
+        "Bir metrik belirtilirse, metrik değerine göre sıralama yapılır"
       ],
       "Sort metric": ["Sıralama metriği"],
       "Single Value": ["Tek değer"],
@@ -4818,9 +4861,9 @@
       "Not in": ["Değil"],
       "Like": ["Beğenmek"],
       "Like (case insensitive)": ["Beğen (büyük/küçük harfe duyarsız)"],
-      "Regex": ["normal ifade"],
-      "Is not null": ["boş değil"],
-      "Is null": ["boş"],
+      "Regex": ["Regex"],
+      "Is not null": ["Değer boş (null) değil"],
+      "Is null": ["Boş (null)"],
       "use latest_partition template": ["last_partition şablonunu kullan"],
       "Is true": ["Doğru"],
       "Is false": ["Yanlış"],
@@ -4832,7 +4875,7 @@
       "One or many columns to group by. High cardinality groupings should include a series limit to limit the number of fetched and rendered series.": [
         "Gruplanacak bir veya daha fazla sütun. Yüksek kardinalite gruplamaları, getirilen ve işlenen serilerin sayısını sınırlamak için bir seri limiti içermelidir."
       ],
-      "Fixed color": ["sabit renk"],
+      "Fixed color": ["Sabit renk"],
       "Right axis metric": ["Sağ eksen metriği"],
       "Linear color scheme": ["Doğrusal renk şeması"],
       "Color metric": ["Renk metriği"],
@@ -4840,7 +4883,7 @@
         "Sütun olarak döndürmek için bir veya daha fazla denetim"
       ],
       "The time granularity for the visualization. Note that you can type and use simple natural language as in `10 seconds`,`1 day` or `56 weeks`": [
-        "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabileceğinizi unutmayın."
+        "Görselleştirme için zaman ayrıntı düzeyi. \"10 saniye\", \"1 gün\" veya \"56 hafta\" şeklinde basit bir doğal dil yazıp kullanabilirsiniz"
       ],
       "Bubble size": ["Kabarcık boyutu"],
       "When `Calculation type` is set to \"Percentage change\", the Y Axis Format is forced to `.1%`": [
@@ -4853,7 +4896,7 @@
       "Chart [%s] has been saved": ["Grafik [%s] kaydedildi"],
       "Chart [%s] has been overwritten": ["Grafiğin [%s] üzerine yazıldı"],
       "Dashboard [%s] just got created and chart [%s] was added to it": [
-        "Pano [%s] yeni oluşturuldu ve [%s] grafiği buna eklendi"
+        "Panel [%s] yeni oluşturuldu ve [%s] grafiği buna eklendi"
       ],
       "Chart [%s] was added to dashboard [%s]": [
         "Grafik [%s] gösterge tablosuna [%s] eklendi"
@@ -4864,7 +4907,7 @@
       ],
       "NOT GROUPED BY": ["GRUPLANDIRILMAMIŞTIR"],
       "Use this section if you want to query atomic rows": [
-        "Atomik satırları sorgulamak istiyorsanız bu bölümü kullanın."
+        "Atomik satırları (atomic rows) sorgulamak istiyorsanız bu bölümü kullanın"
       ],
       "The X-axis is not on the filters list": [
         "X ekseni, filtreler listesinde değil"
@@ -4873,7 +4916,7 @@
         "X ekseni, panolardaki zaman aralığı filtrelerinde\n kullanılmasını engelleyecek filtreler listesinde değildir. Filtreler listesine eklemek ister misiniz?"
       ],
       "You cannot delete the last temporal filter as it's used for time range filters in dashboards.": [
-        "Panolardaki zaman aralığı filtreleri için kullanıldığı için son zamansal filtreyi silemezsiniz."
+        "Panellerdaki zaman aralığı filtreleri için kullanıldığı için son zamansal filtreyi silemezsiniz."
       ],
       "This section contains validation errors": [
         "Bu bölüm doğrulama hataları içeriyor"
@@ -4888,7 +4931,7 @@
       "We were unable to carry over any controls when switching to this new dataset.": [
         "Bu yeni veri kümesine geçiş yaparken herhangi bir kontrolü taşıyamadık."
       ],
-      "Customize": ["Özelleştirmek"],
+      "Customize": ["Özelleştirme"],
       "Generating link, please wait..": [
         "Bağlantı oluşturuluyor, lütfen bekleyin.."
       ],
@@ -4898,16 +4941,19 @@
         "Grafik türü bir veri kümesi gerektirir"
       ],
       "This chart type is not supported when using an unsaved query as a chart source. ": [
-        "Bu grafik türü, kaydedilmemiş bir sorguyu grafik kaynağı olarak kullanırken desteklenmez."
+        "Bu grafik türü,  grafik kaynağı olarak kaydedilmemiş bir sorguyu kullanırken desteklenmez. "
       ],
       "Create a dataset": ["Veri kümesi oluştur"],
-      " to visualize your data.": ["Verilerinizi görselleştirmek için."],
+      " to visualize your data.": [" verilerinizi görselleştirmek için."],
       "Required control values have been removed": [
         "Gerekli kontrol değerleri kaldırıldı"
       ],
       "Your chart is not up to date": ["Grafiğiniz güncel değil"],
       "You updated the values in the control panel, but the chart was not updated automatically. Run the query by clicking on the \"Update chart\" button or": [
         "Değerleri kontrol panelinde güncellediniz, ancak grafik otomatik olarak güncellenmedi. \"Grafiği güncelle\" düğmesine tıklayarak sorguyu çalıştırın veya"
+      ],
+      "An error occurred while loading dashboard information.": [
+        "Yönetici paneli getirilirken bir hata oluştu."
       ],
       "Save (Overwrite)": ["Kaydet (Üzerine Yaz)"],
       "Save as...": ["Farklı kaydet..."],
@@ -4919,15 +4965,15 @@
       "Add to dashboard": ["Kontrol paneline ekle"],
       "Select a dashboard": ["Bir kontrol paneli seçin"],
       "Select": ["Seçme"],
-      " a dashboard OR ": ["bir pano VEYA"],
+      " a dashboard OR ": [" bir yönetici paneli (dashboard) VEYA "],
       "create": ["yaratmak"],
-      " a new one": ["yeni bir"],
+      " a new one": [" yeni bir"],
       "Save & go to new dashboard": ["Kaydet ve yeni kontrol paneline git"],
       "Save & go to dashboard": ["Kaydet ve kontrol paneline git"],
       "Save as new chart": ["Yeni grafik olarak kaydet"],
       "Save to new dashboard": ["Yeni kontrol paneline kaydet"],
       "Save chart": ["Grafiği kaydet"],
-      "Formatted date": ["biçimlendirilmiş tarih"],
+      "Formatted date": ["Biçimlendirilmiş tarih"],
       "Column Formatting": ["Sütun Biçimlendirme"],
       "Collapse data panel": ["Veri panelini daralt"],
       "Expand data panel": ["Veri panelini genişlet"],
@@ -4938,13 +4984,14 @@
       "No results": ["Sonuç yok"],
       "Search Metrics & Columns": ["Arama Metrikleri ve Sütunları"],
       " to edit or add columns and metrics.": [
-        "sütunları ve metrikleri düzenlemek veya eklemek için."
+        " sütunları ve metrikleri düzenlemek veya eklemek için."
       ],
       "Showing %s of %s": ["%s / %s gösteriliyor"],
       "Show less...": ["Daha az göster..."],
       "Show all...": ["Hepsini Göster ↓..."],
       "Show Less...": ["Daha az göster..."],
-      "Unable to retrieve dashboard colors": ["Pano renkleri alınamıyor"],
+      "Unable to retrieve dashboard colors": ["Panel renkleri alınamıyor"],
+      "Added to 1 dashboard": ["Yönetici paneline 1 eklendi"],
       "Not added to any dashboard": ["Herhangi bir kontrol paneline eklenmedi"],
       "You can preview the list of dashboards in the chart settings dropdown.": [
         "Gösterge tablosu listesini grafik ayarları açılır menüsünde önizleyebilirsiniz."
@@ -4955,11 +5002,11 @@
       "Add required control values to save chart": [
         "Grafiği kaydetmek için gerekli kontrol değerlerini ekleyin"
       ],
-      "Controls labeled ": ["Kontroller etiketlendi"],
-      "Control labeled ": ["Kontrol etiketli"],
+      "Controls labeled ": ["Etiketlenen kontroller "],
+      "Control labeled ": ["Etiketlenen kontrol "],
       "Chart Source": ["Grafik Kaynağı"],
       "Open Datasource tab": ["Veri Kaynağı sekmesini aç"],
-      "Original": ["orijinal"],
+      "Original": ["Orijinal"],
       "Pivoted": ["Döndürülmüş"],
       "You do not have permission to edit this chart": [
         "Bu grafiği düzenleme izniniz yok"
@@ -4982,13 +5029,14 @@
       "A list of users who can alter the chart. Searchable by name or username.": [
         "Grafiği değiştirebilen kullanıcıların listesi. İsme veya kullanıcı adına göre aranabilir."
       ],
+      "%s row": ["%s satır"],
       "Limit reached": ["Sınıra ulaşıldı"],
       "Create chart": ["Grafik oluştur"],
       "Update chart": ["Grafiği güncelle"],
       "Invalid lat/long configuration.": [
         "Geçersiz enlem/boylam yapılandırması."
       ],
-      "Reverse lat/long ": ["enlem/boylam ters"],
+      "Reverse lat/long ": ["Ters enlem/boylam "],
       "Longitude & Latitude columns": ["Boylam ve Enlem sütunları"],
       "Delimited long & lat single column": [
         "Sınırlandırılmış uzun ve enlem tek sütun"
@@ -5023,7 +5071,7 @@
       "This section allows you to configure how to use the slice\n              to generate annotations.": [
         "Bu bölüm, açıklama oluşturmak için dilimi\n nasıl kullanacağınızı yapılandırmanıza olanak tanır."
       ],
-      "Annotation layer time column": ["Ek açıklama katmanı zaman sütunu"],
+      "Annotation layer time column": ["Ek açıklama katmanı zaman alanı"],
       "Interval start column": ["Aralık başlangıç ​​sütunu"],
       "Event time column": ["Olay zamanı sütunu"],
       "This column must contain date/time information.": [
@@ -5059,9 +5107,9 @@
         "Bindirme şeklinizi burada nasıl görüntüleyeceğinizi yapılandırın."
       ],
       "Annotation layer stroke": ["Ek açıklama katmanı konturu"],
-      "Style": ["stil"],
+      "Style": ["Stil"],
       "Solid": ["Sağlam"],
-      "Dashed": ["kesikli"],
+      "Dashed": ["Kesikli"],
       "Long dashed": ["Uzun kesikli"],
       "Dotted": ["Noktalı"],
       "Annotation layer opacity": ["Ek açıklama katmanı opaklığı"],
@@ -5080,7 +5128,7 @@
       ],
       "Mandatory": ["Zorunlu"],
       "Hide layer": ["Katmanı gizle"],
-      "Show label": ["etiketi göster"],
+      "Show label": ["Etiketi göster"],
       "Whether to always show the annotation label": [
         "Açıklama etiketinin her zaman gösterilip gösterilmeyeceği"
       ],
@@ -5095,19 +5143,19 @@
       "Edit annotation layer": ["Ek açıklama katmanını düzenle"],
       "Add annotation layer": ["Ek açıklama katmanı ekle"],
       "Empty collection": ["Boş koleksiyon"],
-      "Add an item": ["öğe ekle"],
+      "Add an item": ["Öğe ekle"],
       "Remove item": ["Öğeyi kaldırmak"],
       "This color scheme is being overridden by custom label colors.\n    Check the JSON metadata in the Advanced settings": [
         "Bu renk düzeni, özel etiket renkleri tarafından geçersiz kılınıyor.\n Gelişmiş ayarlarda JSON meta verilerini kontrol edin"
       ],
       "The color scheme is determined by the related dashboard.\n        Edit the color scheme in the dashboard properties.": [
-        "Renk şeması, ilgili pano tarafından belirlenir.\n Pano özelliklerinde renk şemasını düzenleyin."
+        "Renk şeması, ilgili pano tarafından belirlenir.\n Panel özelliklerinde renk şemasını düzenleyin."
       ],
-      "dashboard": ["Yönetici Paneli"],
-      "Dashboard scheme": ["Pano şeması"],
+      "dashboard": ["yönetici paneli"],
+      "Dashboard scheme": ["Panel şeması"],
       "Select color scheme": ["Renk şemasını seçin"],
       "Select scheme": ["Şema seç"],
-      "Edit formatter": ["biçimlendiriciyi düzenle"],
+      "Edit formatter": ["Biçimlendiriciyi düzenle"],
       "Add new formatter": ["Yeni biçimlendirici ekle"],
       "Add new color formatter": ["Yeni renk biçimlendirici ekle"],
       "green": ["yeşil"],
@@ -5121,8 +5169,8 @@
       ],
       "Required": ["Gerekli"],
       "Operator": ["Şebeke"],
-      "Left value": ["sol değer"],
-      "Right value": ["doğru değer"],
+      "Left value": ["Sol değer"],
+      "Right value": ["Sağ değer"],
       "Target value": ["Hedef değer"],
       "Select column": ["Sütun seçin"],
       "Edit dataset": ["Veri kümesini düzenle"],
@@ -5131,7 +5179,7 @@
       ],
       "View in SQL Lab": ["SQL Lab'de görüntüle"],
       "Query preview": ["Sorgu önizlemesi"],
-      "Save as dataset": ["veri kümesi olarak kaydet"],
+      "Save as dataset": ["Veri kümesi olarak kaydet"],
       "Missing URL parameters": ["Eksik URL parametreleri"],
       "The URL is missing the dataset_id or slice_id parameters.": [
         "URL'de dataset_id veya slice_id parametreleri eksik."
@@ -5143,7 +5191,9 @@
       "Actual time range": ["Gerçek zaman aralığı"],
       "APPLY": ["UYGULA"],
       "Edit time range": ["Zaman aralığını düzenle"],
-      "Configure Advanced Time Range ": ["Gelişmiş Zaman Aralığını Yapılandır"],
+      "Configure Advanced Time Range ": [
+        "Gelişmiş Zaman Aralığını Yapılandır "
+      ],
       "START (INCLUSIVE)": ["BAŞLAT (DAHİL)"],
       "Start date included in time range": [
         "Zaman aralığına dahil olan başlangıç ​​tarihi"
@@ -5157,8 +5207,8 @@
       ],
       "Configure Time Range: Last...": ["Zaman Aralığını Yapılandır: Son..."],
       "Configure custom time range": ["Özel zaman aralığını yapılandırın"],
-      "Relative quantity": ["bağıl miktar"],
-      "Relative period": ["bağıl dönem"],
+      "Relative quantity": ["Bağıl miktar"],
+      "Relative period": ["Bağıl dönem"],
       "Anchor to": ["Çapa"],
       "NOW": ["ŞİMDİ"],
       "Date/Time": ["Tarih/Saat"],
@@ -5189,18 +5239,18 @@
       "previous calendar year": ["önceki takvim yılı"],
       "Seconds %s": ["Saniye %s"],
       "Minutes %s": ["Dakika %s"],
-      "Hours %s": ["saat %s"],
-      "Days %s": ["gün %s"],
+      "Hours %s": ["Saat %s"],
+      "Days %s": ["Gün %s"],
       "Weeks %s": ["Hafta %s"],
       "Months %s": ["Ay %s"],
       "Quarters %s": ["Çeyrek %s"],
-      "Years %s": ["yıl %s"],
+      "Years %s": ["Yıl %s"],
       "Specific Date/Time": ["Belirli Tarih/Saat"],
       "Relative Date/Time": ["Göreli Tarih/Saat"],
       "Now": ["Şimdi"],
       "Midnight": ["Gece yarısı"],
       "Saved expressions": ["Kayıtlı ifadeler"],
-      "Saved": ["kaydedildi"],
+      "Saved": ["Kaydedildi"],
       "%s column(s)": ["%s sütun(lar)"],
       "No temporal columns found": ["Geçici sütun bulunamadı"],
       "No saved expressions found": ["Kaydedilmiş ifade bulunamadı"],
@@ -5211,21 +5261,23 @@
         "\"Veri kaynağını düzenle\" kipinde veri kümesine hesaplanmış sütunlar ekleyin"
       ],
       " to mark a column as a time column": [
-        "bir sütunu zaman sütunu olarak işaretlemek için"
+        " bir sütunu zaman alanı olarak işaretlemek için"
       ],
-      " to add calculated columns": ["hesaplanan sütunları eklemek için"],
+      " to add calculated columns": [" hesaplanan sütunları eklemek için"],
       "Simple": ["Basit"],
       "Mark a column as temporal in \"Edit datasource\" modal": [
         "\"Veri kaynağını düzenle\" kipinde bir sütunu geçici olarak işaretleyin"
       ],
-      "Custom SQL": ["özel SQL"],
-      "My column": ["sütunum"],
+      "Custom SQL": ["Özel SQL"],
+      "My column": ["Sütunum"],
       "This filter might be incompatible with current dataset": [
         "Bu filtre mevcut veri kümesiyle uyumsuz olabilir"
       ],
       "This column might be incompatible with current dataset": [
         "Bu sütun mevcut veri kümesiyle uyumsuz olabilir"
       ],
+      "Drop a column here or click": ["Buraya sütun ekleyin veya tıklayın"],
+      "Drop column here": ["Buraya sütun ekleyin"],
       "Click to edit label": ["Etiketi düzenlemek için tıklayın"],
       "Drop columns/metrics here or click": [
         "Sütunları/metrikleri buraya bırakın veya tıklayın"
@@ -5236,16 +5288,20 @@
       "This metric might be incompatible with current dataset": [
         "Bu metrik, mevcut veri kümesiyle uyumsuz olabilir"
       ],
+      "Drop a column/metric here or click": [
+        "Buraya bir sütun/metrik ekleyin veya tıklayın"
+      ],
+      "Drop column or metric here": ["Buraya sütun veya metrik ekleyin"],
       "Drop columns here": ["Sütunları buraya bırakın"],
       "\n                This filter was inherited from the dashboard's context.\n                It won't be saved when saving the chart.\n              ": [
-        "\n Bu filtre, yönetici paneli içeriğinden devralındı.\n Grafik kaydedilirken kaydedilmeyecek."
+        "\n               Bu filtre, yönetici paneli içeriğinden devralındı.\n               Grafik kaydedilirken kaydedilmeyecek.\n              "
       ],
       "Default": ["Varsayılan"],
       "(optional) default value for the filter, when using the multiple option, you can use a semicolon-delimited list of options.": [
         "(isteğe bağlı) filtre için varsayılan değer, çoklu seçeneği kullanırken noktalı virgülle ayrılmış bir seçenekler listesi kullanabilirsiniz."
       ],
       "Metric to sort the results by": ["Sonuçları sıralamak için metrik"],
-      "Check for sorting ascending": ["artan sıralama için kontrol edin"],
+      "Check for sorting ascending": ["Artan sıralama için işaretleyin"],
       "Allow multiple selections": ["Birden fazla seçime izin ver"],
       "Multiple selections allowed, otherwise filter is limited to a single value": [
         "Birden çok seçime izin verilir, aksi halde filtre tek bir değerle sınırlıdır"
@@ -5259,7 +5315,7 @@
       ],
       "Filter configuration": ["Filtre yapılandırması"],
       "%s option(s)": ["%s seçenek(ler)"],
-      "Select subject": ["konu seçin"],
+      "Select subject": ["Konu seçin"],
       "No such column found. To filter on a metric, try the Custom SQL tab.": [
         "Böyle bir sütun bulunamadı. Bir metriğe göre filtrelemek için Özel SQL sekmesini deneyin."
       ],
@@ -5274,12 +5330,14 @@
         "Filtre değeri (büyük/küçük harfe duyarlı)"
       ],
       "Failed to retrieve advanced type": ["Gelişmiş tür alınamadı"],
-      "choose WHERE or HAVING...": ["NEREDE veya SAHİP OLARAK seçin..."],
+      "choose WHERE or HAVING...": [
+        "kullanabilecekleriniz WHERE veya HAVING …"
+      ],
       "Filters by columns": ["Sütunlara göre filtreler"],
       "Filters by metrics": ["Metriklere göre filtreler"],
       "Fixed": ["Sabit"],
       "Based on a metric": ["Bir metriğe dayalı"],
-      "My metric": ["benim ölçümüm"],
+      "My metric": ["Ölçümüm"],
       "Add metric": ["Metrik ekle"],
       "Select aggregate options": ["Toplama seçeneklerini seçin"],
       "%s aggregates(s)": ["%s toplam(lar)"],
@@ -5290,7 +5348,7 @@
       "Add metrics to dataset in \"Edit datasource\" modal": [
         "\"Veri kaynağını düzenle\" kipinde veri kümesine metrikler ekleyin"
       ],
-      " to add metrics": ["metrik eklemek için"],
+      " to add metrics": [" metrik eklemek için"],
       "Simple ad-hoc metrics are not enabled for this dataset": [
         "Bu veri kümesi için basit geçici metrikler etkinleştirilmemiş"
       ],
@@ -5302,7 +5360,7 @@
       "Error while fetching data: %s": ["Veriler alınırken hata oluştu: %s"],
       "Time series columns": ["Zaman serisi sütunları"],
       "Actual value": ["Gerçek değer"],
-      "Sparkline": ["küçük resim"],
+      "Sparkline": ["Küçük resim (sparkline)"],
       "Period average": ["Dönem ortalaması"],
       "The column header label": ["Sütun başlığı etiketi"],
       "Column header tooltip": ["Sütun başlığı ipucu"],
@@ -5344,7 +5402,7 @@
       "Recommended tags": ["Önerilen etiketler"],
       "Search all charts": ["Tüm çizelgeleri ara"],
       "No description available.": ["Açıklama yok."],
-      "Examples": ["örnekler"],
+      "Examples": ["Örnekler"],
       "This visualization type is not supported.": [
         "Bu görselleştirme türü desteklenmiyor."
       ],
@@ -5352,28 +5410,28 @@
       "Select a visualization type": ["Bir görselleştirme türü seçin"],
       "No results found": ["Sonuç bulunamadı"],
       "Superset Chart": ["Süper Küme Grafiği"],
-      "New chart": ["yeni grafik"],
+      "New chart": ["Yeni grafik"],
       "Edit chart properties": ["Grafik özelliklerini düzenle"],
-      "Dashboards added to": ["Panolar eklendi"],
+      "Dashboards added to": ["Paneller eklendi"],
       "Export to original .CSV": ["Orijinal .CSV dosyasına aktar"],
       "Export to pivoted .CSV": ["Özetlenmiş .CSV dosyasına aktar"],
       "Export to .JSON": [".JSON'a aktar"],
       "Export to Excel": ["Excel'e Aktar"],
       "Embed code": ["Yerleştirme kodu"],
       "Run in SQL Lab": ["SQL Lab'da çalıştırın"],
-      "Code": ["kod"],
+      "Code": ["Kod"],
       "Markup type": ["İşaretleme türü"],
       "Pick your favorite markup language": [
         "Favori biçimlendirme dilinizi seçin"
       ],
-      "Put your code here": ["kodunu buraya koy"],
+      "Put your code here": ["Kodunu buraya koy"],
       "URL parameters": ["URL parametreleri"],
       "Extra parameters for use in jinja templated queries": [
         "Jinja şablonlu sorgularda kullanım için ekstra parametreler"
       ],
       "Annotations and layers": ["Açıklamalar ve katmanlar"],
       "Annotation layers": ["Açıklama katmanları"],
-      "My beautiful colors": ["benim güzel renklerim"],
+      "My beautiful colors": ["Güzel renklerim"],
       "< (Smaller than)": ["< (Daha küçük)"],
       "> (Larger than)": ["> (Daha büyük)"],
       "<= (Smaller or equal)": ["<= (Daha küçük veya eşit)"],
@@ -5406,10 +5464,10 @@
       "Working timeout": ["Çalışma zaman aşımı"],
       "Time in seconds": ["Saniye cinsinden zaman"],
       "seconds": ["saniye"],
-      "Grace period": ["ödemesiz dönem"],
+      "Grace period": ["Ödemesiz dönem"],
       "Send as PNG": ["PNG olarak gönder"],
       "Send as CSV": ["CSV olarak gönder"],
-      "Send as text": ["metin olarak gönder"],
+      "Send as text": ["Metin olarak gönder"],
       "Ignore cache when generating screenshot": [
         "Ekran görüntüsü oluştururken önbelleği yoksay"
       ],
@@ -5419,7 +5477,7 @@
       "%s updated": ["%s güncellendi"],
       "CRON Schedule": ["CRON Takvimi"],
       "CRON expression": ["CRON ifadesi"],
-      "Report sent": ["rapor gönderildi"],
+      "Report sent": ["Rapor gönderildi"],
       "Alert triggered, notification sent": [
         "Uyarı tetiklendi, bildirim gönderildi"
       ],
@@ -5515,7 +5573,7 @@
       ],
       "Table cache timeout": ["Tablo önbelleği zaman aşımı"],
       "Duration (in seconds) of the metadata caching timeout for tables of this database. If left unset, the cache never expires. ": [
-        "Bu veritabanının tabloları için meta verileri önbelleğe alma zaman aşımının süresi (saniye olarak). Ayarlanmadan bırakılırsa, önbelleğin süresi asla dolmaz."
+        "Bu veritabanının tabloları için meta verileri önbelleğe alma zaman aşımının süresi (saniye cinsinden). Ayarlanmadan bırakılırsa, önbelleğin süresi asla dolmaz. "
       ],
       "Asynchronous query execution": ["Eşzamansız sorgu yürütme"],
       "Cancel query on window unload event": [
@@ -5582,13 +5640,13 @@
       "connecting to %(dbModelName)s.": ["%(dbModelName)s'ye bağlanılıyor."],
       "Select a database to connect": ["Bağlanmak için bir veritabanı seçin"],
       "SSH Host": ["SSH Sunucusu"],
-      "e.g. 127.0.0.1": ["Örneğin. 127.0.0.1"],
+      "e.g. 127.0.0.1": ["örneğin. 127.0.0.1"],
       "SSH Port": ["SSH Bağlantı Noktası"],
-      "e.g. Analytics": ["Örneğin. Analitik"],
+      "e.g. Analytics": ["örneğin. Analitik"],
       "Login with": ["İle giriş"],
       "Private Key & Password": ["Özel Anahtar ve Şifre"],
       "SSH Password": ["SSH Şifresi"],
-      "e.g. ********": ["Örneğin. ********"],
+      "e.g. ********": ["örneğin. ********"],
       "Private Key": ["Özel anahtar"],
       "Paste Private Key here": ["Özel Anahtarı buraya yapıştırın"],
       "Private Key Password": ["Özel Anahtar Şifresi"],
@@ -5613,8 +5671,8 @@
       "Please enter a SQLAlchemy URI to test": [
         "Lütfen test etmek için bir SQLAlchemy URI'si girin"
       ],
-      "e.g. xy12345.us-east-2.aws": ["Örneğin. xy12345.us-doğu-2.aws"],
-      "e.g. world_population": ["Örneğin. Dünya nüfusu"],
+      "e.g. xy12345.us-east-2.aws": ["örneğin. xy12345.us-doğu-2.aws"],
+      "e.g. world_population": ["örneğin. world_population (dünya nüfusu)"],
       "Database settings updated": ["Veritabanı ayarları güncellendi"],
       "Sorry there was an error fetching database information: %s": [
         "Üzgünüz, veritabanı bilgileri alınırken bir hata oluştu: %s"
@@ -5622,16 +5680,16 @@
       "Or choose from a list of other databases we support:": [
         "Veya desteklediğimiz diğer veritabanları listesinden seçim yapın:"
       ],
-      "Supported databases": ["desteklenen veritabanları"],
+      "Supported databases": ["Desteklenen veritabanları"],
       "Choose a database...": ["Bir veritabanı seçin..."],
       "Want to add a new database?": [
         "Yeni bir veritabanı eklemek ister misiniz?"
       ],
       "Any databases that allow connections via SQL Alchemy URIs can be added. ": [
-        "SQL Alchemy URI'leri aracılığıyla bağlantılara izin veren tüm veritabanları eklenebilir."
+        "SQL Alchemy URI'leri üzerinden bağlantılara izin veren tüm veritabanları eklenebilir. "
       ],
       "Any databases that allow connections via SQL Alchemy URIs can be added. Learn about how to connect a database driver ": [
-        "SQL Alchemy URI'leri aracılığıyla bağlantılara izin veren tüm veritabanları eklenebilir. Bir veritabanı sürücüsünün nasıl bağlanacağını öğrenin"
+        "SQL Alchemy URI'leri üzerinden bağlantılara izin veren tüm veritabanları eklenebilir. Bir veritabanı sürücüsünün nasıl bağlanacağını öğrenin "
       ],
       "Connect": ["Bağlamak"],
       "Finish": ["Sona ermek"],
@@ -5660,7 +5718,7 @@
       ],
       "Additional fields may be required": ["Ek alanlar gerekli olabilir"],
       "Select databases require additional fields to be completed in the Advanced tab to successfully connect the database. Learn what requirements your databases has ": [
-        "Belirli veritabanları, veritabanına başarıyla bağlanmak için Gelişmiş sekmesinde ek alanların doldurulmasını gerektirir. Veritabanlarınızın hangi gereksinimlere sahip olduğunu öğrenin"
+        "Belirli veritabanları, veritabanını başarıyla bağlamak için Gelişmiş sekmesinde ek alanların doldurulmasını gerektirir. Veritabanlarınızın gereksinimlerini öğrenin "
       ],
       "Import database from file": ["Veritabanını dosyadan içe aktar"],
       "Connect this database with a SQLAlchemy URI string instead": [
@@ -5673,9 +5731,9 @@
         "Bu, bir IP adresi (ör. 127.0.0.1) veya bir etki alanı adı (ör. veritabanım.com) olabilir."
       ],
       "Host": ["Ev sahibi"],
-      "e.g. 5432": ["Örneğin. 5432"],
+      "e.g. 5432": ["örneğin. 5432"],
       "Port": ["Liman"],
-      "e.g. sql/protocolv1/o/12345": ["Örneğin. sql/protokolv1/o/12345"],
+      "e.g. sql/protocolv1/o/12345": ["örneğin. sql/protokolv1/o/12345"],
       "Copy the name of the HTTP Path of your cluster.": [
         "Kümenizin HTTP Yolunun adını kopyalayın."
       ],
@@ -5687,7 +5745,7 @@
         "Veritabanının Superset'te nasıl görüneceğine ilişkin bir takma ad seçin."
       ],
       "e.g. param1=value1&param2=value2": [
-        "Örneğin. param1=değer1&param2=değer2"
+        "örneğin. param1=değer1&param2=değer2"
       ],
       "Additional Parameters": ["Ek Parametreler"],
       "Add additional custom parameters": ["Ek özel parametreler ekleyin"],
@@ -5733,8 +5791,8 @@
       "Copy the account name of that database you are trying to connect to.": [
         "Bağlanmaya çalıştığınız veritabanının hesap adını kopyalayın."
       ],
-      "e.g. compute_wh": ["Örneğin. hesaplama_wh"],
-      "e.g. AccountAdmin": ["Örneğin. Hesap Yöneticisi"],
+      "e.g. compute_wh": ["örneğin. hesaplama_wh"],
+      "e.g. AccountAdmin": ["örneğin. Hesap Yöneticisi"],
       "Duplicate dataset": ["Yinelenen veri kümesi"],
       "Duplicate": ["Kopyalamak"],
       "New dataset name": ["Yeni veri kümesi adı"],
@@ -5755,13 +5813,11 @@
         "Bu tabloda zaten bir veri kümesi var"
       ],
       "Datasets can be created from database tables or SQL queries. Select a database table to the left or ": [
-        "Veri kümeleri, veritabanı tablolarından veya SQL sorgularından oluşturulabilir. Soldan bir veritabanı tablosu seçin veya"
+        "Veri kümeleri, veritabanı tablolarından veya SQL sorgularından oluşturulabilir. Soldan bir veritabanı tablosu seçin veya "
       ],
-      "create dataset from SQL query": [
-        "SQL sorgusundan veri kümesi oluşturma"
-      ],
+      "create dataset from SQL query": ["SQL sorgusundan veri kümesi oluştur"],
       " to open SQL Lab. From there you can save the query as a dataset.": [
-        "SQL Lab'ı açmak için Oradan sorguyu bir veri kümesi olarak kaydedebilirsiniz."
+        " SQL Lab'ı açar. Oradan sorguyu bir veri kümesi olarak kaydedebilirsiniz."
       ],
       "Select dataset source": ["Veri kümesi kaynağı seçin"],
       "No table columns": ["Tablo sütunu yok"],
@@ -5779,10 +5835,10 @@
       "Chart owners": ["Grafik sahipleri"],
       "Chart last modified": ["Son değiştirilen grafik"],
       "Chart last modified by": ["Grafik son değiştiren"],
-      "Dashboard usage": ["Pano kullanımı"],
+      "Dashboard usage": ["Panel kullanımı"],
       "Create chart with dataset": ["Veri kümesiyle grafik oluştur"],
       "chart": ["çizelge"],
-      "No charts": ["grafik yok"],
+      "No charts": ["Grafik yok"],
       "This dataset is not used to power any charts.": [
         "Bu veri kümesi, herhangi bir çizelgeye güç sağlamak için kullanılmaz."
       ],
@@ -5818,14 +5874,14 @@
       "[Untitled]": ["[İsimsiz]"],
       "Unknown": ["Bilinmeyen"],
       "Viewed %s": ["%s görüntülendi"],
-      "Edited": ["düzenlendi"],
-      "Created": ["oluşturuldu"],
-      "Viewed": ["görüntülendi"],
+      "Edited": ["Düzenlendi"],
+      "Created": ["Oluşturuldu"],
+      "Viewed": ["Görüntülendi"],
       "Favorite": ["Favori"],
       "Mine": ["Bana ait"],
       "View All »": ["Hepsini gör \""],
       "An error occurred while fetching dashboards: %s": [
-        "Panolar getirilirken bir hata oluştu: %s"
+        "Paneller getirilirken bir hata oluştu: %s"
       ],
       "charts": ["grafikler"],
       "dashboards": ["panolar"],
@@ -5904,13 +5960,21 @@
       "Sorry, your browser does not support copying.": [
         "Üzgünüz, tarayıcınız kopyalamayı desteklemiyor."
       ],
+      "rowlevelsecurity": ["satır bazında güvenlik (rowlevelsecurity)"],
       "Rule added": [""],
+      "Edit Rule": ["Kural Düzenle"],
+      "Add Rule": ["Kural Ekle"],
+      "Rule Name": ["Kural Adı"],
+      "Regular filters add where clauses to queries if a user belongs to a role referenced in the filter, base filters apply filters to all queries except the roles defined in the filter, and can be used to define what users can see if no RLS filters within a filter group apply to them.": [
+        "Normal filtreler, bir kullanıcı filtrede başvurulan bir role aitse sorgulara where cümleleri ekler, temel filtreler filtrede tanımlanan roller dışındaki tüm sorgulara filtre uygular ve bir filtre grubundaki hiçbir RLS filtresi uygulanmadığında kullanıcıların neleri görebileceğini tanımlamak için kullanılabilir."
+      ],
       "These are the tables this filter will be applied to.": [
         "Bunlar, bu filtrenin uygulanacağı tablolardır."
       ],
       "For regular filters, these are the roles this filter will be applied to. For base filters, these are the roles that the filter DOES NOT apply to, e.g. Admin if admin should see all data.": [
         "Normal filtreler için bunlar, bu filtrenin uygulanacağı rollerdir. Temel filtreler için bunlar, filtrenin UYGULAMADIĞI rollerdir, örn. Yönetici, yöneticinin tüm verileri görmesi gerekiyorsa."
       ],
+      "Group Key": ["Grup anahtarı"],
       "Filters with the same group key will be ORed together within the group, while different filter groups will be ANDed together. Undefined group keys are treated as unique groups, i.e. are not grouped together. For example, if a table has three filters, of which two are for departments Finance and Marketing (group key = 'department'), and one refers to the region Europe (group key = 'region'), the filter clause would apply the filter (department = 'Finance' OR department = 'Marketing') AND (region = 'Europe').": [
         "Aynı grup anahtarına sahip filtreler, grup içinde birlikte OR'lenirken, farklı filtre grupları birlikte AND'lenir. Tanımsız grup anahtarları, benzersiz gruplar olarak ele alınır, yani birlikte gruplandırılmaz. Örneğin, bir tabloda ikisi Finans ve Pazarlama departmanları için (grup anahtarı = 'departman') ve biri Avrupa bölgesine (grup anahtarı = 'bölge') atıfta bulunan üç filtre varsa, filtre yan tümcesi şu şekilde uygulanır: filtre (bölüm = 'Finans' VEYA bölüm = 'Pazarlama') VE (bölge = 'Avrupa')."
       ],
@@ -5918,7 +5982,10 @@
       "This is the condition that will be added to the WHERE clause. For example, to only return rows for a particular client, you might define a regular filter with the clause `client_id = 9`. To display no rows unless a user belongs to a RLS filter role, a base filter can be created with the clause `1 = 0` (always false).": [
         "Bu, WHERE yan tümcesine eklenecek koşuldur. Örneğin, yalnızca belirli bir müşteri için satır döndürmek için \"client_id = 9\" yan tümcesiyle normal bir filtre tanımlayabilirsiniz. Bir kullanıcı bir RLS filtre rolüne ait olmadığı sürece hiçbir satırın görüntülenmemesi için, \"1 = 0\" (her zaman yanlış) yan tümcesiyle bir temel filtre oluşturulabilir."
       ],
-      "No columns": ["sütun yok"],
+      "Regular": ["Normal"],
+      "Base": ["Baz"],
+      "No columns": ["Sütun yok"],
+      "%s option": ["%s seçenek"],
       "Columns to show": ["Gösterilecek sütunlar"],
       "UI Configuration": ["Kullanıcı Arayüzü Yapılandırması"],
       "Can select multiple values": ["Birden fazla değer seçebilir"],
@@ -5933,14 +6000,14 @@
       "Range filter plugin using AntD": [
         "AntD kullanarak aralık filtresi eklentisi"
       ],
-      " (excluded)": ["(hariç)"],
+      " (excluded)": [" (hariç)"],
       "Select first filter value by default": [
         "Varsayılan olarak ilk filtre değerini seçin"
       ],
       "When using this option, default value can’t be set": [
         "Bu seçeneği kullanırken, varsayılan değer ayarlanamaz"
       ],
-      "Inverse selection": ["ters seçim"],
+      "Inverse selection": ["Tersini seç"],
       "Exclude selected values": ["Seçilen değerleri hariç tut"],
       "Dynamically search all filter values": [
         "Tüm filtre değerlerini dinamik olarak arayın"
@@ -5954,7 +6021,7 @@
       "Time grain filter plugin": ["Zaman tahıl filtresi eklentisi"],
       "Time series": ["Zaman serisi"],
       "Working": ["Çalışma"],
-      "Not triggered": ["tetiklenmedi"],
+      "Not triggered": ["Tetiklenmedi"],
       "On Grace": ["Grace'de"],
       "alert": ["uyarı"],
       "reports": ["raporlar"],
@@ -5964,7 +6031,7 @@
       ],
       "Last run": ["Son koşu"],
       "Execution log": ["Yürütme günlüğü"],
-      "Bulk select": ["toplu seçim"],
+      "Bulk select": ["Toplu seçim"],
       "No %s yet": ["Henüz %s yok"],
       "Owner": ["Oluşturan"],
       "All": ["Tüm"],
@@ -6016,7 +6083,7 @@
       ],
       "Failed to load chart data": ["Grafik verileri yüklenemedi"],
       "view instructions": ["talimatları görüntüle"],
-      "Add a dataset": ["veri kümesi ekle"],
+      "Add a dataset": ["Veri kümesi ekle"],
       "or": ["veya"],
       "Choose a dataset": ["Bir veri kümesi seçin"],
       "Choose chart type": ["Grafik türünü seçin"],
@@ -6034,7 +6101,7 @@
         "Seçilen grafikler silinirken bir sorun oluştu: %s"
       ],
       "An error occurred while fetching dashboards": [
-        "Panolar getirilirken bir hata oluştu"
+        "Paneller getirilirken bir hata oluştu"
       ],
       "Visualization type": ["Görselleştirme türü"],
       "Any": ["Herhangi"],
@@ -6072,12 +6139,12 @@
       "You are importing one or more dashboards that already exist. Overwriting might cause you to lose some of your work. Are you sure you want to overwrite?": [
         "Halihazırda var olan bir veya daha fazla panoyu içe aktarıyorsunuz. Üzerine yazmak, çalışmanızın bir kısmını kaybetmenize neden olabilir. Üzerine yazmak istediğinizden emin misiniz?"
       ],
-      "Dashboard imported": ["Pano içe aktarıldı"],
+      "Dashboard imported": ["Panel içe aktarıldı"],
       "There was an issue deleting the selected dashboards: ": [
-        "Seçili kontrol panelleri silinirken bir sorun oluştu:"
+        "Seçili kontrol panelleri silinirken bir sorun oluştu: "
       ],
       "An error occurred while fetching dashboard owner values: %s": [
-        "Pano sahibi değerleri alınırken bir hata oluştu: %s"
+        "Panel sahibi değerleri alınırken bir hata oluştu: %s"
       ],
       "An error occurred while fetching dashboard created by values: %s": [
         "Değerler tarafından oluşturulan kontrol paneli getirilirken bir hata oluştu: %s"
@@ -6109,7 +6176,7 @@
         "Veri kümesiyle ilgili veriler alınırken bir hata oluştu: %s"
       ],
       "Physical dataset": ["Fiziksel veri kümesi"],
-      "Virtual dataset": ["sanal veri kümesi"],
+      "Virtual dataset": ["Sanal veri kümesi"],
       "Virtual": ["Sanal"],
       "An error occurred while fetching dataset owner values: %s": [
         "Veri kümesi sahibi değerleri alınırken bir hata oluştu: %s"
@@ -6160,8 +6227,8 @@
       "There was an issue fetching your saved queries: %s": [
         "Kayıtlı sorgularınız getirilirken bir sorun oluştu: %s"
       ],
-      "Thumbnails": ["küçük resimler"],
-      "Recents": ["sonlar"],
+      "Thumbnails": ["Küçük resimler"],
+      "Recents": ["Güncel"],
       "There was an issue previewing the selected query. %s": [
         "Seçilen sorgu önizlemesinde bir sorun oluştu. %s"
       ],
@@ -6175,6 +6242,15 @@
         "Kullanıcı değerleri alınırken bir hata oluştu: %s"
       ],
       "Search by query text": ["Sorgu metnine göre ara"],
+      "Deleted %s": ["Silindi %s"],
+      "Deleted": ["Silindi"],
+      "There was an issue deleting rules: %s": [
+        "%s silinirken bir sorun oluştu"
+      ],
+      "No Rules yet": ["Henüz kural yok"],
+      "Are you sure you want to delete the selected rules?": [
+        "Seçilen kuralları silmek istediğinizden emin misiniz?"
+      ],
       "The passwords for the databases below are needed in order to import them together with the saved queries. Please note that the \"Secure Extra\" and \"Certificate\" sections of the database configuration are not present in export files, and should be added manually after the import if they are needed.": [
         "Kayıtlı sorgularla birlikte içe aktarmak için aşağıdaki veritabanlarının şifrelerine ihtiyaç vardır. Veritabanı konfigürasyonunun \"Secure Extra\" ve \"Certificate\" bölümlerinin dışa aktarma dosyalarında bulunmadığına ve gerekirse içe aktarma işleminden sonra manuel olarak eklenmesi gerektiğine dikkat edin."
       ],
@@ -6209,7 +6285,7 @@
       "Created content": ["Oluşturulan içerik"],
       "Recent activity": ["Son Etkinlik"],
       "Security & Access": ["Güvenlik erişimi"],
-      "No dashboards": ["Pano yok"],
+      "No dashboards": ["Panel yok"],
       "No favorite charts yet, go click on stars!": [
         "Henüz favori tablo yok, yıldızlara tıklayın!"
       ],
@@ -6220,7 +6296,7 @@
         "Gravatar tarafından sağlanan profil resmi"
       ],
       "joined": ["katıldı"],
-      "id": ["İD"],
+      "id": ["id"],
       "There was an issue fetching reports attached to this dashboard.": [
         "Bu kontrol paneline eklenmiş raporlar alınırken bir sorun oluştu."
       ],
@@ -6237,7 +6313,7 @@
         "Kontrol panelinde vurgulanan alan(lar)daki değerleri seçin. Ardından, %s düğmesine tıklayarak sorguyu çalıştırın."
       ],
       "Invalid input": ["Geçersiz Giriş"],
-      "Unexpected error: ": ["Beklenmeyen hata:"],
+      "Unexpected error: ": ["Beklenmeyen hata: "],
       "(no description, click to see stack trace)": [
         "(açıklama yok, yığın izini görmek için tıklayın)"
       ],
@@ -6288,8 +6364,9 @@
       "Select start and end date": ["Başlangıç ​​ve bitiş tarihini seçin"],
       "Type or Select [%s]": ["[%s] Yazın veya Seçin"],
       "Tools": ["Aletler"],
+      "Filter box (deprecated)": ["Filtre kutusu (kullanım dışı)"],
       "Chart component that lets you add a custom filter UI in your dashboard. When added to dashboard, a filter box lets users specify specific values or ranges to filter charts by. The charts that each filter box is applied to can be fine tuned as well in the dashboard view.\n\n    Note that this plugin is being replaced with the new Filters feature that lives in the dashboard view itself. It's easier to use and has more capabilities!": [
-        "Kontrol panelinize özel bir filtre kullanıcı arabirimi eklemenizi sağlayan grafik bileşeni. Panoya eklendiğinde, bir filtre kutusu, kullanıcıların grafikleri filtrelemek için belirli değerleri veya aralıkları belirlemesine olanak tanır. Her bir filtre kutusunun uygulandığı grafiklerde, pano görünümünde de ince ayar yapılabilir.\n\n Bu eklentinin, pano görünümünün kendisinde bulunan yeni Filtreler özelliği ile değiştirildiğini unutmayın. Kullanımı daha kolay ve daha fazla yeteneğe sahip!"
+        "Kontrol panelinize özel bir filtre kullanıcı arabirimi eklemenizi sağlayan grafik bileşeni. Panele eklendiğinde, bir filtre kutusu, kullanıcıların grafikleri filtrelemek için belirli değerleri veya aralıkları belirlemesine olanak tanır. Her bir filtre kutusunun uygulandığı grafiklerde, pano görünümünde de ince ayar yapılabilir.\n\n Bu eklentinin, pano görünümünün kendisinde bulunan yeni Filtreler özelliği ile değiştirildiğini unutmayın. Kullanımı daha kolay ve daha fazla yeteneğe sahip!"
       ],
       "Filters configuration": ["Filtre yapılandırması"],
       "Filter configuration for the filter box": [
@@ -6313,7 +6390,7 @@
       ],
       "Limit selector values": ["Limit seçici değerleri"],
       "These filters apply to the values available in the dropdowns": [
-        "Bu filtreler açılır menülerde bulunan değerler için geçerlidir."
+        "Bu filtreler açılır menülerde bulunan değerler için geçerlidir"
       ],
       "URL": ["URL"],
       "Templated link, it's possible to include {{ metric }} or other values coming from the controls.": [
