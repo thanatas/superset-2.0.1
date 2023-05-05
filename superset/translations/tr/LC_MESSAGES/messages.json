@@ -5,7 +5,7 @@
       "22": ["22"],
       "": {
         "domain": "superset",
-        "plural_forms": "nplurals=1; plural=0",
+        "plural_forms": "nplurals=2; plural=(n != 1);",
         "lang": "tr"
       },
       "The datasource is too large to query.": [
@@ -143,10 +143,10 @@
         "CVAS (seçilen olarak görünüm oluştur), yalnızca tek bir SELECT ifadesine sahip bir sorgu ile çalıştırılabilir. Lütfen sorgunuzun yalnızca bir SELECT ifadesi olduğundan emin olun. Ardından, sorgunuzu tekrar çalıştırmayı deneyin."
       ],
       "Running statement %(statement_num)s out of %(statement_count)s": [
-        "%(ifade_sayısı)s ifadesinden %(ifade_sayısı)s çalıştırılıyor"
+        "%(statement_num)s ifadesinden %(statement_count)s çalıştırılıyor"
       ],
       "Statement %(statement_num)s out of %(statement_count)s": [
-        "Açıklama %(ifade_num)s / %(ifade_sayısı)s"
+        "Açıklama %(statement_num)s / %(statement_count)s"
       ],
       "Viz is missing a datasource": ["Viz'de bir veri kaynağı eksik"],
       "Applied rolling window did not return any data. Please make sure the source query satisfies the minimum periods defined in the rolling window.": [
@@ -179,7 +179,7 @@
       "Group By' and 'Columns' can't overlap": [
         "Group By' ve 'Sütunlar' çakışamaz"
       ],
-      "Treemap": ["ağaç haritası"],
+      "Treemap": ["ağaç görünüm"],
       "Calendar Heatmap": ["Takvim Isı Haritası"],
       "Bubble Chart": ["Kabarcık Grafiği"],
       "Please use 3 different metric labels": [
@@ -286,9 +286,12 @@
       "Invalid advanced data type: %(advanced_data_type)s": [
         "Geçersiz gelişmiş veri türü: %(advanced_data_type)s"
       ],
-      "Deleted %(num)d annotation layer": [""],
+      "Deleted %(num)d annotation layer": [
+        "",
+        "Deleted %(num)d annotation layers"
+      ],
       "All Text": ["Tüm Metin"],
-      "Deleted %(num)d annotation": [""],
+      "Deleted %(num)d annotation": ["", "Deleted %(num)d annotations"],
       "End date must be after start date": [
         "Bitiş tarihi, başlangıç ​​tarihinden sonra olmalıdır"
       ],
@@ -321,7 +324,7 @@
         "Ek açıklama katmanı, ilişkili ek açıklamalara sahiptir."
       ],
       "Name must be unique": ["Ad benzersiz olmalıdır"],
-      "Deleted %(num)d chart": [""],
+      "Deleted %(num)d chart": ["", "Deleted %(num)d charts"],
       "Is certified": ["sertifikalı"],
       "Has created by": ["tarafından oluşturuldu"],
       "Created by me": ["Benim tarafımdan oluşturuldu"],
@@ -382,10 +385,10 @@
       "Chart has no query context saved. Please save the chart again.": [
         "Grafiğin kaydedilmiş bir sorgu bağlamı yok. Lütfen grafiği tekrar kaydedin."
       ],
-      "Request is incorrect: %(error)s": ["İstek yanlış: %(hata)s"],
+      "Request is incorrect: %(error)s": ["İstek yanlış: %(error)s"],
       "Request is not JSON": ["İstek JSON değil"],
       "Empty query result": ["Boş sorgu sonucu"],
-      "Error: %(error)s": ["Hata: %(hata)s"],
+      "Error: %(error)s": ["Hata: %(error)s"],
       "Owners are invalid": ["Sahipler geçersiz"],
       "Some roles do not exist": ["Bazı roller mevcut değil"],
       "Datasource type is invalid": ["Veri kaynağı türü geçersiz"],
@@ -414,7 +417,7 @@
         "sonradan işleme nesnesinin \"işlem\" özelliği tanımsız"
       ],
       "Unsupported post processing operation: %(operation)s": [
-        "Desteklenmeyen işlem sonrası işlem: %(işlem)s"
+        "Desteklenmeyen işlem sonrası hareket: %(operation)s"
       ],
       "[asc]": ["[artan]"],
       "[desc]": ["[azalan]"],
@@ -536,13 +539,13 @@
       "The table was created. As part of this two-phase configuration process, you should now click the edit button by the new table to configure it.": [
         "Tablo oluşturuldu. Bu iki aşamalı yapılandırma sürecinin bir parçası olarak, yapılandırmak için şimdi yeni tablonun yanındaki düzenle düğmesine tıklamalısınız."
       ],
-      "Deleted %(num)d css template": [""],
+      "Deleted %(num)d css template": ["", "Deleted %(num)d css templates"],
       "CSS template could not be deleted.": ["CSS şablonu silinemedi."],
       "CSS template not found.": ["CSS şablonu bulunamadı."],
       "Dataset schema is invalid, caused by: %(error)s": [
         "Veri kümesi şeması geçersiz, neden: %(error)s"
       ],
-      "Deleted %(num)d dashboard": [""],
+      "Deleted %(num)d dashboard": ["", "Deleted %(num)d dashboards"],
       "Title or Slug": ["Başlık veya Slug"],
       "Role": ["rol"],
       "Must be unique": ["Eşsiz olmalı"],
@@ -574,7 +577,7 @@
         "Geçersiz bağlantı dizesi, ardından genellikle geçerli bir dize gelir: backend+driver://user:password@database-host/database-name"
       ],
       "Field cannot be decoded by JSON. %(msg)s": [
-        "Alanın kodu JSON tarafından çözülemez. %(msj)s"
+        "Alan JSON tarafından çözümlenemedi. %(msg)s"
       ],
       "The metadata_params in Extra field is not configured correctly. The key %(key)s is invalid.": [
         "Ekstra alanındaki metadata_params doğru yapılandırılmamış. %(key)s anahtarı geçersiz."
@@ -632,7 +635,7 @@
       ],
       "Database is offline.": ["Veritabanı çevrimdışı."],
       "%(validator)s was unable to check your query.\nPlease recheck your query.\nException: %(ex)s": [
-        "%(doğrulayıcı)s sorgunuzu kontrol edemedi.\nLütfen sorgunuzu tekrar kontrol edin.\nİstisna: %(ex)s"
+        "%(validator)s sorgunuzu onaylayamadı.\nLütfen sorgunuzu tekrar kontrol edin.\nHata: %(ex)s"
       ],
       "no SQL validator is configured for {}": [
         "{} için hiçbir SQL doğrulayıcı yapılandırılmadı"
@@ -656,7 +659,7 @@
       "Cannot have multiple credentials for the SSH Tunnel": [
         "SSH Tüneli için birden fazla kimlik bilgisi olamaz"
       ],
-      "Deleted %(num)d dataset": [""],
+      "Deleted %(num)d dataset": ["", "Deleted %(num)d datasets"],
       "Null or Empty": ["Boş veya Boş"],
       "Dataset column not found.": ["Veri kümesi sütunu bulunamadı."],
       "Dataset column delete failed.": ["Veri kümesi sütunu silinemedi."],
@@ -756,7 +759,7 @@
         "\"%(table)s\" tablosu mevcut değil. Bu sorguyu çalıştırmak için geçerli bir tablo kullanılmalıdır."
       ],
       "We can't seem to resolve column \"%(column)s\" at line %(location)s.": [
-        "%(konum)s satırındaki \"%(column)s\" sütununu çözemiyoruz."
+        "%(location)s satırındaki \"%(column)s” sütununu çözümleyemiyoruz."
       ],
       "The schema \"%(schema)s\" does not exist. A valid schema must be used to run this query.": [
         "\"%(schema)s\" şeması mevcut değil. Bu sorguyu çalıştırmak için geçerli bir şema kullanılmalıdır."
@@ -789,7 +792,7 @@
         "\"%(hostname)s\" ana bilgisayarı kapalı olabilir ve ulaşılamıyor olabilir."
       ],
       "Unable to connect to database \"%(database)s\".": [
-        "\"%(veritabanı)s\" veritabanına bağlanılamıyor."
+        "“%(database)s” veritabanına bağlanılamıyor."
       ],
       "The username \"%(username)s\" does not exist.": [
         "\"%(username)s\" kullanıcı adı mevcut değil."
@@ -808,7 +811,7 @@
       ],
       "Please re-enter the password.": ["Lütfen şifreyi tekrar girin."],
       "We can't seem to resolve the column \"%(column_name)s\" at line %(location)s.": [
-        "%(konum)s satırındaki \"%(column_name)s\" sütununu çözemiyoruz."
+        "%(location)s satırındaki \"%(column_name)s” sütununu çözemiyoruz."
       ],
       "The table \"%(table_name)s\" does not exist. A valid table must be used to run this query.": [
         "\"%(table_name)s\" tablosu mevcut değil. Bu sorguyu çalıştırmak için geçerli bir tablo kullanılmalıdır."
@@ -907,7 +910,7 @@
       "Database does not support subqueries": [
         "Veritabanı alt sorguları desteklemiyor"
       ],
-      "Deleted %(num)d saved query": [""],
+      "Deleted %(num)d saved query": ["", "Deleted %(num)d saved queries"],
       "Saved queries could not be deleted.": ["Kayıtlı sorgular silinemedi."],
       "Saved query not found.": ["Kayıtlı sorgu bulunamadı."],
       "Import saved query failed for an unknown reason.": [
@@ -916,7 +919,10 @@
       "Saved query parameters are invalid.": [
         "Kayıtlı sorgu parametreleri geçersiz."
       ],
-      "Deleted %(num)d report schedule": [""],
+      "Deleted %(num)d report schedule": [
+        "",
+        "Deleted %(num)d report schedules"
+      ],
       "Value must be greater than 0": ["Değer 0'dan büyük olmalıdır"],
       "Alert query returned more than one row. %s rows returned": [
         "Uyarı sorgusu birden fazla satır döndürdü. %s satır döndürüldü"
@@ -1027,20 +1033,20 @@
       "Report schedule unexpected error": ["Zamanlama beklenmeyen hata bildir"],
       "Changing this report is forbidden": ["Bu raporu değiştirmek yasaktır"],
       "An error occurred while pruning logs ": [
-        "Günlükler budanırken bir hata oluştu"
+        "Günlükler sadeleştirilirken bir hata oluştu"
       ],
-      "\n            Error: %(text)s\n            ": ["\n Hata: %(metin)s\n"],
+      "\n            Error: %(text)s\n            ": ["\n Hata: %(text)s"],
       "EMAIL_REPORTS_CTA": ["EMAIL_REPORTS_CTA"],
-      "%(name)s.csv": ["%(ad)s.csv"],
-      "%(prefix)s %(title)s": ["%(önek)s %(başlık)s"],
+      "%(name)s.csv": ["%(name)s.csv"],
+      "%(prefix)s %(title)s": ["%(prefix)s %(title)s"],
       "*%(name)s*\n\n%(description)s\n\n<%(url)s|Explore in Superset>\n\n%(table)s\n": [
-        "*%(ad)s*\n\n%(description)s\n\n<%(url)s|Üst Kümede Keşfet>\n\n%(tablo)s\n"
+        "*%(name)s*\n\n%(description)s\n\n<%(url)s|Superset içinde ara>\n\n%(table)s\n"
       ],
       "*%(name)s*\n\n%(description)s\n\nError: %(text)s\n": [
-        "*%(ad)s*\n\n%(açıklama)s\n\nHata: %(metin)s\n"
+        "*%(name)s*\n\n%(description)s\n\nHata: %(text)s\n"
       ],
       "%(dialect)s cannot be used as a data source for security reasons.": [
-        "%(lehçe)s, güvenlik nedeniyle veri kaynağı olarak kullanılamaz."
+        "%(dialect)s, güvenlik nedeniyle veri kaynağı olarak kullanılamaz."
       ],
       "You don't have the rights to alter %(resource)s": [
         "%(resource)s üzerinde değişiklik yapma hakkınız yok"
@@ -1049,7 +1055,10 @@
       "Please check your template parameters for syntax errors and make sure they match across your SQL query and Set Parameters. Then, try running your query again.": [
         "Lütfen şablon parametrelerinizde sözdizimi hataları olup olmadığını kontrol edin ve bunların SQL sorgunuz ve Set Parameters ile eşleştiğinden emin olun. Ardından, sorgunuzu tekrar çalıştırmayı deneyin."
       ],
-      "The parameter %(parameters)s in your query is undefined.": [""],
+      "The parameter %(parameters)s in your query is undefined.": [
+        "",
+        "The following parameters in your query are undefined: %(parameters)s."
+      ],
       "The query contains one or more malformed template parameters.": [
         "Sorgu, bir veya daha fazla hatalı biçimlendirilmiş şablon parametresi içeriyor."
       ],
@@ -1086,7 +1095,7 @@
       "Record Count": ["Kayıt sayısı"],
       "No records found": ["kayıt bulunamadı"],
       "Filter List": ["Filtre Listesi"],
-      "Search": ["Aramak"],
+      "Search": ["Arama"],
       "Refresh": ["Yenile"],
       "Import dashboards": ["Panoları içe aktar"],
       "Import Dashboard(s)": ["Gösterge Tablolarını İçe Aktar"],
@@ -1108,7 +1117,7 @@
         "[Süper küme] %(name)s veri kaynağına erişim izni verildi"
       ],
       "Unsupported clause type: %(clause)s": [
-        "Desteklenmeyen madde türü: %(cümle)s"
+        "Desteklenmeyen ifade türü: %(clause)s"
       ],
       "Invalid metric object: %(metric)s": [
         "Geçersiz metrik nesne: %(metric)s"
@@ -1135,7 +1144,7 @@
         "\"rename_columns\", \"sütunlar\" ile aynı uzunluğa sahip olmalıdır."
       ],
       "Invalid cumulative operator: %(operator)s": [
-        "Geçersiz kümülatif operatör: %(operatör)s"
+        "Geçersiz kümülatif operatör: %(operator)s"
       ],
       "Invalid geohash string": ["Geçersiz geohash dizesi"],
       "Invalid longitude/latitude": ["Geçersiz boylam/enlem"],
@@ -1184,7 +1193,7 @@
         "Toplayıcı için operatör tanımsız: %(name)s"
       ],
       "Invalid numpy function: %(operator)s": [
-        "Geçersiz numpy işlevi: %(operatör)s"
+        "Geçersiz numpy fonksiyonu: %(operator)s"
       ],
       "User": ["kullanıcı"],
       "User Roles": ["Kullanıcı rolleri"],
@@ -1232,14 +1241,14 @@
       "Error: permalink state not found": [
         "Hata: kalıcı bağlantı durumu bulunamadı"
       ],
-      "Error: %(msg)s": ["Hata: %(msj)s"],
+      "Error: %(msg)s": ["Hata: %(msg)s"],
       "You don't have the rights to alter this chart": [
         "Bu tabloyu değiştirme hakkınız yok"
       ],
       "You don't have the rights to create a chart": [
         "Grafik oluşturma hakkınız yok"
       ],
-      "Explore - %(table)s": ["Keşfet - %(tablo)s"],
+      "Explore - %(table)s": ["Keşfet - %(table)s"],
       "Explore": ["Keşfetmek"],
       "Chart [{}] has been saved": ["Grafik [{}] kaydedildi"],
       "Chart [{}] has been overwritten": ["Grafik [{}] üzerine yazıldı"],
@@ -1255,7 +1264,7 @@
       "Dashboard [{}] just got created and chart [{}] was added to it": [
         "Pano [{}] yeni oluşturuldu ve [{}] grafiği buna eklendi"
       ],
-      "Schema undefined": ["şema tanımsız"],
+      "Schema undefined": ["tanımsız şema"],
       "Database not found: %(id)s": ["Veritabanı bulunamadı: %(id)s"],
       "This dashboard was changed recently. Please reload dashboard to get latest version.": [
         "Bu pano yakın zamanda değiştirildi. En son sürümü almak için lütfen kontrol panelini yeniden yükleyin."
@@ -1548,7 +1557,7 @@
       "Allow Csv Upload": ["Csv Yüklemeye İzin Ver"],
       "Backend": ["arka uç"],
       "Extra field cannot be decoded by JSON. %(msg)s": [
-        "Ekstra alanın kodu JSON tarafından çözülemez. %(msj)s"
+        "Ekstra alan JSON tarafından çözümlenemiyor. %(msg)s"
       ],
       "Invalid connection string, a valid string usually follows:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'<p>Example:'postgresql://user:password@your-postgres-db/database'</p>": [
         "Geçersiz bağlantı dizesi, geçerli bir dize genellikle şunu izler:'DRIVER://USER:PASSWORD@DB-HOST/DATABASE-NAME'<p>Örnek:'postgresql://user:password@your-postgres-db/database'< /p>"
@@ -1567,7 +1576,7 @@
         "Excel'den Veritabanına yapılandırma"
       ],
       "Database \"%(database_name)s\" schema \"%(schema_name)s\" is not allowed for excel uploads. Please contact your Superset Admin.": [
-        "Veritabanı \"%(veritabanı_adı)s\" şeması \"%(schema_name)s\" Excel yüklemeleri için izin verilmez. Lütfen Süper Küme Yöneticinizle iletişime geçin."
+        "Veritabanı “%(database_name)s” şeması \"%(schema_name)s\" Excel yüklemelerine açık değil. Lütfen sistem yöneticinizle iletişime geçin."
       ],
       "Unable to upload Excel file \"%(filename)s\" to table \"%(table_name)s\" in database \"%(db_name)s\". Error message: %(error_msg)s": [
         "\"%(filename)s\" Excel dosyası \"%(db_name)s\" veritabanındaki \"%(table_name)s\" tablosuna yüklenemiyor. Hata mesajı: %(error_msg)s"
@@ -3520,7 +3529,7 @@
       "Used to summarize a set of data by grouping together multiple statistics along two axes. Examples: Sales numbers by region and month, tasks by status and assignee, active users by age and location. Not the most visually stunning visualization, but highly informative and versatile.": [
         "Birden çok istatistiği iki eksen boyunca gruplayarak bir veri kümesini özetlemek için kullanılır. Örnekler: Bölgeye ve aya göre satış sayıları, duruma ve atanan kişiye göre görevler, yaşa ve konuma göre aktif kullanıcılar. Görsel olarak en çarpıcı görselleştirme değil, ancak son derece bilgilendirici ve çok yönlü."
       ],
-      "Total (%(aggregatorName)s)": ["Toplam (%(toplayıcıAdı)s)"],
+      "Total (%(aggregatorName)s)": ["Toplam (%(aggregatorName)s)"],
       "Unknown input format": ["Bilinmeyen giriş biçimi"],
       "search.num_records": [""],
       "page_size.show": ["page_size.show"],
@@ -3595,7 +3604,7 @@
       ],
       "Unknown error": ["Bilinmeyen hata"],
       "Query was stopped.": ["Sorgu durduruldu."],
-      "Failed at stopping query. %s": ["Sorgu durdurulamadı. %S"],
+      "Failed at stopping query. %s": ["Sorgu durdurulamadı. %s"],
       "Unable to migrate table schema state to backend. Superset will retry later. Please contact your administrator if this problem persists.": [
         "Tablo şeması durumu arka uca taşınamıyor. Superset daha sonra yeniden denenecek. Bu sorun devam ederse lütfen yöneticinizle iletişime geçin."
       ],
@@ -3732,23 +3741,23 @@
       "Too many columns to filter": ["Filtrelenecek çok fazla sütun"],
       "Filter results": ["Sonuçları filtrele"],
       "The number of results displayed is limited to %(rows)d by the configuration DISPLAY_MAX_ROWS. Please add additional limits/filters or download to csv to see more rows up to the %(limit)d limit.": [
-        "Görüntülenen sonuçların sayısı, DISPLAY_MAX_ROWS yapılandırması tarafından %(satır)d ile sınırlandırılmıştır. %(limit)d sınırına kadar daha fazla satır görmek için lütfen ek sınırlar/filtreler ekleyin veya csv'ye indirin."
+        "Görüntülenen sonuçların sayısı, DISPLAY_MAX_ROWS yapılandırması tarafından %(rows)d ile sınırlandırılmıştır. %(limit)d kadar satırın tümünü görmek için lütfen ek sınırlar/filtreler ekleyin veya csv'ye indirin."
       ],
       "The number of results displayed is limited to %(rows)d. Please add additional limits/filters, download to csv, or contact an admin to see more rows up to the %(limit)d limit.": [
-        "Görüntülenen sonuçların sayısı %(satır)d ile sınırlıdır. Lütfen ek sınırlar/filtreler ekleyin, csv'ye indirin veya %(limit)d sınırına kadar daha fazla satır görmek için bir yönetici ile iletişime geçin."
+        "Görüntülenen sonuçların sayısı %(rows)d ile sınırlıdır.  %(limit)d kadar satırın tümünü görmek için lütfen ek sınırlar/filtreler ekleyin veya csv’ye indirin."
       ],
       "The number of rows displayed is limited to %(rows)d by the query": [
-        "Görüntülenen satır sayısı, sorgu tarafından %(satır)d ile sınırlıdır"
+        "Görüntülenen satır sayısı, sorgu tarafından %(rows)d ile sınırlıdır"
       ],
       "The number of rows displayed is limited to %(rows)d by the limit dropdown.": [
-        "Görüntülenen satır sayısı, limit açılır menüsü tarafından %(satır)d ile sınırlıdır."
+        "Görüntülenen satır sayısı, limit açılır menüsü tarafından %(rows)d ile sınırlıdır."
       ],
       "The number of rows displayed is limited to %(rows)d by the query and limit dropdown.": [
-        "Görüntülenen satır sayısı, sorgu ve sınır açılır menüsü tarafından %(satır)d ile sınırlıdır."
+        "Görüntülenen satır sayısı,  sorgu ve limit açılır menüsü değeriyle %(rows)d ile sınırlıdır."
       ],
-      "%(rows)d rows returned": ["%(satır)d satır döndürüldü"],
+      "%(rows)d rows returned": ["%(rows)d satır döndürüldü"],
       "The number of rows displayed is limited to %(rows)d by the dropdown.": [
-        "Görüntülenen satır sayısı, açılır menü tarafından %(satır)d ile sınırlandırılmıştır."
+        "Görüntülenen satır sayısı, açılır menü tarafından %(rows)d ile sınırlandırılmıştır."
       ],
       "Track job": ["İşi takip et"],
       "See query details": ["Sorgu ayrıntılarına bakın"],
@@ -4185,7 +4194,7 @@
         "Bu, aşağıdakiler tarafından tetiklenebilir:"
       ],
       "%(message)s\nThis may be triggered by: \n%(issues)s": [
-        "%(mesajlar\\Bu şu şekilde tetiklenebilir: \n%(sorunlar)s"
+        "%(message)s\nBu şu şekilde tetikleniyor olabilir: \n%(issues)s"
       ],
       "%s Error": ["%s Hata"],
       "Missing dataset": ["veri kümesi eksik"],
@@ -4195,7 +4204,7 @@
       "Did you mean:": ["Demek istediğin:"],
       "Parameter error": ["parametre hatası"],
       "%(subtitle)s\nThis may be triggered by:\n %(issue)s": [
-        "%(altyazılar\\Bu, şu kişiler tarafından tetiklenebilir:\\an %(sorun)s"
+        "%(subtitle)s\nBu, şunlarla tetiklenebilir:\n%(issue)s"
       ],
       "Timeout error": ["zaman aşımı hatası"],
       "Click to favorite/unfavorite": [
@@ -4239,8 +4248,8 @@
       "Filter": ["filtre"],
       "Select or type a value": ["Bir değer seçin veya yazın"],
       "Last modified": ["Son düzenleme"],
-      "Modified by": ["Tarafından tasarlandı"],
-      "Created by": ["Tarafından yaratıldı"],
+      "Modified by": ["Tarafından düzenlendi"],
+      "Created by": ["Tarafından oluşturuldu"],
       "Created on": ["oluşturuldu"],
       "Menu actions trigger": ["Menü eylemleri tetiklenir"],
       "Weekly Report for %s": ["%s için Haftalık Rapor"],
@@ -4564,7 +4573,7 @@
       "Export to .CSV": [".CSV'ye aktar"],
       "Export to full .CSV": ["Tam .CSV dosyasına aktar"],
       "Something went wrong.": ["Bir şeyler yanlış gitti."],
-      "Search...": ["Aramak..."],
+      "Search...": ["Arama..."],
       "No filter is selected.": ["Hiçbir filtre seçilmedi."],
       "Editing 1 filter:": ["1 filtre düzenleniyor:"],
       "Batch editing %d filters:": ["Toplu düzenleme %d filtre:"],
@@ -5094,7 +5103,7 @@
       "The color scheme is determined by the related dashboard.\n        Edit the color scheme in the dashboard properties.": [
         "Renk şeması, ilgili pano tarafından belirlenir.\n Pano özelliklerinde renk şemasını düzenleyin."
       ],
-      "dashboard": ["Gösterge Paneli"],
+      "dashboard": ["Yönetici Paneli"],
       "Dashboard scheme": ["Pano şeması"],
       "Select color scheme": ["Renk şemasını seçin"],
       "Select scheme": ["Şema seç"],
@@ -5229,7 +5238,7 @@
       ],
       "Drop columns here": ["Sütunları buraya bırakın"],
       "\n                This filter was inherited from the dashboard's context.\n                It won't be saved when saving the chart.\n              ": [
-        "\n Bu filtre, kontrol panelinin içeriğinden devralındı.\n Grafiği kaydederken kaydedilmeyecek.\n"
+        "\n Bu filtre, yönetici paneli içeriğinden devralındı.\n Grafik kaydedilirken kaydedilmeyecek."
       ],
       "Default": ["Varsayılan"],
       "(optional) default value for the filter, when using the multiple option, you can use a semicolon-delimited list of options.": [
@@ -5874,7 +5883,7 @@
       "Build": ["İnşa etmek"],
       "Documentation": ["Belgeler"],
       "Report a bug": ["Hata bildir"],
-      "Login": ["Giriş yapmak"],
+      "Login": ["Giriş"],
       "query": ["sorgu"],
       "Deleted: %s": ["Silindi: %s"],
       "There was an issue deleting %s: %s": [
@@ -5957,7 +5966,7 @@
       "Execution log": ["Yürütme günlüğü"],
       "Bulk select": ["toplu seçim"],
       "No %s yet": ["Henüz %s yok"],
-      "Owner": ["Mal sahibi"],
+      "Owner": ["Oluşturan"],
       "All": ["Tüm"],
       "An error occurred while fetching owners values: %s": [
         "Sahip değerleri getirilirken bir hata oluştu: %s"
@@ -6154,7 +6163,7 @@
       "Thumbnails": ["küçük resimler"],
       "Recents": ["sonlar"],
       "There was an issue previewing the selected query. %s": [
-        "Seçilen sorgu önizlenirken bir sorun oluştu. %S"
+        "Seçilen sorgu önizlemesinde bir sorun oluştu. %s"
       ],
       "Duration: %s": ["Süre: %s"],
       "TABLES": ["TABLOLAR"],
@@ -6271,7 +6280,7 @@
         "Favori durumunu kaydederken bir hata oluştu: %s"
       ],
       "Connection looks good!": ["Bağlantı iyi görünüyor!"],
-      "ERROR: %s": ["Hatalar"],
+      "ERROR: %s": ["Hatalar: %s"],
       "There was an error fetching your recent activity:": [
         "Son etkinliğiniz getirilirken bir hata oluştu:"
       ],
